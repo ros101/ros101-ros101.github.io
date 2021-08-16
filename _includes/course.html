@@ -1,0 +1,84 @@
+<section id="course">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">{{ page.title }}</h2>
+                <hr class="primary">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <h3>Learning Outcome</h3>
+              <ul class="list-group course-box">
+                {% for learning in page.learnings %}
+                <li class="list-group-item">{{ learning }}</li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <h3>Artifacts</h3>
+              <ul class="list-group course-box">
+                {% for artifact in page.artifacts %}
+                <li class="list-group-item">
+                  {% assign url = page.prefix | append: '-' | append: artifact.url %}
+                  <a href="{{ url }}">{{ artifact.title }}</a>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <h3>Meeting notes</h3>
+              <ul class="list-group course-box">
+                {% for note in page.notes %}
+                <li class="list-group-item">
+                  {% assign url = page.prefix | append: '-' | append: note.url %}
+                  <a href="{{ url }}">{{ note.title }}</a>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <h3>Reflective piece</h3>
+              <ul class="list-group course-box">
+                {% for reflection in page.reflections %}
+                <li class="list-group-item">
+                  {% assign url = page.prefix | append: '-' | append: reflection.url %}
+                  <a href="{{ url }}">{{ reflection.title }}</a>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <h3>Professional Skills Matrix and Action Plan</h3>
+              <ul class="list-group course-box">
+                <li class="list-group-item">
+                  {% assign url = page.prefix | append: '-' | append: 'skillmatrix.html' %}
+                  <a href="{{ url }}">Skills gained and future actions</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
