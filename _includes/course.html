@@ -28,10 +28,12 @@
               <ul class="list-group course-box">
                 {% for artifact in page.artifacts %}
                 <li class="list-group-item">
-                  {% assign url = page.prefix | append: '-' | append: artifact.url %}
-                  <a href="{{ url }}">{{ artifact.title }}</a>
+                  <a href="{{ artifact.url }}">{{ artifact.title }}</a>
                 </li>
                 {% endfor %}
+                {% if page.artifacts == nil %}
+                <li class="list-group-item">none, yet!</li>
+                {% endif %}
               </ul>
             </div>
           </div>
@@ -43,10 +45,12 @@
               <ul class="list-group course-box">
                 {% for note in page.notes %}
                 <li class="list-group-item">
-                  {% assign url = page.prefix | append: '-' | append: note.url %}
-                  <a href="{{ url }}">{{ note.title }}</a>
+                  <a href="{{ note.url }}">{{ note.title }}</a>
                 </li>
                 {% endfor %}
+                {% if page.notes == nil %}
+                <li class="list-group-item">none, yet!</li>
+                {% endif %}
               </ul>
             </div>
           </div>
@@ -54,14 +58,16 @@
         <div class="col-lg-6">
           <div class="card">
             <div class="card-body">
-              <h3>Reflective piece</h3>
+              <h3>Reflections</h3>
               <ul class="list-group course-box">
                 {% for reflection in page.reflections %}
                 <li class="list-group-item">
-                  {% assign url = page.prefix | append: '-' | append: reflection.url %}
-                  <a href="{{ url }}">{{ reflection.title }}</a>
+                  <a href="{{ reflection.url }}">{{ reflection.title }}</a>
                 </li>
                 {% endfor %}
+                {% if page.reflections == nil %}
+                <li class="list-group-item">none, yet!</li>
+                {% endif %}
               </ul>
             </div>
           </div>
@@ -72,8 +78,11 @@
               <h3>Professional Skills Matrix and Action Plan</h3>
               <ul class="list-group course-box">
                 <li class="list-group-item">
-                  {% assign url = page.prefix | append: '-' | append: 'skillmatrix.html' %}
-                  <a href="{{ url }}">Skills gained and future actions</a>
+                  {% if page.completed %}
+                  <a href="{{ skillmatrix.html }}">Skills gained and future actions</a>
+                  {% else %}
+                  not ready
+                  {% endif %}
                 </li>
               </ul>
             </div>
