@@ -2,7 +2,7 @@
 layout: front
 portfolio:
   - course:
-    active: false
+    active: true
     url: launching
     img: launch.jpg
     title: Launching into Computer Science

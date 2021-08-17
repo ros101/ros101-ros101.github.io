@@ -251,7 +251,7 @@ header {
 .course-box {
     color: black;
     text-align: left;
-    max-width: 400px;
+    max-width: 500px;
     margin: 50px auto 0;
     @media (min-width: 992px) {
         margin: 20px auto 0;
@@ -259,6 +259,9 @@ header {
     p {
         margin-bottom: 0;
     }
+}
+.course-box li {
+  padding:20px;
 }
 
 .portfolio-box {
