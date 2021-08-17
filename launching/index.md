@@ -17,7 +17,7 @@ notes:
 #    url: note1.html
 #    title: note1
 reflections:
-#  - reflection:
-#    url: reflection1.html
-#    title: reflection1
+  - reflection:
+    url: career.pdf
+    title: A computer science career that I wish to pursue
 ---
