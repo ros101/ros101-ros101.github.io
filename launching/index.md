@@ -9,9 +9,9 @@ learnings:
   - Critically evaluate the functionality of different types of software, i.e., operating system, utility programs, languages and applications.
   - Critically appraise the emerging trends in the field, such as cloud computing, big data, cyber security, and the professional and ethical requirements for dealing with such contemporary computer-based technologies.
 artifacts:
-#  - artifact:
-#    url: artifact1.html
-#    title: artifact1
+  - artifact:
+    url: test-google-translate.pdf
+    title: Evaluation of the quality of the translations made with Google Translate
 notes:
 #  - note:
 #    url: note1.html
