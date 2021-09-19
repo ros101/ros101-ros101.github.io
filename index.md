@@ -8,7 +8,7 @@ portfolio:
     title: Launching into Computer Science
     description: Fundamental theories and practices of computing
   - course:
-    active: true
+    active: false
     url: secure
     img: secure.jpg
     title: Secure Software Development
