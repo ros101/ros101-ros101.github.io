@@ -12,6 +12,9 @@ artifacts:
   - artifact:
     url: test-google-translate.pdf
     title: Evaluation of the quality of the translations made with Google Translate
+  - artifact:
+    url: comparing-structures.pdf
+    title: Comparing data structures
 notes:
 #  - note:
 #    url: note1.html
