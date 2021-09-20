@@ -15,6 +15,9 @@ artifacts:
   - artifact:
     url: comparing-structures.pdf
     title: Comparing data structures
+  - artifact:
+    url: overview_of_azure_devops.pdf
+    title: Overview of Azure DevOps
 notes:
 #  - note:
 #    url: note1.html
