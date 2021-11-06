@@ -35,9 +35,12 @@ artifacts:
     title: End of module essay. Simplifying DevOps&#58; How NLP and AI can support Development and Operations
 
 notes:
-#  - note:
-#    url: note1.html
-#    title: note1
+  - note:
+    url: risk-assessment.pdf
+    title: Following a lecture about Information Risk Management, this submission was awarded a 1-to-1 mentoring session to discuss career prospects in Cyber Security or IT in general.
+  - note:
+    url: ./career-coaching
+    title: 1-to-1 mentoring session to discuss career prospects in Cyber Security or IT in general
 reflections:
   - reflection:
     url: career.pdf
