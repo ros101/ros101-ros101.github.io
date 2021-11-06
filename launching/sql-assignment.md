@@ -287,7 +287,6 @@ The execution plan is almost identical to the alternative without virtual table.
 ```
 
 ---
----
 
 ## Find the name and salary of employees in Dallas.
 
