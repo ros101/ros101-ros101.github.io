@@ -1,3 +1,6 @@
+---
+layout: notes
+---
 # Mentoring session
 Following a lecture about Information Risk Management, my submission was awarded a 1-to-1 mentoring session to discuss career prospects in Cyber Security or IT in general.
 

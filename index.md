@@ -38,4 +38,4 @@ portfolio:
     title: Research Methods and Professional Practice
     description: Methods that enables students to conduct research in practical settings
 ---
-<!-- last update 6/11/2021 /7 -->
+<!-- last update 6/11/2021 /8 -->

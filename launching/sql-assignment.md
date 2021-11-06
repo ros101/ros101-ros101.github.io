@@ -1,3 +1,6 @@
+---
+layout: notes
+---
 # Assignment
 
 ## To Begin...
