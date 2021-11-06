@@ -89,5 +89,21 @@
           </div>
         </div>
       </div>
+      <div class="row">
+        <div class="col-lg-12">
+              <h3>Readings</h3>
+              {% assign readingsSorted = page.readings | sort %}
+              <ul class="list-group course-box-large">
+                {% for reading in readingsSorted %}
+                <li class="list-group-item">
+                  {{ reading }}
+                </li>
+                {% endfor %}
+                {% if page.readings == nil %}
+                <li class="list-group-item">none, yet!</li>
+                {% endif %}
+              </ul>
+            </div>
+      </div>
     </div>
 </section>
