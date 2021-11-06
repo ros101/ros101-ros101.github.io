@@ -18,6 +18,12 @@ artifacts:
   - artifact:
     url: overview_of_azure_devops.pdf
     title: Overview of Azure DevOps
+  - artifact:
+    url: harvard-references-final.pdf
+    title: End of module assignment: documentation of the project
+  - artifact:
+    url: sql-assignment.md
+    title: End of module assignment: SQL exercise and discussion
 notes:
 #  - note:
 #    url: note1.html
