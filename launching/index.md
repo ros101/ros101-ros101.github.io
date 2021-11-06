@@ -11,19 +11,22 @@ learnings:
 artifacts:
   - artifact:
     url: test-google-translate.pdf
-    title: Evaluation of the quality of the translations made with Google Translate
+    title: Evaluation of the quality of the translations made with Google Translate.
   - artifact:
     url: comparing-structures.pdf
-    title: Comparing data structures
+    title: Comparing data structures.
   - artifact:
     url: overview_of_azure_devops.pdf
-    title: Overview of Azure DevOps
-  - artifact:
-    url: sql-assignment.md
-    title: End of module assignment. SQL exercise and discussion
+    title: Overview of Azure DevOps.
   - artifact:
     url: harvard-references-final.pdf
-    title: End of module assignment. Documentation of the project
+    title: End of module software project (1/2). Documentation.
+  - artifact:
+    url: https://github.com/ros101/harvard-referencing
+    title: End of module software project (2/2). Source code.
+  - artifact:
+    url: sql-assignment.md
+    title: End of module assignment. SQL exercise and discussion.
 notes:
 #  - note:
 #    url: note1.html
