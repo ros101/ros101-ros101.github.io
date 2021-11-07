@@ -24,30 +24,30 @@ artifacts:
   - artifact:
     url: ./insertion-sort
     title: Data sort using cards
-  - artifact:
+endOfModuleArtifacts:
+  - endOfModuleArtifact:
     url: harvard-references-final.pdf
-    title: End of module software project (1/2)&#58; documentation. Part 1, software documentation; part 2, technical notes; part 3, testing documentation.
-  - artifact:
+    title: Software project (1/2)&#58; documentation. Part 1, software documentation; part 2, technical notes; part 3, testing documentation.
+  - endOfModuleArtifact:
     url: https://github.com/ros101/harvard-referencing
-    title: End of module software project (2/2)&#58; source code.
-  - artifact:
+    title: Software project (2/2)&#58; source code.
+  - endOfModuleArtifact:
     url: ./sql-assignment
-    title: End of module assignment&#58; SQL exercise and discussion.
-  - artifact:
+    title: SQL exercise and discussion.
+  - endOfModuleArtifact:
     url:
-    title: End of module essay. Simplifying DevOps&#58; How NLP and AI can support Development and Operations
-
-notes:
-  - note:
-    url: risk-assessment.pdf
-    title: Following a lecture about Information Risk Management, this submission was awarded a 1-to-1 mentoring session to discuss career prospects in Cyber Security or IT in general.
-  - note:
-    url: ./career-coaching
-    title: 1-to-1 mentoring session to discuss career prospects in Cyber Security or IT in general
+    title: Essay. Simplifying DevOps&#58; How NLP and AI can support Development and Operations
 reflections:
   - reflection:
     url: career.pdf
     title: A computer science career that I wish to pursue
+  - reflection:
+    url: risk-assessment.pdf
+    title: Following a lecture about Information Risk Management, this submission was awarded a 1-to-1 mentoring session to discuss career prospects in Cyber Security or IT in general.
+  - reflection:
+    url: ./career-coaching
+    title: 1-to-1 mentoring session to discuss career prospects in Cyber Security or IT in general
+
   # to escape : -> &#58;
 readings:
   - group:

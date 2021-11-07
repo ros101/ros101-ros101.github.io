@@ -24,7 +24,30 @@
         <div class="col-lg-6">
           <div class="card">
             <div class="card-body">
-              <h3>Artifacts</h3>
+              <h3>End of Module Assignements</h3>
+              <ul class="list-group course-box">
+                {% for endOfModuleArtifact in page.endOfModuleArtifacts %}
+                <li class="list-group-item">
+                  {% if endOfModuleArtifact.url == nil %}
+                  {{ endOfModuleArtifact.title }} (not published yet)
+                  {% else %}
+                  <a href="{{ artifact.url }}">{{ endOfModuleArtifact.title }}</a>
+                  {% endif %}
+                </li>
+                {% endfor %}
+                {% if page.endOfModuleArtifacts == nil %}
+                <li class="list-group-item">none, yet!</li>
+                {% endif %}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <h3>Course activities</h3>
               <ul class="list-group course-box">
                 {% for artifact in page.artifacts %}
                 <li class="list-group-item">
@@ -45,23 +68,6 @@
         <div class="col-lg-6">
           <div class="card">
             <div class="card-body">
-              <h3>Meeting notes</h3>
-              <ul class="list-group course-box">
-                {% for note in page.notes %}
-                <li class="list-group-item">
-                  <a href="{{ note.url }}">{{ note.title }}</a>
-                </li>
-                {% endfor %}
-                {% if page.notes == nil %}
-                <li class="list-group-item">none, yet!</li>
-                {% endif %}
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="card">
-            <div class="card-body">
               <h3>Reflections</h3>
               <ul class="list-group course-box">
                 {% for reflection in page.reflections %}
@@ -72,22 +78,6 @@
                 {% if page.reflections == nil %}
                 <li class="list-group-item">none, yet!</li>
                 {% endif %}
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="card">
-            <div class="card-body">
-              <h3>Professional Skills Matrix and Action Plan</h3>
-              <ul class="list-group course-box">
-                <li class="list-group-item">
-                  {% if page.completed %}
-                  <a href="{{ skillmatrix.html }}">Skills gained and future actions</a>
-                  {% else %}
-                  not ready
-                  {% endif %}
-                </li>
               </ul>
             </div>
           </div>
