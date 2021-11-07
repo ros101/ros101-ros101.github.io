@@ -175,6 +175,11 @@ readings:
     - Razina E., Janzen D. (2007) 'Effects of dependency injection on maintainability', Proceedings of the 11th IASTED International Conference on Software Engineering and Applications. Cambridge, MA, USA, 19-21 November 2007.
     - University of Essex (2018) Harvard Referencing Guide. Available from&#58; https://www.my-course.co.uk/mod/resource/view.php?id=202690 [Accessed 11 Sep 2021]
     - Zafeiris E.V., Poulias S.H., Diamantidis N.A., Giakoumakis E.A. (2016) Automated refactoring of super-class method invocations to the Template Method design pattern. Information and Software Technology 82&#58; 19-35
+    - Alnafessah, A., Gias, A. U., Wang, R., Zhu, L., Casale, G., & Filieri, A. (2021). Quality-Aware DevOps Research&#58; Where Do We Stand?. IEEE Access, 9, 44476-44489.
+    - Scott, E., Charkie, K. N., & Pfahl, D. (2020, August). Productivity, Turnover, and Team Stability of Agile Teams in Open-Source Software Projects. In 2020 46th Euromicro Conference on Software Engineering and Advanced Applications (SEAA) (pp. 124-131). IEEE.
+    - Cucolas, A. A., & Russo, D. (2021). The impact of working from home on the success of scrum projects&#58; A multi-method study. arXiv preprint arXiv:2107.05955.
+    - Kropp, M., Meier, A., Anslow, C., & Biddle, R. (2020). Satisfaction and its correlates in agile software development. Journal of Systems and Software, 164, 110544.
+    - Bosch, N., & Bosch, J. (2020, August). Software Logs for Machine Learning in a DevOps Environment. In 2020 46th Euromicro Conference on Software Engineering and Advanced Applications (SEAA) (pp. 29-33). IEEE.
 
   - group:
     title: End of module essay&#58; Simplifying DevOps&#58; How NLP and AI can support Development and Operations
@@ -218,5 +223,38 @@ readings:
     - Wells, D. (2000) Extreme Programming&#58; A gentle introduction. Available from&#58; http://www.extremeprogramming.org/ [Accessed on 17 October 2021]
     - Splunk Inc. (2021) Splunk | Turn Data Into Doing. Available from https://www.splunk.com/ [Accessed on 22 October 2021]
     - Zhao L., et al. (2020) ‘Natural language processing (NLP) for requirements engineering&#58; A systematic mapping study’. arXiv preprint arXiv:2004.01099.
+
+  - group:
+    title: Other readings
+    list:
+    - Benton, W. C., & Shin, H. (1998). Manufacturing planning and control&#58; The evolution of MRP and JIT integration. European Journal of Operational Research, 110(3), 411-440.
+    - Hickey, A. M., & Davis, A. M. (2003, January). Requirements elicitation and elicitation technique selection&#58; model for two knowledge-intensive software development processes. In 36th Annual Hawaii International Conference on System Sciences, 2003. Proceedings of the (pp. 10-pp). IEEE.
+    - Kuhn, D. R., Raunak, M. S., & Kacker, R. (2017, July). An Analysis of Vulnerability Trends, 2008-2016. In 2017 IEEE International Conference on Software Quality, Reliability and Security Companion (QRS-C) (pp. 587-588). IEEE.
+    - Abassi, R., & El Fatmi, S. G. (2019). Security Policies a Formal Environment for a Test Cases Generation. In Artificial Intelligence and Security Challenges in Emerging Networks (pp. 237-264). IGI Global.
+    - Falessi, D., Shaw, M., & Mullen, K. (2014). Achieving and maintaining CMMI maturity level 5 in a small organization. IEEE software, 31(5), 80-86.
+    - Liu, C., Zhao, Z., Zhang, L., & Li, Z. (2021). Automated Conditional Statements Checking for Complete Natural Language Requirements Specification. Applied Sciences, 11(17), 7892.
+    - Taribuka, D., & Amrit, C. (2020). Agile in the Banking Industry&#58; Exploring Multiple Levels of Agile Transformation Process Facilitators and Challenges from a People Perspective.
+    - Just, R., Jalali, D., & Ernst, M. D. (2014, July). Defects4J&#58; A database of existing faults to enable controlled testing studies for Java programs. In Proceedings of the 2014 International Symposium on Software Testing and Analysis (pp. 437-440).
+    - Rong, G., Zhang, H., & Shao, D. (2016, May). CMMI guided process improvement for DevOps projects&#58; an exploratory case study. In Proceedings of the International Conference on Software and Systems Process (pp. 76-85).
+    - CMMI Institute (2019) CMMI Adoption Trends 2019 Mid Year Update.
+    - Vayghan, L. A., Saied, M. A., Toeroe, M., & Khendek, F. (2018, July). Deploying microservice based applications with kubernetes&#58; Experiments and lessons learned. In 2018 IEEE 11th international conference on cloud computing (CLOUD) (pp. 970-973). IEEE.
+    - Medeiros, I., Neves, N., Correia M. (2015) 'Detecting and removing web application vulnerabilities with static analysis and data mining'. IEEE Transactions on Reliability 65(1)&#58; (pp. 54-69).
+    - Klein, B. T. (2021). The DevOps&#58; A Concise Understanding to the DevOps Philosophy and Science (No. SAND2021-6250R). Sandia National Lab.(SNL-NM), Albuquerque, NM (United States).
+    - Singh, H., Hassan, S.I. (2015) Effect of SOLID design principles on quality of software. International Journal of Scientific & Engineering Research 6(4).
+    - Huang, Z., Wu, S., Jiang, S., & Jin, H. (2019, May). FastBuild&#58; Accelerating Docker image building for efficient development and deployment of container. In 2019 35th Symposium on Mass Storage Systems and Technologies (MSST) (pp. 28-37). IEEE.
+    - Google (N.D.) Google Cloud’s AI Adoption Framework
+    - Latah, M., & Toker, L. (2019). Artificial intelligence enabled software-defined networking&#58; a comprehensive overview. IET networks, 8(2), 79-99.
+    - Jorge-Martinez, D., Butt, S. A., Onyema, E. M., Chakraborty, C., Shaheen, Q., De-La-Hoz-Franco, E., & Ariza-Colpas, P. (2021). Artificial intelligence-based Kubernetes container for scheduling nodes of energy composition. International Journal of System Assurance Engineering and Management, 1-9.
+    - Maroukian, K., & Gulliver, S. R. (2020). Leading DevOps practice and principle adoption. arXiv preprint arXiv:2008.10515.
+    - Krishnan, S., Balas, V. E., Golden, J., Robinson, Y. H., Balaji, S., & Kumar, R. (Eds.). (2020). Handbook of research on blockchain technology. Academic Press.
+    - Padmaja, M., Shitharth, S., Prasuna, K., Chaturvedi, A., Kshirsagar, P.R., Vani, A. (2021) 'Grow of Artificial Intelligence to Challenge Security in IoT Application'. Wireless Personal Communications. DOI&#58; https://doi.org/10.1007/s11277-021-08725-4
+    - Macarthy, R. W., & Bass, J. M. (2020, August). An empirical taxonomy of DevOps in practice. In 2020 46th Euromicro Conference on Software Engineering and Advanced Applications (SEAA) (pp. 221-228). IEEE.
+    - Klein, B. T. (2021). The DevOps&#58; A Concise Understanding to the DevOps Philosophy and Science (No. SAND2021-6250R). Sandia National Lab.(SNL-NM), Albuquerque, NM (United States).
+    - Yingda, L., Jianzhuang, L., & Xiaowen, C. (2018, November). Variadic Parameter Command Pattern and the Utilization in MVC. In 2018 IEEE 9th International Conference on Software Engineering and Service Science (ICSESS) (pp. 374-377). IEEE.
+    - Sahota, N., & Ashley, M. (2019). When robots replace human managers&#58; introducing the quantifiable workplace. IEEE Engineering Management Review, 47(3), 21-23.
+    - Wu, C., Haihong, E., & Song, M. (2020, January). An Automatic Artificial Intelligence Training Platform Based on Kubernetes. In Proceedings of the 2020 2nd International Conference on Big Data Engineering and Technology (pp. 58-62).
+    - Wu, Y. (2020, December). Anti-patterns for Java automated program repair tools. In Proceedings of the 35th IEEE/ACM International Conference on Automated Software Engineering (pp. 1367-1369).
+    - Ye, H., Martinez, M., & Monperrus, M. (2021). Automated patch assessment for program repair at scale. Empirical Software Engineering, 26(2), 1-38.
+    - Muqeem, M., Rizwan, M. (2014) 'Validation of Requirement Elicitation Framework using Finite State Machine'. 2014 International Conference on Control, Instrumentation, Communication and Computational Technologies (ICCICCT)
 
 ---
