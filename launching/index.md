@@ -22,6 +22,9 @@ artifacts:
     url: overview_of_azure_devops.pdf
     title: Overview of Azure DevOps.
   - artifact:
+    url: ./insertion-sort
+    title: Data sort using cards
+  - artifact:
     url: harvard-references-final.pdf
     title: End of module software project (1/2)&#58; documentation. Part 1, software documentation; part 2, technical notes; part 3, testing documentation.
   - artifact:
