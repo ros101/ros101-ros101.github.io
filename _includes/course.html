@@ -31,7 +31,7 @@
                   {% if endOfModuleArtifact.url == nil %}
                   {{ endOfModuleArtifact.title }} (not published yet)
                   {% else %}
-                  <a href="{{ artifact.url }}">{{ endOfModuleArtifact.title }}</a>
+                  <a href="{{ endOfModuleArtifact.url }}">{{ endOfModuleArtifact.title }}</a>
                   {% endif %}
                 </li>
                 {% endfor %}
