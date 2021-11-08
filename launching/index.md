@@ -35,7 +35,7 @@ endOfModuleArtifacts:
     url: ./sql-assignment
     title: SQL exercise and discussion.
   - endOfModuleArtifact:
-    url:
+    url: Simplifying-DevOps.pdf
     title: Essay. Simplifying DevOps&#58; How NLP and AI can support Development and Operations
 reflections:
   - reflection:
