@@ -1,8 +1,9 @@
 ---
+# to escape : -> &#58;
 layout: course
 prefix: launching
 title: Launching into Computer Science
-completed: false
+completed: true
 learnings:
   - Identify and explain the architecture, structure and functionality of basic components of computer system.
   - Demonstrate a critical understanding of core data structures and programming concepts, including algorithm computability.
@@ -48,7 +49,6 @@ reflections:
     url: ./career-coaching
     title: 1-to-1 mentoring session to discuss career prospects in Cyber Security or IT in general
 
-  # to escape : -> &#58;
 readings:
   - group:
     title: General

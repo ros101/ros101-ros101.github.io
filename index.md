@@ -8,17 +8,17 @@ portfolio:
     title: Launching into Computer Science
     description: Fundamental theories and practices of computing
   - course:
+    active: true
+    url: object
+    img: programming.jpg
+    title: Object-oriented Information Systems
+    description: Oject-oriented approaches with various programming languages
+  - course:
     active: false
     url: secure
     img: secure.jpg
     title: Secure Software Development
     description: Concepts and skills of Secure Software
-  - course:
-    active: false
-    url: programming
-    img: programming.jpg
-    title: Object-oriented Information Systems
-    description: Oject-oriented approaches with various programming languages
   - course:
     active: false
     url: network
@@ -38,4 +38,4 @@ portfolio:
     title: Research Methods and Professional Practice
     description: Methods that enables students to conduct research in practical settings
 ---
-<!-- last update 8/11/2021 /1 -->
+<!-- last update 13/11/2021 /1 -->
