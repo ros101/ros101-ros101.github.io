@@ -42,9 +42,10 @@ readings:
     - Computer World (2020) Top Software Failures in Recent History
     - Sommerville, I. (2013) System Success and Failure
   - group:
-    title: Unit 2&#58; Information Systems and their Importance 
+    title: Unit 2&#58; Information Systems and their Importance
     list:
     - Bourgeois, D. (2014) Welcome to Information Systems for Business and Beyond. Saylor Academy.
+    - Scott, A. & Menn, J. (2014) Exclusive&#58; Air traffic system failure caused by computer memory shortage. Reuters.
   - group:
     title: The case of 737 MAX
     list:
