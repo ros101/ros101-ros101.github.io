@@ -46,6 +46,7 @@ readings:
     list:
     - Bourgeois, D. (2014) Welcome to Information Systems for Business and Beyond. Saylor Academy.
     - Scott, A. & Menn, J. (2014) Exclusive&#58; Air traffic system failure caused by computer memory shortage. Reuters.
+    - Charette. R. N. (2005) 'Why Software Fails - We waste billions of dollars each year on entirely preventable mistakes'. IEEE Spectrum. Available from https://spectrum.ieee.org/why-software-fails [Accessed on 19/11/2021]
   - group:
     title: The case of 737 MAX
     list:
