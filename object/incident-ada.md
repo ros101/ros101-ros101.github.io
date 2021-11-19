@@ -30,7 +30,7 @@ begin
 end Overflow;
 ```
 
-Variable X is defined as a 64bits Float ranging from 0 to 3.000.000.000 while variable V is defined between 0 and 1.000. This software should fail when X, incremented by 0.5 is converted into an integer.
+Variable X is defined as a 64bits Float ranging from 0 to 3.000.000.000 while variable V is defined between 0 and 1.000. This software should fail when X is converted into an integer.
 
 Compilation:
 
