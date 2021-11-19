@@ -19,6 +19,9 @@ artifacts:
   - artifact:
     url: ./incident-cms
     title: Clinical Management System failure in Hong Kong&#58; Possible Measures (peer review)
+  - artifact:
+    url: ./incident-ada
+    title: Ariane 5 rocket explosion&#58; Possible Measures (peer review)
 endOfModuleArtifacts:
   #- endOfModuleArtifact:
   #  url: harvard-references-final.pdf
@@ -68,5 +71,12 @@ readings:
     - Burrows. T. (2020) 'SYSTEMS DOWN Heathrow travel chaos as departure boards FAIL in huge IT glitch sparking cancellations and delays'. The Sun. Available from https://www.thesun.co.uk/news/10975547/heathrow-travel-chaos-departure-boards-fail-it-glitch/ [Accessed on 19/11/2021]
     - Yeung, K. H. T., Chan, K. C. C., Chan, P. K., Lam, D. S. Y., Sham, P. C. O., Yau, Y. S., ... & Nelson, E. A. S. (2018) Influenza vaccine effectiveness in hospitalised Hong Kong children&#58; feasibility of estimates from routine surveillance data. Vaccine, 36(24), 3477-3485. DOI&#58; https://doi.org/10.1016/j.vaccine.2018.04.081
     - Wong, G. K. C., Tam, Y. Y. W., Zhu, X. L., & Poon, W. S. (2014) Incidence and mortality of spontaneous subarachnoid hemorrhage in Hong Kong from 2002 to 2010&#58; a Hong Kong hospital authority clinical management system database analysis. World neurosurgery, 81(3-4), 552-556.
+  - group:
+    title: Ariane 5 rocket explosion&#58; Possible Measures (peer review)
+    list:
+    - Brosgol, B. M. (2006) Ada 2005&#58; a language for high-integrity applications. CrossTalk–The Journal of Defense Systems, 19(8), 8-11.
+    - Lions, J. L. (1997). Flight 501 Failure. Report by the Inquiry Board. Paris.
+    - Stackexchange (2016) 'Why is overflow silently allowed in Ada?'. Available from https://softwareengineering.stackexchange.com/questions/324771/why-is-overflow-silently-allowed-in-ada [Accessed on 19/11/2021]
+
 
 ---
