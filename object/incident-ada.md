@@ -12,7 +12,7 @@ It is possible, however, that different compilers may skip some controls or leav
 
 It seems logical to conclude that a better training of the developers, or a stricter configuration in the developers' tools would prevent this kind of incidents.
 
-Demonstration of the checks
+## Demonstration of the checks
 
 I tested this possibility with a simple software, overflow.adb:
 
