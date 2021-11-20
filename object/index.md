@@ -80,6 +80,10 @@ readings:
     - Brosgol, B. M. (2006) Ada 2005&#58; a language for high-integrity applications. CrossTalk–The Journal of Defense Systems, 19(8), 8-11.
     - Lions, J. L. (1997). Flight 501 Failure. Report by the Inquiry Board. Paris.
     - Stackexchange (2016) 'Why is overflow silently allowed in Ada?'. Available from https://softwareengineering.stackexchange.com/questions/324771/why-is-overflow-silently-allowed-in-ada [Accessed on 19/11/2021]
+  - group:
+    title: Knight's $440 million glitch&#58; Possible Measures (peer review)
+    list:
+    - Murphy, E. M. (2013) ‘Order instituting administrative and cease-and-desist proceedings, pursuant to sections 15(b) and 21c of the securities exchange act of 1934, making findings, and imposing remedial sanctions and a cease-and-desist order’. Securities Exchange Act of 1934, Release No. 70694 / October 16, 2013. Administrative proceeding File No. 3-1557. Available from https://www.sec.gov/litigation/admin/2013/34-70694.pdf. [Accessed on 20/11/2021]
 
 
 ---
