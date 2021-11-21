@@ -30,15 +30,14 @@ endOfModuleArtifacts:
   #  url: harvard-references-final.pdf
   #  title: Software project (1/2)&#58; documentation. Part 1, software documentation; part 2, technical notes; part 3, testing documentation.
 reflections:
-  #- reflection:
-  #  url: career.pdf
-  #  title: A computer science career that I wish to pursue
-  # to escape : -> &#58;
+  - reflection:
+    url: ./incident-reflection
+    title: The case of 737 MAX - Reflections
+  - reflection:
+    url: ./peers-incidents-reflection
+    title: Other failures in IT - Reflections on peer's reports
 readings:
-  #- group:
-  #  title: General
-  #  list:
-  #  - Brookshear, J. and Brylow, D. (2018), Computer Science - An Overview. 13th ed. Harlow&#58; Pearson.
+  #- to escape : -> &#58;
   - group:
     title: Unit 1&#58; Introduction to Information Systems
     list:
