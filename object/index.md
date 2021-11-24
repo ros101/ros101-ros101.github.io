@@ -57,6 +57,10 @@ readings:
     - Scott, A. & Menn, J. (2014) Exclusive&#58; Air traffic system failure caused by computer memory shortage. Reuters.
     - Charette. R. N. (2005) 'Why Software Fails - We waste billions of dollars each year on entirely preventable mistakes'. IEEE Spectrum. Available from https://spectrum.ieee.org/why-software-fails [Accessed on 19/11/2021]
   - group:
+    title: Unit 3&#58; Fundamentals of Object-Oriented Design
+    list:
+    - Philips, D. (2018) Python 3 Object-Oriented programming. 3rd ed. Packt Publishing. Chapters 1 & 5.
+  - group:
     title: The case of 737 MAX
     list:
     - Bergstra, J. A., & Burgess, M. (2019). A promise theoretic account of the boeing 737 Max MCAS algorithm affair. arXiv preprint arXiv:2001.01543. Available from&#58; https://www.spacesafetymagazine.com/wp-content/uploads/2019/05/B-737-MAX.pdf [Accessed on 13/11/2021]
