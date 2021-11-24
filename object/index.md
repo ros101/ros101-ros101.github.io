@@ -25,6 +25,9 @@ artifacts:
   - artifact:
     url: ./incident-knight
     title: Knight's $440 million glitch&#58; Possible Measures (peer review)
+  - artifact:
+    url: ./supermarket
+    title: An object model to represent a supermarket
 endOfModuleArtifacts:
   #- endOfModuleArtifact:
   #  url: harvard-references-final.pdf
