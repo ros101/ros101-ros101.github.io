@@ -61,6 +61,20 @@ readings:
     list:
     - Philips, D. (2018) Python 3 Object-Oriented programming. 3rd ed. Packt Publishing. Chapters 1 & 5.
   - group:
+    title: Unit 3&#58; Fundamentals of Object-Oriented Design
+    list:
+    - Philips, D. (2018) Python 3 Object-Oriented programming. 3rd ed. Packt Publishing. Chapters 2 & 3.
+  - group:
+    title: Unit 4&#58; Object-Oriented Development and Python
+    list:
+    - Philips, D. (2018) Python 3 Object-Oriented programming. 3rd ed. Packt Publishing. Chapters 2 & 3.
+  - group:
+    title: Unit 5&#58; Understanding UML
+    list:
+    - Kong, J., Xu, D. and Zeng, X.(2010). UML-based modeling and analysis of security threats. International Journal of Software Engineering and Knowledge Engineering 20(6)&#58; 875-897.
+    - Bell, D. (2003) An Introduction to the Unified Modeling Language. IBM Developer Works.
+              
+  - group:
     title: The case of 737 MAX
     list:
     - Bergstra, J. A., & Burgess, M. (2019). A promise theoretic account of the boeing 737 Max MCAS algorithm affair. arXiv preprint arXiv:2001.01543. Available from&#58; https://www.spacesafetymagazine.com/wp-content/uploads/2019/05/B-737-MAX.pdf [Accessed on 13/11/2021]
