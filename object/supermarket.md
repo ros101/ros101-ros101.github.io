@@ -5,6 +5,8 @@ layout: notes
 
 ![UML of an oline supermarket](supermarket.vpd.png "UML of an oline supermarket")
 
+***this is the original submission, the updated version is [available here](supermarket-2)***
+
 I imagined a supermarket that is 100% online and I focused on the cycle create - stock - sell - deliver products.
 
 A ProductManager uses the ProductRepositoryService to create new Products and add Discounts, and the StockRepositoryService to manage the warehouse. The StockRepositoryService can assign WarehouseWorkers to specific tasks depending on the abilities of each worker.

@@ -27,6 +27,12 @@ artifacts:
     title: Knight's $440 million glitch&#58; Possible Measures (peer review)
   - artifact:
     url: ./supermarket
+    title: An class model to represent a supermarket
+  - artifact:
+    url: ./supermarket-2
+    title: An class model to represent a supermarket (improved)
+  - artifact:
+    url: ./supermarket-object
     title: An object model to represent a supermarket
 endOfModuleArtifacts:
   #- endOfModuleArtifact:
@@ -71,9 +77,10 @@ readings:
   - group:
     title: Unit 5&#58; Understanding UML
     list:
+    - Ambler, S. (2003) Elements of UML Style. Cambridge&#58; Cambridge University Press. Chapters 1, 2, 3, 4
     - Kong, J., Xu, D. and Zeng, X.(2010). UML-based modeling and analysis of security threats. International Journal of Software Engineering and Knowledge Engineering 20(6)&#58; 875-897.
     - Bell, D. (2003) An Introduction to the Unified Modeling Language. IBM Developer Works.
-              
+
   - group:
     title: The case of 737 MAX
     list:
