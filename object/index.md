@@ -34,6 +34,9 @@ artifacts:
   - artifact:
     url: ./supermarket-object
     title: An object model to represent a supermarket
+  - artifact:
+    url: ./doctors
+    title: Doctor's surgery, diagrams
 endOfModuleArtifacts:
   #- endOfModuleArtifact:
   #  url: harvard-references-final.pdf
