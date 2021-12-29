@@ -89,7 +89,7 @@ readings:
     - Ambler, S. (2003) Elements of UML Style. Cambridge&#58; Cambridge University Press. Chapters 4, 6, 8 & 9
     - Lucidchart (n.d.) UML Class Diagram Tutorial
     - Banas, D. (2012) UML 2.0 Tutorial
-    - Bruegge, B. (2014) Object-oriented software engineering&#58; using UML, patterns, and Java. Harlow: Pearson
+    - Bruegge, B. (2014) Object-oriented software engineering&#58; using UML, patterns, and Java. Harlow&#58; Pearson
   - group:
     title: The case of 737 MAX
     list:
