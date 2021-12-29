@@ -12,31 +12,31 @@ learnings:
 artifacts:
   - artifact:
     url: ./incident
-    title: The case of 737 MAX
+    title: (Unit 1) The case of 737 MAX
   - artifact:
     url: ./incident-train
-    title: Train Collision Accident&#58; Possible Measures (peer review)
+    title: (Unit 2) Train Collision Accident&#58; Possible Measures (peer review)
   - artifact:
     url: ./incident-cms
-    title: Clinical Management System failure in Hong Kong&#58; Possible Measures (peer review)
+    title: (Unit 2) Clinical Management System failure in Hong Kong&#58; Possible Measures (peer review)
   - artifact:
     url: ./incident-ada
-    title: Ariane 5 rocket explosion&#58; Possible Measures (peer review)
+    title: (Unit 2) Ariane 5 rocket explosion&#58; Possible Measures (peer review)
   - artifact:
     url: ./incident-knight
-    title: Knight's $440 million glitch&#58; Possible Measures (peer review)
+    title: (Unit 2) Knight's $440 million glitch&#58; Possible Measures (peer review)
   - artifact:
     url: ./supermarket
-    title: An class model to represent a supermarket
+    title: (Unit 3) An class model to represent a supermarket
   - artifact:
     url: ./supermarket-2
-    title: An class model to represent a supermarket (improved)
+    title: (Unit 5) An class model to represent a supermarket (improved)
   - artifact:
     url: ./supermarket-object
-    title: An object model to represent a supermarket
+    title: (Unit 5) An object model to represent a supermarket
   - artifact:
     url: ./doctors
-    title: Doctor's surgery, diagrams
+    title: (Unit 6) Doctor's surgery, diagrams
 endOfModuleArtifacts:
   #- endOfModuleArtifact:
   #  url: harvard-references-final.pdf
