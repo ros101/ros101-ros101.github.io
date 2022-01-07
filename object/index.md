@@ -35,7 +35,7 @@ artifacts:
     url: ./supermarket-object
     title: (Unit 5) An object model to represent a supermarket
   - artifact:
-    url: ./doctors
+    url: ./unit6doctors
     title: (Unit 6) Doctor's surgery, diagrams
 endOfModuleArtifacts:
   #- endOfModuleArtifact:
