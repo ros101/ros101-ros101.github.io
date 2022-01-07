@@ -37,6 +37,9 @@ artifacts:
   - artifact:
     url: ./unit6doctors
     title: (Unit 6) Doctor's surgery, diagrams
+  - artifact:
+    url: ./unit7dbmodel
+    title: (Unit 7) Normalisation in practice
 endOfModuleArtifacts:
   #- endOfModuleArtifact:
   #  url: harvard-references-final.pdf
