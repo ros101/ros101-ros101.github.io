@@ -94,6 +94,11 @@ readings:
     - Banas, D. (2012) UML 2.0 Tutorial
     - Bruegge, B. (2014) Object-oriented software engineering&#58; using UML, patterns, and Java. Harlow&#58; Pearson
   - group:
+    title: Unit 7&#58; Database Design
+    list:
+    - Connolly, T. & Beg, C. (2015) Database Systems&#58; A Practical Approach to Design, Implementation, and Management. Global Edition. Edinburgh Pearso. Chapters 1, 4 & 14
+    - Kroenke, D. (2015) Database processing&#58; fundamentals, design, and implementation. Upper Saddle River&#58; Pearson. Chapters 1, 3, and 4
+  - group:
     title: The case of 737 MAX
     list:
     - Bergstra, J. A., & Burgess, M. (2019). A promise theoretic account of the boeing 737 Max MCAS algorithm affair. arXiv preprint arXiv:2001.01543. Available from&#58; https://www.spacesafetymagazine.com/wp-content/uploads/2019/05/B-737-MAX.pdf [Accessed on 13/11/2021]
