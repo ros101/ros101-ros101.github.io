@@ -29,6 +29,12 @@ artifacts:
     url: ./supermarket
     title: (Unit 3) An class model to represent a supermarket
   - artifact:
+    url: ./unit4codio-encapsulation
+    title: (Unit 4) Codio exercises - encapsulation
+  - artifact:
+    url: ./unit4codio-polymorphism
+    title: (Unit 4) Codio exercises - polymorphism
+  - artifact:
     url: ./supermarket-2
     title: (Unit 5) An class model to represent a supermarket (improved)
   - artifact:
