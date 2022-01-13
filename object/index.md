@@ -38,9 +38,9 @@ artifacts:
     url: ./doctors
     title: Doctor's surgery, diagrams
 endOfModuleArtifacts:
-  #- endOfModuleArtifact:
-  #  url: harvard-references-final.pdf
-  #  title: Software project (1/2)&#58; documentation. Part 1, software documentation; part 2, technical notes; part 3, testing documentation.
+  - endOfModuleArtifact:
+    url: mid-module-system-design
+    title: Self- service checkouts - System design
 reflections:
   #- reflection:
   #  url: career.pdf
