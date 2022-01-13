@@ -12,31 +12,40 @@ learnings:
 artifacts:
   - artifact:
     url: ./incident
-    title: The case of 737 MAX
+    title: (Unit 1) The case of 737 MAX
   - artifact:
     url: ./incident-train
-    title: Train Collision Accident&#58; Possible Measures (peer review)
+    title: (Unit 2) Train Collision Accident&#58; Possible Measures (peer review)
   - artifact:
     url: ./incident-cms
-    title: Clinical Management System failure in Hong Kong&#58; Possible Measures (peer review)
+    title: (Unit 2) Clinical Management System failure in Hong Kong&#58; Possible Measures (peer review)
   - artifact:
     url: ./incident-ada
-    title: Ariane 5 rocket explosion&#58; Possible Measures (peer review)
+    title: (Unit 2) Ariane 5 rocket explosion&#58; Possible Measures (peer review)
   - artifact:
     url: ./incident-knight
-    title: Knight's $440 million glitch&#58; Possible Measures (peer review)
+    title: (Unit 2) Knight's $440 million glitch&#58; Possible Measures (peer review)
   - artifact:
     url: ./supermarket
-    title: An class model to represent a supermarket
+    title: (Unit 3) An class model to represent a supermarket
+  - artifact:
+    url: ./unit4codio-encapsulation
+    title: (Unit 4) Codio exercises - encapsulation
+  - artifact:
+    url: ./unit4codio-polymorphism
+    title: (Unit 4) Codio exercises - polymorphism
   - artifact:
     url: ./supermarket-2
-    title: An class model to represent a supermarket (improved)
+    title: (Unit 5) An class model to represent a supermarket (improved)
   - artifact:
     url: ./supermarket-object
-    title: An object model to represent a supermarket
+    title: (Unit 5) An object model to represent a supermarket
   - artifact:
-    url: ./doctors
-    title: Doctor's surgery, diagrams
+    url: ./unit6doctors
+    title: (Unit 6) Doctor's surgery, diagrams
+  - artifact:
+    url: ./unit7dbmodel
+    title: (Unit 7) Normalisation in practice
 endOfModuleArtifacts:
   - endOfModuleArtifact:
     url: mid-module-system-design
@@ -89,7 +98,12 @@ readings:
     - Ambler, S. (2003) Elements of UML Style. Cambridge&#58; Cambridge University Press. Chapters 4, 6, 8 & 9
     - Lucidchart (n.d.) UML Class Diagram Tutorial
     - Banas, D. (2012) UML 2.0 Tutorial
-    - Bruegge, B. (2014) Object-oriented software engineering&#58; using UML, patterns, and Java. Harlow: Pearson
+    - Bruegge, B. (2014) Object-oriented software engineering&#58; using UML, patterns, and Java. Harlow&#58; Pearson
+  - group:
+    title: Unit 7&#58; Database Design
+    list:
+    - Connolly, T. & Beg, C. (2015) Database Systems&#58; A Practical Approach to Design, Implementation, and Management. Global Edition. Edinburgh Pearso. Chapters 1, 4 & 14
+    - Kroenke, D. (2015) Database processing&#58; fundamentals, design, and implementation. Upper Saddle River&#58; Pearson. Chapters 1, 3, and 4
   - group:
     title: The case of 737 MAX
     list:
