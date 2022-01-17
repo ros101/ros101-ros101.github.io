@@ -105,6 +105,13 @@ readings:
     - Connolly, T. & Beg, C. (2015) Database Systems&#58; A Practical Approach to Design, Implementation, and Management. Global Edition. Edinburgh Pearso. Chapters 1, 4 & 14
     - Kroenke, D. (2015) Database processing&#58; fundamentals, design, and implementation. Upper Saddle River&#58; Pearson. Chapters 1, 3, and 4
   - group:
+    title: Unit 8&#58; Hands-on with Database Design
+    list:
+    - Connolly, T. & Beg, C. (2015) Database Systems&#58; A Practical Approach to Design, Implementation, and Management. Global Edition. Edinburgh&#58; Pearson. Chapters 12 and 13
+    - Lucidchart (2017) What is an Entity Relationship Diagram?
+    - Kroenke, D. (2015) Database processing&#58; fundamentals, design, and implementation. Upper Saddle River&#58; Pearson. Chapter 5
+    - Creately (2020) Ultimate Entity Relationship Diagram Tutorial
+  - group:
     title: The case of 737 MAX
     list:
     - Bergstra, J. A., & Burgess, M. (2019). A promise theoretic account of the boeing 737 Max MCAS algorithm affair. arXiv preprint arXiv:2001.01543. Available from&#58; https://www.spacesafetymagazine.com/wp-content/uploads/2019/05/B-737-MAX.pdf [Accessed on 13/11/2021]
