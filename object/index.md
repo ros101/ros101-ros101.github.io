@@ -46,6 +46,9 @@ artifacts:
   - artifact:
     url: ./unit7dbmodel
     title: (Unit 7) Normalisation in practice
+  - artifact:
+    url: ./unit8-alternative-to-sql
+    title: (Unit 8) Alternatives to SQL
 endOfModuleArtifacts:
   - endOfModuleArtifact:
     url: mid-module-system-design
