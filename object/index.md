@@ -145,6 +145,14 @@ readings:
     title: Knight's $440 million glitch&#58; Possible Measures (peer review)
     list:
     - Murphy, E. M. (2013) ‘Order instituting administrative and cease-and-desist proceedings, pursuant to sections 15(b) and 21c of the securities exchange act of 1934, making findings, and imposing remedial sanctions and a cease-and-desist order’. Securities Exchange Act of 1934, Release No. 70694 / October 16, 2013. Administrative proceeding File No. 3-1557. Available from https://www.sec.gov/litigation/admin/2013/34-70694.pdf. [Accessed on 20/11/2021]
+  - group:
+    title: Alternatives to SQL
+    list:
+    - Ali, W., Shafique, M. U., Majeed, M. A., & Raza, A. (2019) Comparison between SQL and NoSQL databases and their relationship with big data analytics. Asian Journal of Research in Computer Science, 1-10. Available from&#58 [journalajrcos.com](http://journalajrcos.com/index.php/AJRCOS/article/download/30108/56497). [Accessed on 20 January 2022]
+    - Davoudian, A., Chen, L., & Liu, M. (2018) A survey on NoSQL stores. ACM Computing Surveys (CSUR), 51(2), 1-43. Available from&#58 [researchgate.net](https://www.researchgate.net/profile/Ali-Davoudian-2/publication/333863590_Helios_An_Adaptive_and_Query_Workload-driven_Partitioning_Framework_for_Distributed_Graph_Stores/links/5d150eb892851cf440516bc1/Helios-An-Adaptive-and-Query-Workload-driven-Partitioning-Framework-for-Distributed-Graph-Stores.pdf) [Accessed on 20 January 2022]
+    - Fowler, M. (2012) 'Introduction to NoSQL'. GOTO Aarhus 2012. Available from&#58 https://youtu.be/qI_g07C_Q5I [Accessed on 19 January 2022]
+    - Martins, P., Abbasi, M., & Sá, F. (2019) A study over NoSQL performance. World Conference on Information Systems and Technologies (pp. 603-611). Springer, Cham. Available from [researchgate.net](https://www.researchgate.net/profile/Maryam-Abbasi-15/publication/332028074_A_Study_over_NoSQL_Performance/links/5f20143392851cd5fa4e3cc4/A-Study-over-NoSQL-Performance.pdf). [Accessed on 19 January 2022]
+    - Sadalage, P. J. and Fowler, M. (2013) NoSQL Distilled&#58 a brief guide to the emerging world of polyglot persistence. Addison-Wesley Upper Saddle River, NJ. Available from [bigdata-ir.com](https://www.bigdata-ir.com/wp-content/uploads/2017/04/NoSQL-Distilled.pdf). [Accessed on 19 January 2022]
 
 
 ---
