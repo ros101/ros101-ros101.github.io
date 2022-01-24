@@ -115,6 +115,13 @@ readings:
     - Kroenke, D. (2015) Database processing&#58; fundamentals, design, and implementation. Upper Saddle River&#58; Pearson. Chapter 5
     - Creately (2020) Ultimate Entity Relationship Diagram Tutorial
   - group:
+    title: Unit 9&#58; Implementing Database with SQL
+    list:
+    - Han J., Haihong E., Guan L. & Jian D. (2011) 'Survey on NoSQL database'. 2011 6th International Conference on Pervasive Computing and Applications. Port Elizabeth, South Africa, 26-28 October. IEEE. 363-366. doi&#58; 10.1109/ICPCA.2011.6106531.
+    - MySQL Training (2020) MySQL 8.0 Reference Manual
+    - Sharma, V. & Dave, M. (2012) SQL and NoSQL Databases. International Journal of Advanced Research in Computer Science and Software Engineering 2(8)&#58; 20-27.
+    - Stajano, F. (1998) A gentle introduction to relational and object oriented databases. ORL Technical Report.
+  - group:
     title: The case of 737 MAX
     list:
     - Bergstra, J. A., & Burgess, M. (2019). A promise theoretic account of the boeing 737 Max MCAS algorithm affair. arXiv preprint arXiv:2001.01543. Available from&#58; https://www.spacesafetymagazine.com/wp-content/uploads/2019/05/B-737-MAX.pdf [Accessed on 13/11/2021]
