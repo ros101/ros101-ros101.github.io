@@ -59,6 +59,9 @@ endOfModuleArtifacts:
   - endOfModuleArtifact:
     url: mid-module-system-design
     title: Self- service checkouts - System design
+  - endOfModuleArtifact:
+    url: end-module-system-implementation
+    title: System implementation in Python
 reflections:
   #- reflection:
   #  url: career.pdf
