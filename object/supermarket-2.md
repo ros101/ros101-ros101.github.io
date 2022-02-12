@@ -3,7 +3,7 @@ layout: notes
 ---
 # An object model to represent a supermarket
 
-![UML of an oline supermarket](supermarket-2.vpd.png "UML of an oline supermarket")
+<img class="img-responsive" src="supermarket-2.vpd.png" alt="UML of an oline supermarket"/>
 
 While doing the object [diagram for the supermarket](supermarket-object), I also improved [the original class diagram](supermarket).
 
