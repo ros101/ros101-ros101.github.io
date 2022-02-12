@@ -3,7 +3,7 @@ layout: notes
 ---
 # An object model to represent a supermarket
 
-![UML of an oline supermarket](supermarket-object.vpd.png "UML of an oline supermarket")
+<img class="img-responsive" src="supermarket-object.vpd.png" alt="UML of an oline supermarket"/>
 
 Based on [my original class diagram](supermarket) and [its updated version](supermarket-2), this diagram shows a snapshot in time when there are two online orders and a delivery in progress.
 
