@@ -55,6 +55,9 @@ artifacts:
   - artifact:
     url: ./unit9-alternative-to-sql-peer2
     title: (Unit 9) Alternatives to SQL (peer review)
+  - artifact:
+    url: ./unit9-alternative-to-sql-reply1
+    title: (Unit 9) Alternatives to SQL (reply)
 endOfModuleArtifacts:
   - endOfModuleArtifact:
     url: mid-module-system-design
