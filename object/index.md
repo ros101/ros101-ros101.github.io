@@ -58,6 +58,15 @@ artifacts:
   - artifact:
     url: ./unit9-alternative-to-sql-reply1
     title: (Unit 9) Alternatives to SQL (reply)
+  - artifact:
+    url: ./unit10-flappybird
+    title: (Unit 10) Flappy Bird in Python and Pygame
+  - artifact:
+    url: ./unit10-exercises
+    title: (Unit 10) Codio exercises - advanced topics
+  - artifact:
+    url: ./unit12-blog
+    title: (Unit 12) Blog post - Lowering carbon footprint of data centers
 endOfModuleArtifacts:
   - endOfModuleArtifact:
     url: mid-module-system-design
