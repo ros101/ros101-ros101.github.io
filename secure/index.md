@@ -25,7 +25,7 @@ reflections:
   # to escape : -> &#58;
 readings:
   - group:
-    title: Unit 1&#58; Introduction to Information Systems
+    title: Unit 1&#58; Introduction to Secure Software Development
     list:
     - Core Text&#58; Pillai, A.B. (2017) Software Architecture with Python. Birmingham, UK. Packt Publishing Ltd. Chapters 1 & 6.
     - Asghar, M. Z., Alam, K. A. & Javed, S. (2019) Software Design Patterns Recommendation &#58; A Systematic Literature Review, 2019 International Conference on Frontiers of Information Technology.
