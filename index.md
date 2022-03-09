@@ -14,7 +14,7 @@ portfolio:
     title: Object-oriented Information Systems
     description: Oject-oriented approaches with various programming languages
   - course:
-    active: false
+    active: true
     url: secure
     img: secure.jpg
     title: Secure Software Development
@@ -38,4 +38,4 @@ portfolio:
     title: Research Methods and Professional Practice
     description: Methods that enables students to conduct research in practical settings
 ---
-<!-- last update 14/02/2022 /2 -->
+<!-- last update 09/03/2022 /1 -->
