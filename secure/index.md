@@ -14,6 +14,21 @@ artifacts:
   - artifact:
     url: ./unit1
     title: (Unit 1) Cross Site Request Forgery (CSRF)
+  - artifact:
+    url: ./unit2/blog
+    title: (Unit 2) How to mitigate employees' risk
+  - artifact:
+    url: ./unit2/table
+    title: (Unit 2) Scrum Security review
+  - artifact:
+    url: ./unit3/codio-bufferoverflow
+    title: (Unit 3) Codio - Buffer overflow
+  - artifact:
+    url: ./unit3/codio-testing
+    title: (Unit 3) Codio - Testing
+  - artifact:
+    url: ./unit3/codio-producer-consumer
+    title: (Unit 3) Codio - Producer Consumer
 endOfModuleArtifacts:
   #- endOfModuleArtifact:
   #  url: mid-module-system-design
