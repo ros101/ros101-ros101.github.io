@@ -18,3 +18,37 @@ The same-origin policy active in all modern browsers protects the user from this
 ## Reference
 
 OWASP (N.A.) Cross Site Request Forgery (CSRF). Available from: https://owasp.org/www-community/attacks/csrf [Accessed on 8/03/2022]
+
+---
+
+## Reply to a comment
+
+> If the unique token is passed as part of the HTML form in the request, isn't there a danger that it can be intercepted. You state that the token is 'hidden' on the form. Do you know how this is achieved?
+
+With "hidden field", I mean an input tag with the attribute "type" equal to "hidden" which means that it should not be displayed on the screen. Sorry if it was not very clear.
+
+For example, imagine the form of an internet banking website:
+
+```html
+<form action="/payment">
+  <label for="iban">IBAN:</label>
+  <input type="text" id="iban" name="iban"/><br/>
+  <label for="amount">Amount:</label>
+  <input type="text" id="amount" name="amount"/><br/>
+  <input type="hidden" id="token" name="token" value="c319927fd5898ac">
+  <input type="submit" value="Submit">
+</form>
+```
+
+The token must change every time, and it cannot be predicted.
+
+To scam a user, the attacker should:
+
+* wait until the user tries to perform a payment.
+* intercept the token (e.g. with a man-in-the-middle).
+* lure the user to his malicious website and convince him to click on something.
+* everything must happen while the session is still alive and before the user submits the original form or change page on the internet banking (it would burn the token).
+
+Even if the attacker intercepts the token, it is useless unless the user performs those specific actions.
+
+The bank should also use additional strategies to avoid interception (like encryption).
