@@ -15,6 +15,12 @@ artifacts:
     url: ./unit1
     title: (Unit 1) Cross Site Request Forgery (CSRF)
   - artifact:
+    url: ./unit2/sql-injection
+    title: (Unit 2) SQL Injection (comment)
+  - artifact:
+    url: ./unit2/buffer-overflow
+    title: (Unit 2) Buffer Overflow (comment)
+  - artifact:
     url: ./unit2/blog
     title: (Unit 2) How to mitigate employees' risk
   - artifact:
