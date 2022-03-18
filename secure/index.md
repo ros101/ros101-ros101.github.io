@@ -35,6 +35,9 @@ artifacts:
   - artifact:
     url: ./unit3/codio-producer-consumer
     title: (Unit 3) Codio - Producer Consumer
+  - artifact:
+    url: ./unit4/redos
+    title: (Unit 4) ReDOS
 endOfModuleArtifacts:
   #- endOfModuleArtifact:
   #  url: mid-module-system-design
