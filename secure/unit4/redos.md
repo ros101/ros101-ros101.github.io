@@ -5,7 +5,7 @@ layout: notes
 
 ### What is ReDOS and what part do ‘Evil Regex’ play?
 
-Algorithmic Complexity Attacks are low-bandwidth denial of services exploiting the worst case of algorithms (Crosby & Wallach, 2003). ReDos stands for Regex Denial of Service and is a type of attack that exploits the complexity of the algorithms of regular expressions. Since regex's worst case is exponential, some regex with specific inputs may require a long processing time, effectively causing a DOS. An Evil Regex is a regex vulnerable to this kind of attack. Evil regexes must contain repeating groups, and the group must also contain repetition of alternation with overlapping. (Weidman, N.A. a; Weidman, N.A. b)
+Algorithmic Complexity Attacks are low-bandwidth denial of services exploiting the worst case of algorithms (Crosby & Wallach, 2003). ReDos stands for Regex Denial of Service and is a type of attack that exploits the complexity of the algorithms of regular expressions. Since regex's worst case is exponential, some regex with specific inputs may require a long processing time, effectively causing a DOS. An Evil Regex is a regex vulnerable to this kind of attack. Evil regexes must contain repeating groups, and the group must also contain repetition or alternation with overlapping. (Weidman, N.A. a; Weidman, N.A. b)
 
 ### What are the common problems associated with the use of regex? How can these be mitigated?
 
@@ -36,6 +36,85 @@ can be validated by
 ```
 
 additionally this regex can extract the domain of the email (`bar.com`) making it easy to validate that specific field.
+
+## Validation of UK Post Codes
+
+```python
+import re
+
+pattern = r'^(((([A-Z]{1,2})[0-9])[A-Z])|(([A-Z])[0-9])|(([A-Z]{1,2})[0-9]{1,2})) ([0-9]([A-Z]{2}))$'
+
+def parse(post_code):
+    match = re.match(pattern, post_code)
+
+    if match is not None:
+        if(match.group(2) is not None):
+            return {
+                'Valid': True,
+                'Otutward Code': match.group(1),
+                'Inward Code': match.group(9),
+                'Postcode Area': match.group(4),
+                'District Code': match.group(3),
+                'Sub Discrict': match.group(1),
+                'Unit': match.group(10)
+            }
+        elif(match.group(5) is not None):
+            return {
+                'Valid': True,
+                'Otutward Code': match.group(1),
+                'Inward Code': match.group(9),
+                'Postcode Area': match.group(6),
+                'District Code': match.group(5),
+                'Sub Discrict': None,
+                'Unit': match.group(10)
+            }
+        else:
+            return {
+                'Valid': True,
+                'Otutward Code': match.group(1),
+                'Inward Code': match.group(9),
+                'Postcode Area': match.group(8),
+                'District Code': match.group(7),
+                'Sub Discrict': None,
+                'Unit': match.group(10)
+            }
+    else:
+        return { 'Valid': False}
+
+def test(parsed, outward, inward, area, district, sub, unit):
+    if(parsed['Otutward Code'] != outward):
+        raise Exception('error')
+    if(parsed['Inward Code'] != inward):
+        raise Exception('error')
+    if(parsed['Postcode Area'] != area):
+        raise Exception('error')
+    if(parsed['District Code'] != district):
+        raise Exception('error')
+    if(parsed['Sub Discrict'] != sub):
+        raise Exception('error')
+    if(parsed['Unit'] != unit):
+        raise Exception('error')
+
+# values tested with https://ideal-postcodes.co.uk/guides/uk-postcode-format
+
+test(parse('AB1C 2DE'), 'AB1C', '2DE', 'AB', 'AB1', 'AB1C', 'DE')
+test(parse('B1C 2DE'), 'B1C', '2DE', 'B', 'B1', 'B1C', 'DE')
+test(parse('B1 2DE'), 'B1', '2DE', 'B', 'B1', None, 'DE')
+test(parse('B12 3DE'), 'B12', '3DE', 'B', 'B12', None, 'DE')
+test(parse('AB1 2CD'), 'AB1', '2CD', 'AB', 'AB1', None, 'CD')
+test(parse('AB12 3CD'), 'AB12', '3CD', 'AB', 'AB12', None, 'CD')
+
+test(parse('M1 1AA'), 'M1', '1AA', 'M', 'M1', None, 'AA')
+test(parse('M60 1NW'), 'M60', '1NW', 'M', 'M60', None, 'NW')
+test(parse('CR2 6XH'), 'CR2', '6XH', 'CR', 'CR2', None, 'XH')
+test(parse('DN55 1PT'), 'DN55', '1PT', 'DN', 'DN55', None, 'PT')
+test(parse('W1A 1HQ'), 'W1A', '1HQ', 'W', 'W1', 'W1A', 'HQ')
+test(parse('EC1A 1BB'), 'EC1A', '1BB', 'EC', 'EC1', 'EC1A', 'BB')
+```
+
+The pattern avoids ReDos by limiting the complexity of each group with precise boundaries.
+
+`^(((([A-Z]{1,2})[0-9])[A-Z])|(([A-Z])[0-9])|(([A-Z]{1,2})[0-9]{1,2})) ([0-9]([A-Z]{2}))$`
 
 
 ## References
