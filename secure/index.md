@@ -27,6 +27,9 @@ artifacts:
     url: ./unit2/table
     title: (Unit 2) Scrum Security review
   - artifact:
+    url: ./unit3/csrf-attack-summary
+    title: (Unit 3) Cross Site Request Forgery (CSRF) - Summary
+  - artifact:
     url: ./unit3/codio-bufferoverflow
     title: (Unit 3) Codio - Buffer overflow
   - artifact:
@@ -35,6 +38,9 @@ artifacts:
   - artifact:
     url: ./unit3/codio-producer-consumer
     title: (Unit 3) Codio - Producer Consumer
+  - artifact:
+    url: ./unit3/secure-languages
+    title: (Unit 3) Secure languages
   - artifact:
     url: ./unit4/redos
     title: (Unit 4) ReDOS
