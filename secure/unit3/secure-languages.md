@@ -3,7 +3,7 @@ layout: notes
 ---
 # Secure languages
 
-## What factors determine whether a programming language is secure or not?
+> What factors determine whether a programming language is secure or not?
 
 From a survey (Fulton et al., 2021) and a study (Croft et al. 2022) it is possible to list concerns and desirable language characteristics
 
@@ -14,11 +14,11 @@ From a survey (Fulton et al., 2021) and a study (Croft et al. 2022) it is possib
 * type safety
 * type checking
 
-## Could Python be classed as a secure language? Justify your answer.
+> Could Python be classed as a secure language? Justify your answer.
 
 Python offers some of the mentioned characteristics, but the lack of type checking leaves it vulnerable to programming errors. A language like offers most of the features, including a solution to deal with null pointers. Scala, also based on JVM, promotes immutability to strengthen concurrency safety.
 
-## Python would be a better language to create operating systems than C. Discuss.
+> Python would be a better language to create operating systems than C. Discuss.
 
 Assuming to be able to compile Python to achieve similar performances, Python may be a valid replacement for many components. I think that the lack of pointers may be an obstacle in the design of low-level components.
 
