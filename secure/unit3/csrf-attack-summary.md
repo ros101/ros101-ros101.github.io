@@ -42,3 +42,13 @@ In conclusion, if the attacker is able to intercept the data, he needs minimal o
 ## Reference
 
 OWASP (N.A.) Cross Site Request Forgery (CSRF). Available from: https://owasp.org/www-community/attacks/csrf [Accessed on 8/03/2022]
+
+## Reply to a comment
+
+> I started wondering how we can prevent MITM attacks as it seems that they are very challenging to spot once they are under way. It seems that one of the most effective protections against this kind of attack is using the latest TLS protocols when transferring data, rather than the outdated and vulnerable SSL 3.0 protocol which was deprecated in 2015.
+
+It is easy to generate a pair of SSL/TLS keys, but it is impossible to derive one from the other in a short time. For this reason, it is safe to share one. Only the owner of the private key can decipher a message, and this makes the communication secure. This concept is the base of SSL/TLS certificates.
+
+The weak point of the system is the authenticity of the certificate itself because an attacker could perform a man-in-the-middle and give his certificate to the victim. Certification Authorities (CA) solve the problem by signing the valid certificates. The browser issues warnings when it downloads a certificate without the signature of a trusted CA.
+
+This, however, only moves the weak point to the authenticity of the CA. Browsers come with preinstalled CA certificates, but an attacker could always inject a malevolent CA into the browsers. Ironically, this is what often happens in enterprises. A company may create a custom CA and install it into all computers. That allows for internally signed certificates but also deep packet inspection. Employees may think that their HTTPS connections are private while browsing in the office, but in reality, a transparent proxy may perform a man-in-the-middle using the company's CA.
