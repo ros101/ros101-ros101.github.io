@@ -44,6 +44,12 @@ artifacts:
   - artifact:
     url: ./unit4/redos
     title: (Unit 4) ReDOS
+  - artifact:
+    url: ./unit5/cyclomatic_complexity
+    title: (Unit 5) Cyclomatic Complexity
+  - artifact:
+    url: ./unit5/cybersecurity
+    title: (Unit 5) Cybersecurity considerations
 endOfModuleArtifacts:
   #- endOfModuleArtifact:
   #  url: mid-module-system-design
