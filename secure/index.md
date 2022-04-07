@@ -45,6 +45,12 @@ artifacts:
     url: ./unit4/redos
     title: (Unit 4) ReDOS
   - artifact:
+    url: ./unit4/hanoi
+    title: (Unit 4) Towers of Hanoi
+  - artifact:
+    url: ./unit4/postcode
+    title: (Unit 4) British Postcode
+  - artifact:
     url: ./unit5/cyclomatic_complexity
     title: (Unit 5) Cyclomatic Complexity
   - artifact:
