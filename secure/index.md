@@ -56,6 +56,9 @@ artifacts:
   - artifact:
     url: ./unit6/codio
     title: (Unit 6) Codio - Testing tools
+  - artifact:
+    url: ./unit7/michelle
+    title: (Unit 7) Codio - Michelle, a custom Shell in Python
 
 endOfModuleArtifacts:
   #- endOfModuleArtifact:
