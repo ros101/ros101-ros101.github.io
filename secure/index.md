@@ -142,7 +142,7 @@ readings:
     - Monev, V. (2020) Organisational Information Security Maturity Assessment Based on ISO 27001 and ISO 27002. 2020 International Conference on Information Technologies (InfoTech). DOI&#58; 10.1109/InfoTech49733.2020.9211066
     - Rose, S., Borchert, O., Mitchell, S., Connelly, S. (2020) “Zero trust architecture”. No. NIST Special Publication (SP) 800-207). National Institute of Standards and Technology. Available from https&#58;//nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-207.pdf [Accessed 12/03/2022]
     - Sandhu, R. S., Samarati, P. (1994) Access control&#58; principle and practice. IEEE communications magazine&#58;32(9), 40-48. Available from https&#58;//profsandhu.com/cs6393_s16/SS-1994.pdf [Accessed 12/03/2022]
-    Sophos (2021) 54% Say Cyberattacks Are Too Advanced for Their IT Team to Handle on Their Own. Available from https&#58;//www.sophos.com/en-us/press-office/press-releases/2021/04/ransomware-recovery-cost-reaches-nearly-dollar-2-million-more-than-doubling-in-a-year [Accessed 12/03/2022]
+    - Sophos (2021) 54% Say Cyberattacks Are Too Advanced for Their IT Team to Handle on Their Own. Available from https&#58;//www.sophos.com/en-us/press-office/press-releases/2021/04/ransomware-recovery-cost-reaches-nearly-dollar-2-million-more-than-doubling-in-a-year [Accessed 12/03/2022]
   - group:
     title: Secure languages
     list:
