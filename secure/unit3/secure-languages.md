@@ -22,6 +22,20 @@ Python offers some of the mentioned characteristics, but the lack of type checki
 
 Assuming to be able to compile Python to achieve similar performances, Python may be a valid replacement for many components. I think that the lack of pointers may be an obstacle in the design of low-level components.
 
+## Discussion
+
+> Where so developers worry the most?
+
+Talking about secure programming languages, ADA has interesting features to prevent overflows and other kind of silly errors. I played with it for another course. [Here there’s a summary](/object/incident-ada).
+
+For me (personal non-academic opinion), languages without strong type-checking can’t be considered safe. A simple refactoring can break the code and the issue may not popup in an integration test. Of course I have a bias because I mainly work with Java.
+
+The most common vulnerabilities that I see coming out of security audit are injections and cross-site (+ libraries with known bugs). I don’t really see how a language could help there. Frameworks normally have solutions, but developers are not even aware of the issue, most of the time.
+
+> Are scripting languages safe?
+
+In all my career the only production backend services in javascript or python I found, were all very small and all developed by frontend / "full-stack" developers. Of course, my experience is not statistically valid.
+
 # References
 
 Croft, R., Xie, Y., Zahedi, M., Babar, M. A., & Treude, C. (2022). An empirical study of developers’ discussions about security challenges of different programming languages. Empirical Software Engineering, 27(1), 1-52. Available from https://arxiv.org/pdf/2107.13723.pdf [Accessed 26 May 2022]
