@@ -59,6 +59,9 @@ artifacts:
   - artifact:
     url: ./unit7/michelle
     title: (Unit 7) Codio - Michelle, a custom Shell in Python
+  - artifact:
+    url: ./unit7/flask
+    title: (Unit 7) Developing an API for a Distributed Environment (Flask)
 
 endOfModuleArtifacts:
   #- endOfModuleArtifact:
@@ -131,6 +134,17 @@ readings:
     - Pillai, A.B. (2017) Software Architecture with Python. Birmingham, UK. Packt Publishing Ltd. Chapters 3,4&10.
     - Python.org (2020) PEP 0 -- Index of Python Enhancement Proposals (PEPs)&#58; Linters.
     - Mannino, J. (n.d.) Security in a Microservice World, OWASP.
+  - group:
+    title: Unit 7&#58; Introduction to Operating Systems
+    list:
+    - Saltzer, J. & Schroeder, M. (1975) The Protection of Information in Computer Systems. Proceedings of the IEEE 63(9)&#58; 1278-1308.
+    - Szabo, G. (2018) Create your own interactive shell with cmd in Python.
+    - Praka, D. (2018) Write a shell in Python.
+    - Arnaut, W., Oliveira, K. & Lima, F. (2010) OWL-SOA&#58; A Service Oriented Architecture Ontology Useful during Development Time and Independent from Implementation Time, IEEE.
+    - Silberschatz, A., Galvin, P. & Gagne, G. (2018) Operating System Concepts. 10th ed. Hoboken, N.J&#58; Wiley. Chapters 2-8, 16, 18 and 19
+    - Garfinkel, S., Weise, D. & Strassmann, S., (1994) The Unix-Haters Handbook. 1st ed. San Mateo, Ca.&#58; IDG Books Worldwide.
+    - Corbato F. & Vyssotsky V. (1965) Introduction and Overview of the Multics System. Proceedings of the Joint Computer Conference, ACM 1:185– 196.
+
   - group:
     title: Buffer Overflow (comment)
     list:
