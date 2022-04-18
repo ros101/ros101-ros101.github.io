@@ -62,6 +62,10 @@ artifacts:
   - artifact:
     url: ./unit7/flask
     title: (Unit 7) Developing an API for a Distributed Environment (Flask)
+  - artifact:
+    url: ./unit7/ontology
+    title: (Unit 7) Ontology (VOWL)
+
 
 endOfModuleArtifacts:
   #- endOfModuleArtifact:
