@@ -65,6 +65,9 @@ artifacts:
   - artifact:
     url: ./unit7/ontology
     title: (Unit 7) Ontology (VOWL)
+  - artifact:
+    url: ./unit8/encryption
+    title: (Unit 8) Encryption in Python
 
 
 endOfModuleArtifacts:
