@@ -68,7 +68,9 @@ artifacts:
   - artifact:
     url: ./unit8/encryption
     title: (Unit 8) Encryption in Python
-
+  - artifact:
+    url: ./unit8/truecrypt
+    title: (Unit 8) Truecrypt report (ontology)
 
 endOfModuleArtifacts:
   #- endOfModuleArtifact:
