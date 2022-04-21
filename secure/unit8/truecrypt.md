@@ -5,12 +5,6 @@ layout: notes
 
 Junestam & Guigo (2014) report 4 medium, 4 low, and 3 informational vulnerabilities with a general low level in the code quality.
 
-Vulnerability map (only medium and low):
-
-<img src="truecrypt.svg" alt="ontology diagram" class="img-responsive"/>
-
-[source file](truecrypt.json) editable with [VOWL](http://vowl.visualdataweb.org/webvowl.html)
-
 The biggest risk comes from the a weak key. The chosen algorithm is not very robust and TrueCrypt does not use enough iterations making brute force attacks possible although the report does not provide an estimation the necessary time to carry out this attack.
 
 Another risk comes from pagination. Information can leak on disk and be exposed. The report mentions that the function responsible for cleaning memory before pagination may be accidentally removed by the compiler, but does not carifies if this actually happens.
@@ -21,39 +15,59 @@ I would not recommend TrueCrypt, but VeraCrypt instead. VeraCrypt is an opensour
 
 In 2016, VeraCrypt was audited and the auditor found 8 critical vulnerabilities, 3 medium, and 15 low or informational (OSTIF, 2016; Quarkslab, 2016). Following the audit, VeraCrypt was fixed to increase its security. VeraCrypt publishes a warrant canary to ensure that no organisation forced the maintainer to compromise the project's security (Idrix, 2022)
 
-## Ontology with Protégé
+## Diagrams in Protégé
+
+### View of one vulnerability
 
 <img src="truecrypt_diagram.png" alt="ontology diagram" class="img-responsive"/>
 
-View of one vulnerability. The diagram does not show all relationships for simplicity.
+The diagram does not show all relationships for simplicity.
+
+### Definition of the vulnerability
 
 <img src="truecrypt_vulnerability.png" alt="ontology diagram" class="img-responsive"/>
 
-Definition of the vulnerability.
+It includes the description as annotation, the strategy (brute force), and the classification.
+
+### Definition of the attack
 
 <img src="truecrypt_attack.png" alt="ontology diagram" class="img-responsive"/>
 
-Definition of the attack.
+It describes what negative effect the attack causes (information disclosure), what is exploited, and what information is disclosed.
+
+### Definition of the negative effect
 
 <img src="truecrypt_negative.png" alt="ontology diagram" class="img-responsive"/>
 
-Definition of the negative effect.
+### Definition of the exposed sensitive information
 
 <img src="truecrypt_sensitive.png" alt="ontology diagram" class="img-responsive"/>
 
-Definition of the exposed sensitive information.
+### Definition of the weakness
 
 <img src="truecrypt_weakness.png" alt="ontology diagram" class="img-responsive"/>
 
-Definition of the weakness.
+It defines the relationship with a function of the software.
+
+### Definition of the function affected by the weakness
 
 <img src="truecrypt_function.png" alt="ontology diagram" class="img-responsive"/>
 
-Definition of the function affected by the weakness.
+It defines what sensitive information is used by the function.
 
-[source code](truecrypt.owl) editable with [Protégé](https://protege.stanford.edu/)
+### Complete Diagrams
+
+Diagram with all the classes and instances.
+
+<img src="truecrypt_all.png" alt="ontology diagram" class="img-responsive"/>
+
+Diagram with all the classes, instances, and relationships.
+
+<img src="truecrypt_complete.png" alt="ontology diagram" class="img-responsive"/>
 
 ## References
+
+the [source code](truecrypt.owl) of the diagrams is editable with [Protégé](https://protege.stanford.edu/)
 
 OWASP (N.D.) User Privacy Protection Cheat Sheet. Available from https://cheatsheetseries.owasp.org/cheatsheets/User_Privacy_Protection_Cheat_Sheet.html [Accessed 18 April 2022]
 
