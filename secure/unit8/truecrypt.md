@@ -65,6 +65,14 @@ Diagram with all the classes, instances, and relationships.
 
 <img src="truecrypt_complete.png" alt="ontology diagram" class="img-responsive"/>
 
+### From the user's perspective
+
+It is possible to get the user's by exploring the ontology from the negative effects.
+
+<img src="truecrypt_user.png" alt="ontology diagram" class="img-responsive"/>
+
+Several attacks result in information disclosure, and each attack is related to a specific vulnerability. The vulnerability contains the classification with the level of risk and the description allowing the user to make an evaluation of the risk.
+
 ## References
 
 the [source code](truecrypt.owl) of the diagrams is editable with [Protégé](https://protege.stanford.edu/)
