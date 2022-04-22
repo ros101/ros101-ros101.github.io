@@ -71,6 +71,9 @@ artifacts:
   - artifact:
     url: ./unit8/truecrypt
     title: (Unit 8) Truecrypt report (ontology)
+  - artifact:
+    url: ./unit10/faceted
+    title: (Unit 10) Faceted data
 
 endOfModuleArtifacts:
   #- endOfModuleArtifact:
