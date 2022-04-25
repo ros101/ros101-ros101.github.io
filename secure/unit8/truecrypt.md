@@ -5,15 +5,15 @@ layout: notes
 
 Junestam & Guigo (2014) report 4 medium, 4 low, and 3 informational vulnerabilities with a general low level in the code quality.
 
-The biggest risk comes from the a weak key. The chosen algorithm is not very robust and TrueCrypt does not use enough iterations making brute force attacks possible although the report does not provide an estimation the necessary time to carry out this attack.
+The biggest risk comes from the a weak key. The chosen algorithm is not very robust and TrueCrypt does not use enough iterations making brute force attacks possible. The report does not provide an estimation the necessary time to carry out this attack.
 
-Another risk comes from pagination. Information can leak on disk and be exposed. The report mentions that the function responsible for cleaning memory before pagination may be accidentally removed by the compiler, but does not carifies if this actually happens.
+Another risk comes from pagination. Information can leak on disk and be exposed. The report mentions that the function responsible for cleaning memory before pagination may be accidentally removed by the compiler, but does not clarifies if this actually happens.
 
 One of the vulnerabilities with Medium severity has high complexity and requires a type of access that allows for more effective attacks.
 
-I would not recommend TrueCrypt, but VeraCrypt instead. VeraCrypt is an opensource continuation of TrueCrypt and it is still actively maintained. VeraCrypt is mentioned by OWASP as an encrypt tool supporting a panic-mode (OWASP, N.D.).
+I would not recommend TrueCrypt, but VeraCrypt instead. VeraCrypt is an open source continuation of TrueCrypt and it is still actively maintained. VeraCrypt is mentioned by OWASP as an encrypt tool supporting a panic-mode (OWASP, N.D.).
 
-In 2016, VeraCrypt was audited and the auditor found 8 critical vulnerabilities, 3 medium, and 15 low or informational (OSTIF, 2016; Quarkslab, 2016). Following the audit, VeraCrypt was fixed to increase its security. VeraCrypt publishes a warrant canary to ensure that no organisation forced the maintainer to compromise the project's security (Idrix, 2022)
+In 2016, VeraCrypt was audited and the auditor found 8 critical vulnerabilities, 3 medium, and 15 low or informational (OSTIF, 2016; Quarkslab, 2016). Following the audit, VeraCrypt was fixed to increase its security. VeraCrypt publishes a warrant canary to ensure that no organization forced the maintainer to compromise the project's security (Idrix, 2022)
 
 ## Diagrams in Protégé
 
@@ -67,7 +67,7 @@ Diagram with all the classes, instances, and relationships.
 
 ### From the user's perspective
 
-It is possible to get the user's by exploring the ontology from the negative effects.
+It is possible to get the user's perspective by exploring the ontology from the negative effects.
 
 <img src="truecrypt_user.png" alt="ontology diagram" class="img-responsive"/>
 
