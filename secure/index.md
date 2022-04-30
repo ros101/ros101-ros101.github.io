@@ -77,10 +77,13 @@ artifacts:
 
 endOfModuleArtifacts:
   - endOfModuleArtifact:
-    url: mid-module-system-design/safe-repository.pdf
+    url: mid-module-system-design
     title: MyMONIT - Collecting measurements to monitor CERN’s experiments
 reflections:
   # to escape : -> &#58;
+  - reflections:
+    url: ./reflections
+    title: (Units 1 to 12) Notes-in-progress
   - reflection:
     url: ./unit5/cybersecurity
     title: (Unit 5) Cybersecurity considerations
