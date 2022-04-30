@@ -10,3 +10,5 @@ github_username: ros101
 
 # Build settings
 markdown: kramdown
+
+highlighter: rouge
