@@ -25,7 +25,7 @@ The Codio activities were not very valuable for me. Producer-consumer may be use
 
 ## Unit 4
 
-The discussion about secure programming eventually happened with a few other students in the general channel on Slack. I do not consider Python safe because it is really easy to make mistakes that are not immediately visible. However, it is interesting to know that Python is much better than Java in using different metrics. Java is the leading solution in many mission-critical contexts, and it is the technology I use the most, so I probably have a bias. I observe that the metrics consider the safety of the language in its pure form, which is unrealistic because, at least for Java, nobody uses the JDK directly anymore.
+The discussion about secure programming eventually happened with a few other students in the general channel on Slack. I do not consider Python safe because it is really easy to make mistakes that are not immediately visible. However, it is interesting to know that Python appears to be much better than Java using different metrics. Java is the leading solution in many mission-critical contexts, and it is the technology I use the most, so I probably have a bias. I observe however that the metrics consider the safety of the language in its pure form, which is unrealistic because, at least for Java, nobody uses the JDK directly anymore.
 
 I was surprised by the reading about ReDOS because I implemented regexes for years and I have never heard about this risk. I even have a certification for secure software programming! I wonder how many vulnerable regexes I left behind me.
 
