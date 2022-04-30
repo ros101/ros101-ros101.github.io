@@ -76,9 +76,9 @@ artifacts:
     title: (Unit 10) Faceted data
 
 endOfModuleArtifacts:
-  #- endOfModuleArtifact:
-  #  url: mid-module-system-design
-  #  title: Self- service checkouts - System design
+  - endOfModuleArtifact:
+    url: mid-module-system-design/safe-repository.pdf
+    title: MyMONIT - Collecting measurements to monitor CERN’s experiments
 reflections:
   # to escape : -> &#58;
   - reflection:
