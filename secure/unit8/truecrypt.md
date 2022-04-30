@@ -3,6 +3,8 @@ layout: notes
 ---
 # Truecrypt report
 
+TrueCrypt was one of the best commonly available cryptographic applications. It supported some of the most robust algorithms of that period to create encrypted volumes and disk partitions on Linux, Windows, and Mac (Kościelny et al., 2013). The project was discontinued in 2014 and the maintainer suggested moving to different solutions (Truecrypt, 2014). The community wondered about the reasons behind the end of the project (Goodin, 2014), and independent researchers audited the code revealing the presence of some vulnerabilities.
+
 Junestam & Guigo (2014) report 4 medium, 4 low, and 3 informational vulnerabilities with a general low level in the code quality.
 
 The biggest risk comes from the a weak key. The chosen algorithm is not very robust and TrueCrypt does not use enough iterations making brute force attacks possible. The report does not provide an estimation the necessary time to carry out this attack.
@@ -73,16 +75,38 @@ It is possible to get the user's perspective by exploring the ontology from the 
 
 Several attacks result in information disclosure, and each attack is related to a specific vulnerability. The vulnerability contains the classification with the level of risk and the description allowing the user to make an evaluation of the risk.
 
+## Explanations
+
+Attack, SensitiveInformation, Weakness, NegativeEffect, together with Function and Vulnerabilities, are top-level entities. For each entity there are multiple instances, for example, iSEC-OCAP-11 is an instance of Vulnerability and Brute Force is an instance of Attack. I connected the instances with relationships: iSEC-OCAP-11 is connected to Brute Force with the "uses" relation, and Brute Force is connected to Information Disclosure and Limited Hashing Iterations respectively with "causes" and "exploits". Attached to some instances there are also properties to describe them. iSEC-OCAP-11 has vulnerabilityDifficulty=Medium and vulnerabilitySeverity=Medium.
+
+The diagram in Protégé is not very clear because, unfortunately, the tool does not have sufficient functionalities to create better diagrams. The following is what I obtained browsing the ontology starting from SensitiveInformation:
+
+<img src="truecrypt-progege-1-drawio.png" alt="ontology diagram" class="img-responsive"/>
+
+I simplified it using a different tool to omit all the unnecessary lines.
+
+<img src="truecrypt-progege-2-drawio.png" alt="ontology diagram" class="img-responsive"/>
+
+In this final diagram the positions are changed to reflect the order of the relationships as modeled in the ontology.
+
+<img src="truecrypt-progege-3-drawio.png" alt="ontology diagram" class="img-responsive"/>
+
 ## References
 
 the [source code](truecrypt.owl) of the diagrams is editable with [Protégé](https://protege.stanford.edu/)
 
-OWASP (N.D.) User Privacy Protection Cheat Sheet. Available from https://cheatsheetseries.owasp.org/cheatsheets/User_Privacy_Protection_Cheat_Sheet.html [Accessed 18 April 2022]
+Goodin, D. (2014) "Bombshell TrueCrypt advisory: Backdoor? Hack? Hoax? None of the above?". Arstechnica. Available from https://arstechnica.com/information-technology/2014/05/bombshell-truecrypt-advisory-backdoor-hack-hoax-none-of-the-above/ [Accessed 30/04/2022]
+
+Idrix (2022) Warrant Canary. Availble from https://www.idrix.fr/VeraCrypt/canary.txt [Accessed 18 April 2022]
 
 Junestam, A. & Guigo, N. (2014) Open Crypto Audit Project Truecrypt Security Assessment.
+
+Kościelny, C., Kurkowski, M., & Srebrny, M. (2013). PGP systems and TrueCrypt. In Modern Cryptography Primer (pp. 147-173). Springer, Berlin, Heidelberg.
+
+OWASP (N.D.) User Privacy Protection Cheat Sheet. Available from https://cheatsheetseries.owasp.org/cheatsheets/User_Privacy_Protection_Cheat_Sheet.html [Accessed 18 April 2022]
 
 OSTIF (2016) The VeraCrypt Audit Results. Available from https://ostif.org/the-veracrypt-audit-results/ [Accessed 18 April 2022]
 
 Quarkslab (2016) Security Assessment of VeraCrypt: fixes and evolutions from TrueCrypt. Available from https://blog.quarkslab.com/security-assessment-of-veracrypt-fixes-and-evolutions-from-truecrypt.html [Accessed 18 April 2022]
 
-Idrix (2022) Warrant Canary. Availble from https://www.idrix.fr/VeraCrypt/canary.txt [Accessed 18 April 2022]
+Truecrypt (2014) Available from http://truecrypt.sourceforge.net/ [Accessed 30/04/2022]
