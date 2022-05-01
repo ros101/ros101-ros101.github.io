@@ -74,6 +74,9 @@ artifacts:
   - artifact:
     url: ./unit10/faceted
     title: (Unit 10) Faceted data
+  - artifact:
+    url: ./unit11/microkernels
+    title: (Unit 11) Microkernels and Microservices
 
 endOfModuleArtifacts:
   - endOfModuleArtifact:
