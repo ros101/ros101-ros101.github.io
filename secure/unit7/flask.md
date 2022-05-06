@@ -9,9 +9,11 @@ Given this code:
 from flask import Flask
 from flask_restful import Api, Resource, reqparse
 
+# creates the app
 app = Flask(__name__)
 api = Api(app)
 
+# creates some data
 users = [
     {
         "name": "James",
@@ -31,42 +33,55 @@ users = [
 ]
 
 class User(Resource):
+    """resource representing a user"""
     def get(self, name):
+        """maps HTTP GET to retrieve a user"""
         for user in users:
+            # returns the requested user
             if(name == user["name"]):
                 return user, 200
         return "User not found", 404
 
     def post(self, name):
+        """maps HTTP POST to create a new user"""
+        # parses the input
         parser = reqparse.RequestParser()
         parser.add_argument("age")
         parser.add_argument("occupation")
         args = parser.parse_args()
 
         for user in users:
+            # some validation
             if(name == user["name"]):
                 return "User with name {} already exists".format(name), 400
 
+        # builds the model
         user = {
             "name": name,
             "age": args["age"],
             "occupation": args["occupation"]
         }
+
+        # adds it to the data
         users.append(user)
         return user, 201
 
     def put(self, name):
+        """maps HTTP PUT to update a user"""
+        # parses the input
         parser = reqparse.RequestParser()
         parser.add_argument("age")
         parser.add_argument("occupation")
         args = parser.parse_args()
 
         for user in users:
+            # finds the user and updates it
             if(name == user["name"]):
                 user["age"] = args["age"]
                 user["occupation"] = args["occupation"]
                 return user, 200
 
+        # if the user is missing, it simply creates it
         user = {
             "name": name,
             "age": args["age"],
@@ -76,10 +91,13 @@ class User(Resource):
         return user, 201
 
     def delete(self, name):
+        """maps HTTP DELETE to delete a user"""
         global users
+        # removes the user from the list
         users = [user for user in users if user["name"] != name]
         return "{} is deleted.".format(name), 200
 
+# maps the class User to a specific url
 api.add_resource(User, "/user/<string:name>")
 
 app.run(debug=True)
