@@ -3,19 +3,21 @@ layout: notes
 ---
 # Postcode
 
-The UK postcode system consists of a string that contains a number of characters and numbers.
+>The UK postcode system consists of a string that contains a number of characters and numbers.
+>
+> Create a python program that implements a regex that complies with the rules provided above – test it against the examples provided.
+>
+> Examples:
+> * M1 1AA
+> * M60 1NW
+> * CR2 6XH
+> * DN55 1PT
+> * W1A 1HQ
+> * EC1A 1BB
 
-Create a python program that implements a regex that complies with the rules provided above – test it against the examples provided.
+>How do you ensure your solution is not subject to an evil regex attack?
 
-Examples:
-* M1 1AA
-* M60 1NW
-* CR2 6XH
-* DN55 1PT
-* W1A 1HQ
-* EC1A 1BB
-
-How do you ensure your solution is not subject to an evil regex attack?
+## Solution
 
 ```python
 import re
