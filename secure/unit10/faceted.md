@@ -20,28 +20,37 @@ This implementation creates the decorator `@secure` switching the `Context` from
 
 ```python
 class Faceted:
+    """Class implementing decorator to block calls in unsafe contexts"""
 
     from enum import Enum
 
     class Context(Enum):
+        """There can be two contexts: NORMAL (unsafe) and SAFE"""
         NORMAL = 'normal',
         SAFE = 'safe'
 
     @staticmethod
     def secure(func):
+        """this decorator marks a function as 'secure'"""
         def inner(*args, **kwargs):
+            # sets the context
             Faceted.secure_context = Faceted.Context.SAFE
+            # run the original function
             func(*args, **kwargs)
+            # restore the context
             Faceted.secure_context = Faceted.Context.NORMAL
         return inner
 
     @staticmethod
     def protect(func):
+        """this decorator marks a getter as 'to be protected'"""
         def inner(*args, **kwargs):
+            # if the context is not safe, return *** instead
             return func(*args, **kwargs) if Faceted.secure_context == Faceted.Context.SAFE else '***'
         return inner
 
 class Data:
+    """example of model"""
 
     def __init__(self, user:str, password:str) -> None:
         self._user = user
@@ -49,23 +58,31 @@ class Data:
 
     @property
     def user(self):
+        """username, not protected"""
         return self._user
 
     @property
     @Faceted.protect
     def password(self):
+        """password, this must not be printed"""
         return self._password
 
 
+# creates a user with a robust password
 data = Data('alberto', 'secret1!')
 
+# this function is safe
 @Faceted.secure
 def process_user(data:Data):
+    # this will show the password
     print(f'username: [{data.user}] password: [{data.password}]')
 
+# this function is not safe
 def log_user(data:Data):
+    # the password will be hidden
     print(f'username: [{data.user}] password: [{data.password}]')
 
+# demo it!
 process_user(data)
 log_user(data)
 process_user(data)
