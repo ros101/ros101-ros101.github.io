@@ -3,7 +3,7 @@ layout: notes
 ---
 # Flask
 
-Given this code:
+The following code demonstrates how to create a simple webservice accepting REST calls.
 
 ```python
 from flask import Flask
