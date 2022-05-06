@@ -3,6 +3,20 @@ layout: notes
 ---
 # Postcode
 
+The UK postcode system consists of a string that contains a number of characters and numbers.
+
+Create a python program that implements a regex that complies with the rules provided above – test it against the examples provided.
+
+Examples:
+* M1 1AA
+* M60 1NW
+* CR2 6XH
+* DN55 1PT
+* W1A 1HQ
+* EC1A 1BB
+
+How do you ensure your solution is not subject to an evil regex attack?
+
 ```python
 import re
 
@@ -75,7 +89,7 @@ test(parse('B12 3DE'), 'B12', '3DE', 'B', 'B12', None, 'DE')
 test(parse('AB1 2CD'), 'AB1', '2CD', 'AB', 'AB1', None, 'CD')
 test(parse('AB12 3CD'), 'AB12', '3CD', 'AB', 'AB12', None, 'CD')
 
-# some extra tests
+# some extra tests with the provided examples
 test(parse('M1 1AA'), 'M1', '1AA', 'M', 'M1', None, 'AA')
 test(parse('M60 1NW'), 'M60', '1NW', 'M', 'M60', None, 'NW')
 test(parse('CR2 6XH'), 'CR2', '6XH', 'CR', 'CR2', None, 'XH')
@@ -83,3 +97,5 @@ test(parse('DN55 1PT'), 'DN55', '1PT', 'DN', 'DN55', None, 'PT')
 test(parse('W1A 1HQ'), 'W1A', '1HQ', 'W', 'W1', 'W1A', 'HQ')
 test(parse('EC1A 1BB'), 'EC1A', '1BB', 'EC', 'EC1', 'EC1A', 'BB')
 ```
+
+The solution implements able to validate a postcode and extract 'Otutward Code', 'Inward Code', 'Postcode Area', 'District Code', 'Sub Discrict', and 'Unit'. It limits the risks of evil regex attack because it uses precise quantifiers (eg. `([A-Z]{1,2})`) to cap the number of possible patterns.
