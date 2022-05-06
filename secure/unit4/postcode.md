@@ -9,9 +9,12 @@ import re
 pattern = r'^(((([A-Z]{1,2})[0-9])[A-Z])|(([A-Z])[0-9])|(([A-Z]{1,2})[0-9]{1,2})) ([0-9]([A-Z]{2}))$'
 
 def parse(post_code):
+    '''parses the given postcode returning a dict with the fields'''
     match = re.match(pattern, post_code)
 
     if match is not None:
+        # the regex tries to distinguish between different configurations
+        # the presence of group 2 or 5 is used to separate the three cases
         if(match.group(2) is not None):
             return {
                 'Valid': True,
@@ -43,9 +46,11 @@ def parse(post_code):
                 'Unit': match.group(10)
             }
     else:
+        # the string is not a valid postcode
         return { 'Valid': False}
 
 def test(parsed, outward, inward, area, district, sub, unit):
+    '''compares the dict with the expected values''''
     if(parsed['Otutward Code'] != outward):
         raise Exception('error')
     if(parsed['Inward Code'] != inward):
@@ -61,6 +66,8 @@ def test(parsed, outward, inward, area, district, sub, unit):
 
 # values tested with https://ideal-postcodes.co.uk/guides/uk-postcode-format
 
+# this covers all cases
+# the postcode (first parameter) is split in the other parameters
 test(parse('AB1C 2DE'), 'AB1C', '2DE', 'AB', 'AB1', 'AB1C', 'DE')
 test(parse('B1C 2DE'), 'B1C', '2DE', 'B', 'B1', 'B1C', 'DE')
 test(parse('B1 2DE'), 'B1', '2DE', 'B', 'B1', None, 'DE')
@@ -68,6 +75,7 @@ test(parse('B12 3DE'), 'B12', '3DE', 'B', 'B12', None, 'DE')
 test(parse('AB1 2CD'), 'AB1', '2CD', 'AB', 'AB1', None, 'CD')
 test(parse('AB12 3CD'), 'AB12', '3CD', 'AB', 'AB12', None, 'CD')
 
+# some extra tests
 test(parse('M1 1AA'), 'M1', '1AA', 'M', 'M1', None, 'AA')
 test(parse('M60 1NW'), 'M60', '1NW', 'M', 'M60', None, 'NW')
 test(parse('CR2 6XH'), 'CR2', '6XH', 'CR', 'CR2', None, 'XH')
