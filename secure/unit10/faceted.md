@@ -96,6 +96,10 @@ username: [alberto] password: [***]
 username: [alberto] password: [secret1!]
 ```
 
+Important disclaimer: the solution above is not safe in a multithreading environment.
+
+To properly address multithreading it is necessary to create a thread-dependent context that returns NORMAL/SAFE depending on the thread.
+
 ## References
 
 Elrad, T., Filman, R. E., & Bader, A. (2001). Aspect-oriented programming: Introduction. Communications of the ACM, 44(10), 29-32.
