@@ -49,7 +49,7 @@ Attack, SensitiveInformation, Weakness, NegativeEffect, together with Function a
 
 The diagram in Protégé is not very clear because, unfortunately, the tool does not have sufficient functionalities to create better diagrams. The following is what I obtained browsing the ontology starting from SensitiveInformation:
 
-<img src="truecrypt-progege-1-drawio.png" alt="ontology diagram" class="img-responsive"/>
+<img src="truecrypt-protege-1-drawio.png" alt="ontology diagram" class="img-responsive"/>
 
 I simplified it using a different tool to omit all the unnecessary lines.
 
@@ -57,7 +57,7 @@ I simplified it using a different tool to omit all the unnecessary lines.
 
 In this final diagram the positions are changed to reflect the order of the relationships as modeled in the ontology.
 
-<img src="truecrypt-progege-3-drawio.png" alt="ontology diagram" class="img-responsive"/>
+<img src="truecrypt-protege-3-drawio.png" alt="ontology diagram" class="img-responsive"/>
 
 ### Definition of the vulnerability
 
