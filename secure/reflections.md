@@ -67,7 +67,11 @@ Python seems to have a good and simple-to-use cryptographic library compared to 
 
 ## Unit 9
 
-...
+I replied to two posts. I chose them because the modeling was suboptimal but easy to improve. No student replied to my post.
+
+I dedicated this week to the assignment almost entirely. I made a list of the missing parts sorted by priority and feasibility, and I will timebox the final developments. Next week I will focus on the documentation and the presentation. The portfolio is almost complete too: I already wrote a draft of the report and wrote all the missing parts for the next weeks.
+
+I am happy with the planning and satisfied with the result. Although I won't be able to complete everything 100%, I will deliver almost on time, with good quality, and still have the final week of the course free to relocate to Italy.
 
 ## Unit 10
 
