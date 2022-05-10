@@ -53,7 +53,7 @@ The diagram in Protégé is not very clear because, unfortunately, the tool does
 
 I simplified it using a different tool to omit all the unnecessary lines.
 
-<img src="truecrypt-progege-2-drawio.png" alt="ontology diagram" class="img-responsive"/>
+<img src="truecrypt-protege-2-drawio.png" alt="ontology diagram" class="img-responsive"/>
 
 In this final diagram the positions are changed to reflect the order of the relationships as modeled in the ontology.
 
