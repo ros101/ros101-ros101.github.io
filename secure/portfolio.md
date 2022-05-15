@@ -1,5 +1,14 @@
 ---
-layout: notes
+# to escape : -> &#58;
+layout: course
+prefix: secure
+title: Secure Software Development
+completed: false
+learnings:
+  - Explore the waterfall and agile approaches to software development, with a focus on the implications of developing secure software using each.
+  - Become acquainted with the Unified Modelling Language and how it can be used to support software development.
+  - Gain a familiarity with the standards which are used by industry to develop secure software.
+  - Appreciate the importance of developing a risk-aware culture within an organisation.
 ---
 # Guide to the Portfolio
 
@@ -217,7 +226,7 @@ I developed this portfolio organically with continuous updates dictated by the c
       <td>
         <ul>
           <li><a href="./unit11/microkernels">Debate: Microservices and Microkernels</a></li>
-          <li>⏳ End-module assignment: MyMONIT - Collecting measurements to monitor CERN’s experiments
+          <li>⏳ End-module assignment: MyMONIT - Collecting measurements to monitor CERN’s experiments</li>
         </ul>
       </td>
       <!-- Seminar -->
@@ -235,7 +244,7 @@ I developed this portfolio organically with continuous updates dictated by the c
       <td>
         <ul>
           <li>⏳ Debate: Microservices and Microkernels</li>
-          <li>End-module assignment: MyMONIT - Collecting measurements to monitor CERN’s experiments</a>
+          <li>End-module assignment: MyMONIT - Collecting measurements to monitor CERN’s experiments</li>
         </ul>
       </td>
       <!-- Seminar -->
