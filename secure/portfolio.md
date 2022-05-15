@@ -315,7 +315,7 @@ units:
     eportfolio:
       - entry:
         link: ./unit11/microkernels
-        title: Debate: Microservices and Microkernels
+        title: Debate&#58; Microservices and Microkernels
       - entry:
         link: #
         title: ⏳ End-module assignment&#58; MyMONIT - Collecting measurements to monitor CERN’s experiments
