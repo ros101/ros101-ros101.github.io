@@ -282,6 +282,17 @@ header {
         margin-bottom: 0;
     }
 }
+.course-box2 {
+    color: black;
+    text-align: left;
+    margin: 50px auto 0;
+    @media (min-width: 992px) {
+        margin: 20px auto 0;
+    }
+    p {
+        margin-bottom: 0;
+    }
+}
 .course-box li {
   padding:20px;
 }
