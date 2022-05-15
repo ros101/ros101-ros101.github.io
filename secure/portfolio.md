@@ -15,7 +15,6 @@ I developed this portfolio organically with continuous updates dictated by the c
       <th scope="col">Reading</th>
       <th scope="col">E-Portfolio Component</th>
       <th scope="col">Seminar</th>
-      <th scope="col">Team discussion</th>
     </tr>
   </thead>
   <tbody>
@@ -35,8 +34,6 @@ I developed this portfolio organically with continuous updates dictated by the c
       </td>
       <!-- Seminar -->
       <td class="text-center">✅</td>
-      <!-- Team discussion -->
-      <td></td>
     </tr>
 
     <tr>
@@ -58,8 +55,6 @@ I developed this portfolio organically with continuous updates dictated by the c
       </td>
       <!-- Seminar -->
       <td class="text-center">✅</td>
-      <!-- Team discussion -->
-      <td></td>
     </tr>
 
     <tr>
@@ -75,12 +70,11 @@ I developed this portfolio organically with continuous updates dictated by the c
           <li><a href="./unit2/csrf-attack">Discussion 1: Cross Site Request Forgery - summary]</a></li>
           <li><a href="./unit3/codio-bufferoverflow">Codio - Buffer overflow</a></li>
           <li><a href="./unit3/codio-producer-consumer">Codio - Producer/consumer</a></li>
+          <li><a href="./unit3/secure-languages">What is a Secure Programming Language?</a></li>
         </ul>
       </td>
       <!-- Seminar -->
       <td class="text-center"></td>
-      <!-- Team discussion -->
-      <td><a href="./unit3/secure-languages">What is a Secure Programming Language?</a></td>
     </tr>
 
     <tr>
@@ -100,8 +94,6 @@ I developed this portfolio organically with continuous updates dictated by the c
       </td>
       <!-- Seminar -->
       <td class="text-center">✅</td>
-      <!-- Team discussion -->
-      <td class="text-center"></td>
     </tr>
 
     <tr>
@@ -120,8 +112,6 @@ I developed this portfolio organically with continuous updates dictated by the c
       </td>
       <!-- Seminar -->
       <td class="text-center"></td>
-      <!-- Team discussion -->
-      <td></td>
     </tr>
 
     <tr>
@@ -140,8 +130,6 @@ I developed this portfolio organically with continuous updates dictated by the c
       </td>
       <!-- Seminar -->
       <td class="text-center">✅</td>
-      <!-- Team discussion -->
-      <td></td>
     </tr>
 
     <tr>
@@ -181,8 +169,6 @@ I developed this portfolio organically with continuous updates dictated by the c
       </td>
       <!-- Seminar -->
       <td class="text-center">✅</td>
-      <!-- Team discussion -->
-      <td></td>
     </tr>
 
     <tr>
@@ -200,8 +186,6 @@ I developed this portfolio organically with continuous updates dictated by the c
       </td>
       <!-- Seminar -->
       <td class="text-center"></td>
-      <!-- Team discussion -->
-      <td></td>
     </tr>
 
     <tr>
@@ -220,8 +204,6 @@ I developed this portfolio organically with continuous updates dictated by the c
       </td>
       <!-- Seminar -->
       <td class="text-center">✅</td>
-      <!-- Team discussion -->
-      <td></td>
     </tr>
 
     <tr>
@@ -235,13 +217,11 @@ I developed this portfolio organically with continuous updates dictated by the c
       <td>
         <ul>
           <li><a href="./unit11/microkernels">Debate: Microservices and Microkernels</a></li>
-          <li>⏳ End-module assignment: MyMONIT - Collecting measurements to monitor CERN’s experiments</a>
+          <li>⏳ End-module assignment: MyMONIT - Collecting measurements to monitor CERN’s experiments
         </ul>
       </td>
       <!-- Seminar -->
       <td class="text-center">✅</td>
-      <!-- Team discussion -->
-      <td></td>
     </tr>
 
     <tr>
@@ -260,8 +240,6 @@ I developed this portfolio organically with continuous updates dictated by the c
       </td>
       <!-- Seminar -->
       <td class="text-center">⏳</td>
-      <!-- Team discussion -->
-      <td></td>
     </tr>
 
   </tbody>
