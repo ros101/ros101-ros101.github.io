@@ -282,7 +282,11 @@ header {
         margin-bottom: 0;
     }
 }
-.course-box2 {
+.course-box li {
+  padding:20px;
+}
+
+.course-box-large {
     color: black;
     text-align: left;
     margin: 50px auto 0;
@@ -293,11 +297,8 @@ header {
         margin-bottom: 0;
     }
 }
-.course-box li {
-  padding:20px;
-}
 
-.course-box-large {
+.course-box2 {
     color: black;
     text-align: left;
     margin: 50px auto 0;
