@@ -19,6 +19,7 @@ I developed this portfolio organically with continuous updates dictated by the c
     </tr>
   </thead>
   <tbody>
+
     <tr>
       <!-- Unit -->
       <th scope="row" class="text-center">Unit 1</th>
@@ -27,12 +28,17 @@ I developed this portfolio organically with continuous updates dictated by the c
       <!-- Reading -->
       <td class="text-center">✅</td>
       <!-- E-Portfolio Component -->
-      <td class="text-left"><a href="./unit1/">Discussion 1: Cross Site Request Forgery - initial post</a></td>
+      <td class="text-left">
+        <ul>
+          <li><a href="./unit1/">Discussion 1: Cross Site Request Forgery - initial post</a></li>
+        </ul>
+      </td>
       <!-- Seminar -->
       <td class="text-center">✅</td>
       <!-- Team discussion -->
       <td></td>
     </tr>
+
     <tr>
       <!-- Unit -->
       <th scope="row" class="text-center">Unit 2</th>
@@ -43,7 +49,7 @@ I developed this portfolio organically with continuous updates dictated by the c
       <!-- E-Portfolio Component -->
       <td>
         <ul>
-          <li><a href="./unit2/csrf-attack">Discussion 1: Cross Site Request Forgery - follow-up</a><li>
+          <li><a href="./unit2/csrf-attack">Discussion 1: Cross Site Request Forgery - follow-up</a></li>
           <li><a href="./unit2/sql-injection">Discussion 1: SQL Injection - peer response</a></li>
           <li><a href="./unit2/buffer-overflow">Discussion 1: Buffer Overflow - peer response</a></li>
           <li><a href="./unit2/blog">Blog post: How to mitigate employees' risk</a></li>
@@ -55,6 +61,7 @@ I developed this portfolio organically with continuous updates dictated by the c
       <!-- Team discussion -->
       <td></td>
     </tr>
+
     <tr>
       <!-- Unit -->
       <th scope="row" class="text-center">Unit 3</th>
@@ -75,6 +82,7 @@ I developed this portfolio organically with continuous updates dictated by the c
       <!-- Team discussion -->
       <td><a href="./unit3/secure-languages">What is a Secure Programming Language?</a></td>
     </tr>
+
     <tr>
       <!-- Unit -->
       <th scope="row" class="text-center">Unit 4</th>
@@ -89,11 +97,13 @@ I developed this portfolio organically with continuous updates dictated by the c
           <li><a href="./unit4/hanoi">Towers of Hanoi</a></li>
           <li><a href="./unit4/postcode">Parse the UK Postcode</a></li>
         </ul>
+      </td>
       <!-- Seminar -->
       <td class="text-center">✅</td>
       <!-- Team discussion -->
       <td class="text-center"></td>
     </tr>
+
     <tr>
       <!-- Unit -->
       <th scope="row" class="text-center">Unit 5</th>
@@ -101,8 +111,6 @@ I developed this portfolio organically with continuous updates dictated by the c
       <td class="text-center">✅</td>
       <!-- Reading -->
       <td>✅</td>
-      <!-- Seminar Preparation-->
-      <td></td>
       <!-- E-Portfolio Component -->
       <td>
         <ul>
@@ -115,5 +123,26 @@ I developed this portfolio organically with continuous updates dictated by the c
       <!-- Team discussion -->
       <td></td>
     </tr>
+
+    <tr>
+      <!-- Unit -->
+      <th scope="row" class="text-center">Unit 6</th>
+      <!-- Lecturecast -->
+      <td class="text-center"></td>
+      <!-- Reading -->
+      <td>✅</td>
+      <!-- E-Portfolio Component -->
+      <td>
+        <ul>
+          <li><a href="./unit6/codio">Codio - Using Linters to Support Python Testing</a></li>
+          <li><a href="./mid-module-system-design">Mid-module assignment: MyMONIT - Collecting measurements to monitor CERN’s experiments</a></li>
+        </ul>
+      </td>
+      <!-- Seminar -->
+      <td class="text-center">✅</td>
+      <!-- Team discussion -->
+      <td></td>
+    </tr>
+
   </tbody>
 </table>
