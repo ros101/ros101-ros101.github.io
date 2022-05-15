@@ -119,7 +119,7 @@ readings:
     list:
     - DiBona, C. & Ockman, S. (1999) Open Sources. 1st ed. Sebastapol&#58; O’Reilly Media, Inc.
     - Fritzsch J., Bogner J., Zimmermann A. & Wagner S. (2019) From Monolith to Microservices&#58; A Classification of Refactoring Approaches. In&#58; Bruel JM., Mazzara M., Meyer B. (eds) Software Engineering Aspects of Continuous Development and New Paradigms of Software Production and Deployment. DEVOPS 2018. Lecture Notes in Computer Science, vol 11350. Springer.
-    - Roman, R. Lopez, J. & Mambo, M. (2016) Mobile Edge Computing, Fog et al.&#58; A Survey and Analysis of Security Threats and Challenges. Future Generation Computer Systems 78(1): 680 - 698.
+    - Roman, R. Lopez, J. & Mambo, M. (2016) Mobile Edge Computing, Fog et al.&#58; A Survey and Analysis of Security Threats and Challenges. Future Generation Computer Systems 78(1)&#58; 680 - 698.
     - Seshia, S., Hu, S., Li, W. & Zhu, Q.,(2017) Design Automation of Cyber-Physical Systems&#58; Challenges, Advances, and Opportunities. IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems 36(9):1421-1434. DOI&#58; 10.1109/TCAD.2016.2633961.
     - Bonomi, F., Milito, R., Zhu, J. & Addepalli, S. (2012) Fog computing and its role in the internet of things. Proceedings of the first edition of the MCC workshop on Mobile cloud computing - MCC 12 1(1)&#58; 13-16.
   - group:
