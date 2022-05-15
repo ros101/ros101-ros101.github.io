@@ -1,6 +1,6 @@
 ---
 # to escape : -> &#58;
-layout: course
+layout: course2
 prefix: secure
 title: Secure Software Development
 completed: false
@@ -10,87 +10,6 @@ learnings:
   - Gain a familiarity with the standards which are used by industry to develop secure software.
   - Appreciate the importance of developing a risk-aware culture within an organisation.
 
-artifacts:
-  - artifact:
-    url: ./unit1
-    title: (Unit 1) Cross Site Request Forgery
-  - artifact:
-    url: ./unit2/csrf-attack
-    title: (Unit 2) Cross Site Request Forgery - Discussion
-  - artifact:
-    url: ./unit2/blog
-    title: (Unit 2) How to mitigate employees' risk (blog post)
-  - artifact:
-    url: ./unit2/table
-    title: (Unit 2) Scrum Security review
-  - artifact:
-    url: ./unit2/sql-injection
-    title: (Unit 2) SQL Injection (comment to a Unit 1 peer's post)
-  - artifact:
-    url: ./unit2/buffer-overflow
-    title: (Unit 2) Buffer Overflow (comment to a Unit 1 peer's post)
-  - artifact:
-    url: ./unit3/csrf-attack-summary
-    title: (Unit 3) Cross Site Request Forgery - Summary
-  - artifact:
-    url: ./unit3/codio-bufferoverflow
-    title: (Unit 3) Codio - Buffer overflow
-  - artifact:
-    url: ./unit3/codio-producer-consumer
-    title: (Unit 3) Codio - Producer Consumer
-  - artifact:
-    url: ./unit3/secure-languages
-    title: (Unit 3) Secure languages (team discussion)
-  - artifact:
-    url: ./unit4/redos
-    title: (Unit 4) ReDOS
-  - artifact:
-    url: ./unit4/hanoi
-    title: (Unit 4) Towers of Hanoi
-  - artifact:
-    url: ./unit4/postcode
-    title: (Unit 4) British Postcode
-  - artifact:
-    url: ./unit5/codio-equivalence
-    title: (Unit 5) Codio - Equivalence Testing in Python
-  - artifact:
-    url: ./unit5/cyclomatic_complexity
-    title: (Unit 5) Cyclomatic Complexity (team discussion)
-  - artifact:
-    url: ./unit6/codio
-    title: (Unit 6) Codio - Testing tools
-  - artifact:
-    url: ./unit7/michelle
-    title: (Unit 7) Codio - Michelle, a custom Shell in Python
-  - artifact:
-    url: ./unit7/flask
-    title: (Unit 7) Developing an API for a Distributed Environment (Flask)
-  - artifact:
-    url: ./unit7/ontology
-    title: (Unit 7) Ontology (VOWL)
-  - artifact:
-    url: ./unit8/encryption
-    title: (Unit 8) Encryption in Python
-  - artifact:
-    url: ./unit8/truecrypt
-    title: (Unit 8) Truecrypt report - Discussion
-  - artifact:
-    url: ./unit9/truecrypt
-    title: (Unit 9) Truecrypt report - Follow-up
-  - artifact:
-    url: ./unit10/faceted
-    title: (Unit 10) Faceted data
-  - artifact:
-    url: ./unit10/truecrypt
-    title: (Unit 10) Truecrypt report - final summary
-  - artifact:
-    url: ./unit11/microkernels
-    title: (Unit 11) Microkernels and Microservices
-
-endOfModuleArtifacts:
-  - endOfModuleArtifact:
-    url: mid-module-system-design
-    title: MyMONIT - Collecting measurements to monitor CERN’s experiments
 reflections:
   # to escape : -> &#58;
   - reflections:
@@ -105,7 +24,7 @@ readings:
     title: Unit 1&#58; Introduction to Secure Software Development
     list:
     - Pillai, A.B. (2017) Software Architecture with Python. Birmingham, UK. Packt Publishing Ltd. Chapters 1&6.
-    - Asghar, M. Z., Alam, K. A. & Javed, S. (2019) Software Design Patterns Recommendation &#58; A Systematic Literature Review, 2019 International Conference on Frontiers of Information Technology.
+    - Asghar, M. Z., Alam, K. A. & Javed, S. (2019) Software Design Patterns Recommendation &#58; A Systematic Literature eview, 2019 International Conference on Frontiers of Information Technology.
     - Royce, W. W. (1970) Managing the Development of Large Software Systems.
     - OMG (2017) Unified Modelling Language, Version 2.5.1.
     - Unified Modelling Homepage
@@ -171,6 +90,44 @@ readings:
     - Silberschatz, A., Galvin, P. & Gagne, G. (2018) Operating System Concepts. 10th ed. Hoboken, N.J&#58; Wiley. Chapters 2-8, 16, 18 and 19
     - Garfinkel, S., Weise, D. & Strassmann, S., (1994) The Unix-Haters Handbook. 1st ed. San Mateo, Ca.&#58; IDG Books Worldwide.
     - Corbato F. & Vyssotsky V. (1965) Introduction and Overview of the Multics System. Proceedings of the Joint Computer Conference, ACM 1:185– 196.
+  - group:
+    title: Unit 8&#58; Cryptography and Its Use in Operating Systems
+    list:
+    - Junestam, A. & Guigo, N. (2014) Open Crypto Audit Project Truecrypt Security Assessment.
+    - TutorialPoint (2020) Cryptography with Python Tutorial.
+  - group:
+    title: Unit 9&#58; Developing an API for a Distributed Environment
+    list:
+    - Pillai, A.B. (2017) Software Architecture with Python. Birmingham, UK. Packt Publishing Ltd. Chapter 5.
+    - Salah, T., Zemerly, M. J., et al. (2016) The Evolution of Distributed Systems towards Microservices Architectures, in Proc. of the 11th International Conference for Internet Technology and Secured Transactions.
+    - Winkfield, L., Hu, Y-H., Hoppa, & M. A. (2018) A Study of the Evolution of Secure Software Development Architectures, Journal of the Colloquium for Information System Security Education.
+    - Hadiyoso S., Alfaruq A., Hariyani Y.S., Rizal A., Riza T.A. (2021) Design and Implementation of a Registration System with Mobile Application at Public Health Center Based on IoT Using a RESTful API. In&#58; Triwiyanto, Nugroho H.A., Rizal A., Caesarendra W. (eds) Proceedings of the 1st International Conference on Electronics, Biomedical Engineering, and Health Informatics. Lecture Notes in Electrical Engineering, 746. Springer, Singapore. DOI&#58; https://doi.org/10.1007/978-981-33-6926-9_2
+    - Nugroho, L. E., Azis, A., Mustika, I. W. & Selo (2017) Development of RESTful API to support the oil palm plantation monitoring system. 7th International Annual Engineering Seminar (InAES). 1-5. DOI&#58; https://doi.org/10.1109/INAES.2017.8068545.
+    - Sohan, S. M., Anslow, C. & Maurer, F. (2017) Automated example oriented REST API documentation at Cisco. IEEE/ACM 39th International Conference on Software Engineering&#58; Software Engineering in Practice Track (ICSE-SEIP). 213-222. DOI&#58; https://doi.org/10.1109/ICSE-SEIP.2017.11.
+  - group:
+    title: Unit 10&#58; From Distributed Computing to Microarchitectures
+    list:
+    - Arnaut, W., Oliveira, K. & Lima, F. (2010) OWL-SOA&#58; A Service Oriented Architecture Ontology Useful during Development Time and Independent from Implementation Time, IEEE.
+    - Munir, K. & Sheraz Anjum, M. (2018) The use of ontologies for effective knowledge modelling and information retrieval, Applied Computing and Informatics. 14&#58; 2. 116-126.  DOI&#58; https://doi.org/10.1016/j.aci.2017.07.003.
+    - Sampath Kumar, V., Khamis, A., Fiorini, S., Carbonera, J., Olivares Alarcos, A., Habib, M., Olszewska, J. (2019) Ontologies for Industry 4.0. The Knowledge Engineering Review, 34.  DOI&#58; https://doi.org/10.1017/S0269888919000109.
+    - Pillai, A.B. (2017) Software Architecture with Python. Birmingham, UK. Packt Publishing Ltd. Chapter 5.
+    - Open Group (2016) The SOA Source Book&#58; Service-Oriented Architecture Ontology Version 2.0. Chapter 2&#58; System and Element.
+    - Wang, H., Sayadi, H., Sasan, A., Rafatirad, S. & Homayoun, H. (2020) HybriDG&#58; Hybrid Dynamic Time Warping and Gaussian Distribution Model for Detecting Emerging Zero-Day Microarchitectural Side-Channel Attacks. 19th IEEE International Conference on Machine Learning and Applications (ICMLA). 604-611.  DOI&#58; https://doi.org/10.1109/ICMLA51294.2020.00101.
+    - Calderón-Gómez, H., et al. (2020) Telemonitoring System for Infectious Disease Prediction in Elderly People Based on a Novel Microservice Architecture. IEEE Access. 8. 18340-118354. DOI&#58; https://doi.org/10.1109/ACCESS.2020.3005638.
+  - group:
+    title: Unit 11&#58; Future trends in Secure Software Development
+    list:
+    - DiBona, C. & Ockman, S. (1999) Open Sources. 1st ed. Sebastapol&#58; O’Reilly Media, Inc.
+    - Fritzsch J., Bogner J., Zimmermann A. & Wagner S. (2019) From Monolith to Microservices&#58; A Classification of Refactoring Approaches. In&#58; Bruel JM., Mazzara M., Meyer B. (eds) Software Engineering Aspects of Continuous Development and New Paradigms of Software Production and Deployment. DEVOPS 2018. Lecture Notes in Computer Science, vol 11350. Springer.
+    - Roman, R. Lopez, J. & Mambo, M. (2016) Mobile Edge Computing, Fog et al.&#58; A Survey and Analysis of Security Threats and Challenges. Future Generation Computer Systems 78(1)&#58; 680 - 698.
+    - Seshia, S., Hu, S., Li, W. & Zhu, Q.,(2017) Design Automation of Cyber-Physical Systems&#58; Challenges, Advances, and Opportunities. IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems 36(9):1421-1434. DOI&#58; 10.1109/TCAD.2016.2633961.
+    - Bonomi, F., Milito, R., Zhu, J. & Addepalli, S. (2012) Fog computing and its role in the internet of things. Proceedings of the first edition of the MCC workshop on Mobile cloud computing - MCC 12 1(1)&#58; 13-16.
+  - group:
+    title: Unit 12&#58; The Great Tanenbaum-Torvalds Debate Revisited
+    list:
+    - Biggs, S. Lee, D. & Heiser, G. (2018) The Jury Is In&#58; Monolithic OS Design Is Flawed&#58; Microkernel-based Designs Improve Security. Proceedings of the 9th Asia-Pacific Workshop on Systems (APSys '18). ACM 16:1–7.
+    - Bucchiarone, A. Dragoni, N. Dustdar, S. Larsen, S.T. & Mazzara, M. (2018) From Monolithic to Microservices&#58; An Experience Report from the Banking Domain. IEEE Software 35 (3):50-55.
+    - Schmitz, T., Rhodes, D., Austin, T.H., Knowles, K., Flanagan, C. (2016) Faceted Dynamic Information Flow via Control and Data Monads. In&#58; Piessens F., Viganò L. (eds) Principles of Security and Trust. POST 2016. Lecture Notes in Computer Science, vol 9635. Springer, Berlin, Heidelberg.
 
   - group:
     title: Buffer Overflow (comment)
@@ -200,5 +157,177 @@ readings:
     - Futoransky, A., Gutesman, E., & Waissbein, A. (2007). A dynamic technique for enhancing the security and privacy of web applications. Proc. Black Hat USA. Available from https&#58;//www.researchgate.net/profile/Ariel-Waissbein/publication/240822374_A_dynamic_technique_for_enhancing_the_security_and_privacy_of_web_applications/links/5b85523b92851c1e12377b76/A-dynamic-technique-for-enhancing-the-security-and-privacy-of-web-applications.pdf [Accessed 16 March 2022]
     - Larson, E. (2018) Automatic Checking of Regular Expressions. 18th IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM). Available from http&#58;//fac-staff.seattleu.edu/elarson/web/Research/acre.pdf. [Accessed&#58;16 March 2022]
     - Weidman, A. (N.A.) Regular expression Denial of Service - ReDoS. Available from https&#58;//owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS. [Accessed&#58;16 March 2022]
-    - Weidman, A. (N.A.) Regular expression Denial of Service - ReDoS. Available from https&#58;//checkmarx.com/wp-content/uploads/2015/03/ReDoS-Attacks.pdf. [Accessed&#58;16 March 2022]
+    - Weidman, A. (N.A.) Regular expression Denial of Service - ReDoS. Available from https&#58;//checkmarx.com/wp-content/uploads/2015/03/ReDoS-Attacks.pdf. [Accessed 16 March 2022]
+  - group:
+    title: Ontology
+    list:
+    - Atkinson, C., & Kiko, K. (2005). A detailed comparison of UML and OWL. None.
+    - Mkhinini, M. M., Labbani, O., & Nicolle, C. (2019). Enterprise Knowledge Modeling, UML vs Ontology&#58; Formal Evaluation. 2019 IEEE 15th International Conference on Intelligent Computer Communication and Processing (ICCP). doi:10.1109/iccp48234.2019.89596
+  - group:
+    title: Debate&#58; Microservices and Microkernels
+    list:
+    - Goodin, D. (2014) “Bombshell TrueCrypt advisory&#58; Backdoor? Hack? Hoax? None of the above?”. Arstechnica. Available from https://arstechnica.com/information-technology/2014/05/bombshell-truecrypt-advisory-backdoor-hack-hoax-none-of-the-above/ [Accessed 30/04/2022]
+    - Idrix (2022) Warrant Canary. Availble from https://www.idrix.fr/VeraCrypt/canary.txt [Accessed 18 April 2022]
+    - Junestam, A. & Guigo, N. (2014) Open Crypto Audit Project Truecrypt Security Assessment.
+    - Kościelny, C., Kurkowski, M., & Srebrny, M. (2013). PGP systems and TrueCrypt. In Modern Cryptography Primer (pp. 147-173). Springer, Berlin, Heidelberg.
+    - OWASP (N.D.) User Privacy Protection Cheat Sheet. Available from https://cheatsheetseries.owasp.org/cheatsheets/User_Privacy_Protection_Cheat_Sheet.html [Accessed 18 April 2022]
+    - OSTIF (2016) The VeraCrypt Audit Results. Available from https://ostif.org/the-veracrypt-audit-results/ [Accessed 18 April 2022]
+    - Quarkslab (2016) Security Assessment of VeraCrypt&#58; fixes and evolutions from TrueCrypt. Available from https://blog.quarkslab.com/security-assessment-of-veracrypt-fixes-and-evolutions-from-truecrypt.html [Accessed 18 April 2022]
+    - Truecrypt (2014) Available from http://truecrypt.sourceforge.net/ [Accessed 30/04/2022]
+
+units:
+  - unit:
+    title: Unit 1
+    lecturecast: ✅
+    reading: ✅
+    eportfolio:
+      - entry:
+        link: ./unit1/
+        title: Discussion 1&#58; Cross Site Request Forgery - initial post
+    seminar: ✅
+  - unit:
+    title: Unit 2
+    lecturecast: 💤
+    reading: ✅
+    eportfolio:
+      - entry:
+        link: ./unit2/csrf-attack
+        title: Discussion 1&#58; Cross Site Request Forgery - follow-up
+      - entry:
+        link: ./unit2/sql-injection
+        title: Discussion 1&#58; SQL Injection - peer response
+      - entry:
+        link: ./unit2/buffer-overflow
+        title: Discussion 1&#58; Buffer Overflow - peer response
+      - entry:
+        link: ./unit2/blog
+        title: Blog post&#58; How to mitigate employees' risk
+      - entry:
+        link: ./unit2/table
+        title: Scrum Security review
+    seminar: ✅
+  - unit:
+    title: Unit 3
+    lecturecast: ✅
+    reading: ✅
+    eportfolio:
+      - entry:
+        link: ./unit2/csrf-attack
+        title: Discussion 1&#58; Cross Site Request Forgery - summary
+      - entry:
+        link: ./unit3/codio-bufferoverflow
+        title: Codio - Buffer overflow
+      - entry:
+        link: ./unit3/codio-producer-consumer
+        title: Codio - Producer/consumer
+      - entry:
+        link: ./unit3/secure-languages
+        title: Team Discussion&#58; What is a Secure Programming Language?
+    seminar: 💤
+  - unit:
+    title: Unit 4
+    lecturecast: 💤
+    reading: ✅
+    eportfolio:
+      - entry:
+        link: ./unit4/redos
+        title: ReDOS
+      - entry:
+        link: ./unit4/hanoi
+        title: Towers of Hanoi
+      - entry:
+        link: ./unit4/postcode
+        title: Parse the UK Postcode
+    seminar: ✅
+  - unit:
+    title: Unit 5
+    lecturecast: ✅
+    reading: ✅
+    eportfolio:
+      - entry:
+        link: ./unit5/codio-equivalence
+        title: Codio - Equivalence Testing in Python
+      - entry:
+        link: ./unit5/cyclomatic_complexity
+        title: Exploring the Cyclomatic Complexity’s Relevance Today
+    seminar: 💤
+  - unit:
+    title: Unit 6
+    lecturecast: 💤
+    reading: ✅
+    eportfolio:
+      - entry:
+        link: ./unit6/codio
+        title: Codio - Using Linters to Support Python Testing
+      - entry:
+        link: ./mid-module-system-design
+        title: Mid-module assignment&#58; MyMONIT - Collecting measurements to monitor CERN’s experiments
+    seminar: ✅
+  - unit:
+    title: Unit 7
+    lecturecast: ✅
+    reading: ✅
+    eportfolio:
+      - entry:
+        link: ./unit7/ontology
+        title: Ontology
+      - entry:
+        link: ./unit7/michelle
+        title: Michelle, a custom Shell in Python
+      - entry:
+        link: ./unit7/flask
+        title: Developing an API for a Distributed Environment (Flask)
+    seminar: 💤
+  - unit:
+    title: Unit 8
+    lecturecast: 💤
+    reading: ✅
+    eportfolio:
+      - entry:
+        link: ./unit8/truecrypt
+        title: Discussion 2&#58; Cryptography case study - TrueCrypt - initial post
+      - entry:
+        link: ./unit8/encryption
+        title: Encryption in Python
+    seminar: ✅
+  - unit:
+    title: Unit 9
+    lecturecast: 💤
+    reading: ✅
+    eportfolio:
+      - entry:
+        link: ./unit9/truecrypt
+        title: Discussion 2&#58; Cryptography case study - TrueCrypt - follow-up
+    seminar: 💤
+  - unit:
+    title: Unit 10
+    lecturecast: ✅
+    reading: ✅
+    eportfolio:
+      - entry:
+        link: ./unit10/truecrypt
+        title: Discussion 2&#58; Cryptography case study - TrueCrypt - summary post
+    seminar: ✅
+  - unit:
+    title: Unit 11
+    lecturecast: 💤
+    reading: ✅
+    eportfolio:
+      - entry:
+        link: ./unit11/microkernels
+        title: Debate&#58; Microservices and Microkernels
+      - entry:
+        link: #
+        title: ⏳ End-module assignment&#58; MyMONIT - Collecting measurements to monitor CERN’s experiments
+    seminar: ⏳
+  - unit:
+    title: Unit 12
+    lecturecast: ⏳
+    reading: ✅
+    eportfolio:
+      - entry:
+        link: #
+        title: ⏳ Debate&#58; Microservices and Microkernels
+    seminar: ⏳
+
 ---
