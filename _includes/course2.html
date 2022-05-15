@@ -13,6 +13,54 @@
           <div class="card">
             <div class="card-body">
               <ul class="list-group course-box2">
+                <li class="list-group-item">
+                  <table class="table table-responsive">
+                    <thead>
+                      <tr class="text-center">
+                        <th scope="col">Unit</th>
+                        <th scope="col">Lecturecast</th>
+                        <th scope="col">Reading</th>
+                        <th scope="col">E-Portfolio Component</th>
+                        <th scope="col">Seminar</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {% for unit in page.units %}
+                      <tr>
+                        <!-- Unit -->
+                        <th scope="row" class="text-center">{{ unit.title }}</th>
+                        <!-- Lecturecast -->
+                        <td class="text-center">{{ unit.lecturecast }}</td>
+                        <!-- Reading -->
+                        <td class="text-center">{{ unit.reading }}</td>
+                        <!-- E-Portfolio Component -->
+                        <td class="text-left">
+                          <ul>
+                            {% for entry in unit.eportfolio %}
+                            <li><a href="{{ entry.link }}">{{ entry.title }}</a></li>
+                            {% endfor %}
+                          </ul>
+                        </td>
+                        <!-- Seminar -->
+                        <td class="text-center">unit.seminar</td>
+                      </tr>
+                      {% endfor %}
+                    </tbody>
+                  </table>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="card">
+            <div class="card-body">
+              <ul class="list-group course-box2">
                 <li class="list-group-item">{{ content }}</li>
               </ul>
             </div>
