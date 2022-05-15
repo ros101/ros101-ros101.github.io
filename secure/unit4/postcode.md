@@ -1,7 +1,7 @@
 ---
 layout: notes
 ---
-# Postcode
+# Parse the UK Postcode
 
 >The UK postcode system consists of a string that contains a number of characters and numbers.
 >

@@ -13,7 +13,10 @@ learnings:
 artifacts:
   - artifact:
     url: ./unit1
-    title: (Unit 1) Cross Site Request Forgery (CSRF)
+    title: (Unit 1) Cross Site Request Forgery
+  - artifact:
+    url: ./unit2/csrf-attack
+    title: (Unit 2) Cross Site Request Forgery - Discussion
   - artifact:
     url: ./unit2/blog
     title: (Unit 2) How to mitigate employees' risk (blog post)
@@ -28,7 +31,7 @@ artifacts:
     title: (Unit 2) Buffer Overflow (comment to a Unit 1 peer's post)
   - artifact:
     url: ./unit3/csrf-attack-summary
-    title: (Unit 3) Cross Site Request Forgery (CSRF) - Summary (Uni1 summary post)
+    title: (Unit 3) Cross Site Request Forgery - Summary
   - artifact:
     url: ./unit3/codio-bufferoverflow
     title: (Unit 3) Codio - Buffer overflow

@@ -27,13 +27,11 @@ I developed this portfolio organically with continuous updates dictated by the c
       <td>✅</td>
       <!-- Reading -->
       <td>✅</td>
-      <!-- Seminar Preparation-->
-      <td></td>
       <!-- E-Portfolio Component -->
-      <td>
+      <td class="text-left">
         <ul>
-          <li>✅ Portfolio</li>
-          <li>✅ Discussion 1: UML flowchart</li>
+          <li>Portfolio</li>
+          <li>[Discussion 1: Cross Site Request Forgery - initial post](./unit1/)</li>
         </ul>
       </td>
       <!-- Seminar -->
@@ -48,10 +46,16 @@ I developed this portfolio organically with continuous updates dictated by the c
       <td></td>
       <!-- Reading -->
       <td>✅</td>
-      <!-- Seminar Preparation-->
-      <td>✅ Scrum Security review</td>
       <!-- E-Portfolio Component -->
-      <td>✅ Blog post</td>
+      <td>
+        <ul>
+          <li>[Discussion 1: Cross Site Request Forgery - follow-up](./unit2/csrf-attack)<li>
+          <li>[Discussion 1: SQL Injection - peer response](./unit2/sql-injection)</li>
+          <li>[Discussion 1: Buffer Overflow - peer response](./unit2/buffer-overflow)</li>
+          <li>[Blog post: How to mitigate employees' risk](./unit2/blog)</li>
+          <li>[Scrum Security review](./unit2/table)</li>
+        </ul>
+      </td>
       <!-- Seminar -->
       <td>✅</td>
       <!-- Team discussion -->
@@ -64,20 +68,18 @@ I developed this portfolio organically with continuous updates dictated by the c
       <td>✅</td>
       <!-- Reading -->
       <td>✅</td>
-      <!-- Seminar Preparation-->
-      <td></td>
       <!-- E-Portfolio Component -->
       <td class="text-left">
         <ul>
-          <li>Discussion 1: UML flowchart</li>
-          <li>Codio - Explore python tools</li>
-          <li>Codio - Producer/consumer</li>
+          <li>[Discussion 1: Cross Site Request Forgery - summary](./unit2/csrf-attack)</li>
+          <li>[Codio - Buffer overflow](./unit3/codio-bufferoverflow)</li>
+          <li>[Codio - Producer/consumer](./unit3/codio-producer-consumer)</li>
         </ul>
       </td>
       <!-- Seminar -->
       <td></td>
       <!-- Team discussion -->
-      <td>What is a Secure Programming Language?</td>
+      <td>[What is a Secure Programming Language?](./unit3/secure-languages)</td>
     </tr>
     <tr>
       <!-- Unit -->
@@ -86,15 +88,34 @@ I developed this portfolio organically with continuous updates dictated by the c
       <td></td>
       <!-- Reading -->
       <td>✅</td>
-      <!-- Seminar Preparation-->
-      <td class="text-left">
+      <!-- E-Portfolio Component -->
+      <td>
         <ul>
-          <li>Recursion</li>
-          <li>UK Postcode</li>
+          <li>[ReDOS](./unit4/redos)</li>
+          <li>[Towers of Hanoi](./unit4/hanoi)</li>
+          <li>[Parse the UK Postcode](./unit4/postcode)</li>
+        </ul>
+      <!-- Seminar -->
+      <td>✅</td>
+      <!-- Team discussion -->
+      <td></td>
+    </tr>
+    <tr>
+      <!-- Unit -->
+      <th scope="row">Unit 5</th>
+      <!-- Lecturecast -->
+      <td>✅</td>
+      <!-- Reading -->
+      <td>✅</td>
+      <!-- Seminar Preparation-->
+      <td class="text-left"></td>
+      <!-- E-Portfolio Component -->
+      <td>
+        <ul>
+          <li>Codio - Equivalence Testing in Python</li>
+          <li>Exploring the Cyclomatic Complexity’s Relevance Today</li>
         </ul>
       </td>
-      <!-- E-Portfolio Component -->
-      <td>ReDOS</td>
       <!-- Seminar -->
       <td>✅</td>
       <!-- Team discussion -->
@@ -102,9 +123,3 @@ I developed this portfolio organically with continuous updates dictated by the c
     </tr>
   </tbody>
 </table>
-
-# Collaborative Discussion 1: UML flowchart
-
-This was a three week discussion on the forum.
-
-At [this link](../unit1) there are my initial post in Unit 1 followed by three questions and relative replies during Unit 2. In Unit 3, I merged all the material into [a summary post](../unit3/csrf-attack-summary) aiming to an organic presentation including all the points. Also from the summary post stemmed a question that is reported at the bottom together with my answer.
