@@ -104,7 +104,7 @@ readings:
     Additional Reading
     - Hadiyoso S., Alfaruq A., Hariyani Y.S., Rizal A., Riza T.A. (2021) Design and Implementation of a Registration System with Mobile Application at Public Health Center Based on IoT Using a RESTful API. In&#58; Triwiyanto, Nugroho H.A., Rizal A., Caesarendra W. (eds) Proceedings of the 1st International Conference on Electronics, Biomedical Engineering, and Health Informatics. Lecture Notes in Electrical Engineering, 746. Springer, Singapore. DOI: https://doi.org/10.1007/978-981-33-6926-9_2
     - Nugroho, L. E., Azis, A., Mustika, I. W. & Selo (2017) Development of RESTful API to support the oil palm plantation monitoring system. 7th International Annual Engineering Seminar (InAES). 1-5. DOI&#58; https://doi.org/10.1109/INAES.2017.8068545.
-    - Sohan, S. M., Anslow, C. & Maurer, F. (2017) Automated example oriented REST API documentation at Cisco. IEEE/ACM 39th International Conference on Software Engineering&#58; Software Engineering in Practice Track (ICSE-SEIP). 213-222. DOI: https://doi.org/10.1109/ICSE-SEIP.2017.11.
+    - Sohan, S. M., Anslow, C. & Maurer, F. (2017) Automated example oriented REST API documentation at Cisco. IEEE/ACM 39th International Conference on Software Engineering&#58; Software Engineering in Practice Track (ICSE-SEIP). 213-222. DOI&#58; https://doi.org/10.1109/ICSE-SEIP.2017.11.
 
   - group:
     title: Buffer Overflow (comment)
@@ -141,7 +141,7 @@ readings:
     - Atkinson, C., & Kiko, K. (2005). A detailed comparison of UML and OWL. None.
     - Mkhinini, M. M., Labbani, O., & Nicolle, C. (2019). Enterprise Knowledge Modeling, UML vs Ontology&#58; Formal Evaluation. 2019 IEEE 15th International Conference on Intelligent Computer Communication and Processing (ICCP). doi:10.1109/iccp48234.2019.89596
   - group:
-    title: Debate: Microservices and Microkernels
+    title: Debate&#58; Microservices and Microkernels
     list:
     - Goodin, D. (2014) “Bombshell TrueCrypt advisory&#58; Backdoor? Hack? Hoax? None of the above?”. Arstechnica. Available from https://arstechnica.com/information-technology/2014/05/bombshell-truecrypt-advisory-backdoor-hack-hoax-none-of-the-above/ [Accessed 30/04/2022]
     - Idrix (2022) Warrant Canary. Availble from https://www.idrix.fr/VeraCrypt/canary.txt [Accessed 18 April 2022]
