@@ -213,7 +213,7 @@ units:
     eportfolio:
       - entry:
         link: ./unit2/csrf-attack
-        title: Discussion 1: Cross Site Request Forgery - summary
+        title: Discussion 1&#58; Cross Site Request Forgery - summary
       - entry:
         link: ./unit3/codio-bufferoverflow
         title: Codio - Buffer overflow
@@ -261,7 +261,7 @@ units:
         title: Codio - Using Linters to Support Python Testing
       - entry:
         link: ./mid-module-system-design
-        title: Mid-module assignment: MyMONIT - Collecting measurements to monitor CERN’s experiments
+        title: Mid-module assignment&#58; MyMONIT - Collecting measurements to monitor CERN’s experiments
     seminar: ✅
   - unit:
     title: Unit 7
@@ -285,7 +285,7 @@ units:
     eportfolio:
       - entry:
         link: ./unit8/truecrypt
-        title: Discussion 2: Cryptography case study - TrueCrypt - initial post
+        title: Discussion 2&#58; Cryptography case study - TrueCrypt - initial post
       - entry:
         link: ./unit8/encryption
         title: Encryption in Python
@@ -297,7 +297,7 @@ units:
     eportfolio:
       - entry:
         link: ./unit9/truecrypt
-        title: Discussion 2: Cryptography case study - TrueCrypt - follow-up
+        title: Discussion 2&#58; Cryptography case study - TrueCrypt - follow-up
     seminar: 💤
   - unit:
     title: Unit 10
@@ -306,7 +306,7 @@ units:
     eportfolio:
       - entry:
         link: ./unit10/truecrypt
-        title: Discussion 2: Cryptography case study - TrueCrypt - summary post
+        title: Discussion 2&#58; Cryptography case study - TrueCrypt - summary post
     seminar: ✅
   - unit:
     title: Unit 11
@@ -318,7 +318,7 @@ units:
         title: Debate: Microservices and Microkernels
       - entry:
         link: #
-        title: ⏳ End-module assignment: MyMONIT - Collecting measurements to monitor CERN’s experiments
+        title: ⏳ End-module assignment&#58; MyMONIT - Collecting measurements to monitor CERN’s experiments
     seminar: ✅
   - unit:
     title: Unit 12
@@ -327,7 +327,7 @@ units:
     eportfolio:
       - entry:
         link: #
-        title: ⏳ Debate: Microservices and Microkernels
+        title: ⏳ Debate&#58; Microservices and Microkernels
     seminar: ⏳
 
 ---
