@@ -1,7 +1,7 @@
 ---
 layout: notes
 ---
-# Codio - Producer Consumer
+# Codio - Producer/consumer
 
 Source code:
 

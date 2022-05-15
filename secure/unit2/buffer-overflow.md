@@ -1,7 +1,7 @@
 ---
 layout: notes
 ---
-# Buffer Overflow (comment)
+# Discussion 1: Buffer Overflow - peer response
 
 There are modern techniques to prevent buffer overflows.
 

@@ -1,7 +1,7 @@
 ---
 layout: notes
 ---
-# Cross Site Request Forgery (CSRF)
+# Discussion 1: Cross Site Request Forgery - initial post
 
 Follow-up of [Unit 1 discussion](../unit1)
 

@@ -91,6 +91,22 @@ readings:
     - Garfinkel, S., Weise, D. & Strassmann, S., (1994) The Unix-Haters Handbook. 1st ed. San Mateo, Ca.&#58; IDG Books Worldwide.
     - Corbato F. & Vyssotsky V. (1965) Introduction and Overview of the Multics System. Proceedings of the Joint Computer Conference, ACM 1:185– 196.
   - group:
+    title: Unit 8&#58; Cryptography and Its Use in Operating Systems
+    list:
+    - Junestam, A. & Guigo, N. (2014) Open Crypto Audit Project Truecrypt Security Assessment.
+    - TutorialPoint (2020) Cryptography with Python Tutorial.
+  - group:
+    title:
+    list:
+    - Pillai, A.B. (2017) Software Architecture with Python. Birmingham, UK. Packt Publishing Ltd. Chapter 5.
+    - Salah, T., Zemerly, M. J., et al. (2016) The Evolution of Distributed Systems towards Microservices Architectures, in Proc. of the 11th International Conference for Internet Technology and Secured Transactions.
+    - Winkfield, L., Hu, Y-H., Hoppa, & M. A. (2018) A Study of the Evolution of Secure Software Development Architectures, Journal of the Colloquium for Information System Security Education.
+    Additional Reading
+    - Hadiyoso S., Alfaruq A., Hariyani Y.S., Rizal A., Riza T.A. (2021) Design and Implementation of a Registration System with Mobile Application at Public Health Center Based on IoT Using a RESTful API. In&#58; Triwiyanto, Nugroho H.A., Rizal A., Caesarendra W. (eds) Proceedings of the 1st International Conference on Electronics, Biomedical Engineering, and Health Informatics. Lecture Notes in Electrical Engineering, 746. Springer, Singapore. DOI: https://doi.org/10.1007/978-981-33-6926-9_2
+    - Nugroho, L. E., Azis, A., Mustika, I. W. & Selo (2017) Development of RESTful API to support the oil palm plantation monitoring system. 7th International Annual Engineering Seminar (InAES). 1-5. DOI&#58; https://doi.org/10.1109/INAES.2017.8068545.
+    - Sohan, S. M., Anslow, C. & Maurer, F. (2017) Automated example oriented REST API documentation at Cisco. IEEE/ACM 39th International Conference on Software Engineering&#58; Software Engineering in Practice Track (ICSE-SEIP). 213-222. DOI: https://doi.org/10.1109/ICSE-SEIP.2017.11.
+
+  - group:
     title: Buffer Overflow (comment)
     list:
     - Chatole, V., & Nagar, G. (2018). Buffer overflow&#58; Mechanism and countermeasures. International Journal of Advanced Research. IDeas And Innovations In Technology, 4(6), 526-529. Available from https&#58;//www.academia.edu/download/58234152/V4I6-1337.pdf [Accessed 15 March 2022]
@@ -119,6 +135,22 @@ readings:
     - Larson, E. (2018) Automatic Checking of Regular Expressions. 18th IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM). Available from http&#58;//fac-staff.seattleu.edu/elarson/web/Research/acre.pdf. [Accessed&#58;16 March 2022]
     - Weidman, A. (N.A.) Regular expression Denial of Service - ReDoS. Available from https&#58;//owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS. [Accessed&#58;16 March 2022]
     - Weidman, A. (N.A.) Regular expression Denial of Service - ReDoS. Available from https&#58;//checkmarx.com/wp-content/uploads/2015/03/ReDoS-Attacks.pdf. [Accessed 16 March 2022]
+  - group:
+    title: Ontology
+    list:
+    - Atkinson, C., & Kiko, K. (2005). A detailed comparison of UML and OWL. None.
+    - Mkhinini, M. M., Labbani, O., & Nicolle, C. (2019). Enterprise Knowledge Modeling, UML vs Ontology&#58; Formal Evaluation. 2019 IEEE 15th International Conference on Intelligent Computer Communication and Processing (ICCP). doi:10.1109/iccp48234.2019.89596
+  - group:
+    title: Debate: Microservices and Microkernels
+    list:
+    - Goodin, D. (2014) “Bombshell TrueCrypt advisory&#58; Backdoor? Hack? Hoax? None of the above?”. Arstechnica. Available from https://arstechnica.com/information-technology/2014/05/bombshell-truecrypt-advisory-backdoor-hack-hoax-none-of-the-above/ [Accessed 30/04/2022]
+    - Idrix (2022) Warrant Canary. Availble from https://www.idrix.fr/VeraCrypt/canary.txt [Accessed 18 April 2022]
+    - Junestam, A. & Guigo, N. (2014) Open Crypto Audit Project Truecrypt Security Assessment.
+    - Kościelny, C., Kurkowski, M., & Srebrny, M. (2013). PGP systems and TrueCrypt. In Modern Cryptography Primer (pp. 147-173). Springer, Berlin, Heidelberg.
+    - OWASP (N.D.) User Privacy Protection Cheat Sheet. Available from https://cheatsheetseries.owasp.org/cheatsheets/User_Privacy_Protection_Cheat_Sheet.html [Accessed 18 April 2022]
+    - OSTIF (2016) The VeraCrypt Audit Results. Available from https://ostif.org/the-veracrypt-audit-results/ [Accessed 18 April 2022]
+    - Quarkslab (2016) Security Assessment of VeraCrypt&#58; fixes and evolutions from TrueCrypt. Available from https://blog.quarkslab.com/security-assessment-of-veracrypt-fixes-and-evolutions-from-truecrypt.html [Accessed 18 April 2022]
+    - Truecrypt (2014) Available from http://truecrypt.sourceforge.net/ [Accessed 30/04/2022]
 
 ---
 
@@ -182,7 +214,7 @@ readings:
       <!-- E-Portfolio Component -->
       <td class="text-left">
         <ul>
-          <li><a href="./unit2/csrf-attack">Discussion 1: Cross Site Request Forgery - summary]</a></li>
+          <li><a href="./unit2/csrf-attack">Discussion 1: Cross Site Request Forgery - summary</a></li>
           <li><a href="./unit3/codio-bufferoverflow">Codio - Buffer overflow</a></li>
           <li><a href="./unit3/codio-producer-consumer">Codio - Producer/consumer</a></li>
           <li><a href="./unit3/secure-languages">What is a Secure Programming Language?</a></li>
@@ -258,8 +290,8 @@ readings:
       <td>
         <ul>
           <li><a href="./unit7/ontology">Ontology</a></li>
-          <li><a href="./unit7/michelle">Codio - Michelle, a custom Shell in Python</a></li>
-          <li><a href="./unit7/flask">Codio - Developing an API for a Distributed Environment (Flask)</a></li>
+          <li><a href="./unit7/michelle">Michelle, a custom Shell in Python</a></li>
+          <li><a href="./unit7/flask">Developing an API for a Distributed Environment (Flask)</a></li>
         </ul>
       </td>
       <!-- Seminar -->

@@ -1,7 +1,7 @@
 ---
 layout: notes
 ---
-# Flask
+# Developing an API for a Distributed Environment (Flask)
 
 The following code demonstrates how to create a simple webservice accepting REST calls.
 

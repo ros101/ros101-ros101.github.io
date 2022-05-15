@@ -1,7 +1,7 @@
 ---
 layout: notes
 ---
-# Truecrypt report (final summary)
+# Discussion 2: Cryptography case study - TrueCrypt - summary post
 
 ## Overview of Truecrypt's vulnerabilities
 

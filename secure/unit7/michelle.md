@@ -1,7 +1,7 @@
 ---
 layout: notes
 ---
-# Michelle
+# Michelle, a custom Shell in Python
 
 A simple shell that can run custom commands.
 

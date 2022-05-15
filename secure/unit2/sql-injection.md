@@ -1,7 +1,7 @@
 ---
 layout: notes
 ---
-# SQL Injection (comment)
+# Discussion 1: SQL Injection - peer response
 
 The following code is vulnerable to SQL Injection, if the input is unfiltered.
 

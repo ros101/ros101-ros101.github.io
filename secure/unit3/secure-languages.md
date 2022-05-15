@@ -1,7 +1,7 @@
 ---
 layout: notes
 ---
-# Secure languages
+# What is a Secure Programming Language?
 
 > What factors determine whether a programming language is secure or not?
 

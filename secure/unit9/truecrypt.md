@@ -1,7 +1,7 @@
 ---
 layout: notes
 ---
-# Truecrypt report
+# Discussion 2: Cryptography case study - TrueCrypt - follow-up
 
 ## Response to a comment
 

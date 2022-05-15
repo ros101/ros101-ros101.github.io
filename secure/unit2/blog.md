@@ -1,7 +1,7 @@
 ---
 layout: notes
 ---
-# How to mitigate employees' risk
+# Blog post: How to mitigate employees' risk
 
 Companies often underestimate the internal risks. The perimeters are solid, but, on the inside, there is no control, and employees can simply activate malware to cause immense damage. The costs of ransomware attacks more than doubled between 2020 and 2021, aggravated by a complete or partial loss of data (Sophos, 2021).
 

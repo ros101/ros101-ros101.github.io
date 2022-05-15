@@ -1,7 +1,7 @@
 ---
 layout: notes
 ---
-# Microkernels and Microservices
+# Debate: Microservices and Microkernels
 
 > “Torvalds has been proven wrong and it only took nearly thirty years. Microservices and microkernels are the future. “
 

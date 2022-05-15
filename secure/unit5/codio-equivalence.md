@@ -1,7 +1,7 @@
 ---
 layout: notes
 ---
-# Codio - equivalence
+# Codio - Equivalence Testing in Python
 
 ```python
 # CODE SOURCE: https://stackoverflow.com/questions/38924421/is-there-a-standard-way-to-partition-an-interable-into-equivalence-classes-given/38924631#38924631
