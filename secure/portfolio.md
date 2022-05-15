@@ -110,7 +110,15 @@ readings:
     list:
     - Croft, R., Xie, Y., Zahedi, M., Babar, M. A., & Treude, C. (2022). An empirical study of developers’ discussions about security challenges of different programming languages. Empirical Software Engineering, 27(1), 1-52. Available from https&#58;//arxiv.org/pdf/2107.13723.pdf [Accessed 26 May 2022]
     - Fulton, K. R., Chan, A., Votipka, D., Hicks, M., & Mazurek, M. L. (2021). Benefits and drawbacks of adopting a secure programming language&#58;rust as a case study. In Seventeenth Symposium on Usable Privacy and Security (SOUPS 2021) (pp. 597-616). Available from https&#58;//www.usenix.org/system/files/soups2021-fulton.pdf [Accessed 26 May 2022]
-
+  - group:
+    title: ReDOS
+    list:
+    - Almost Perfect Email Regex (N.A.) Email Address Regular Expression That 99.99% Works. Disagree? Join discussion!. Available from https&#58;//www.emailregex.com/ [Accessed&#58;16 March 2022]
+    - Crosby, S. A. & Wallach, D. S. (2003) Denial of Service via Algorithmic Complexity Attacks. Proceedings of the 12th USENIX Security Symposium. Washington, D.C., USA. August 4-8, 2003. Available from https&#58;//www.usenix.org/conference/12th-usenix-security-symposium/denial-service-algorithmic-complexity-attacks. [Accessed&#58;16 March 2022]
+    - Futoransky, A., Gutesman, E., & Waissbein, A. (2007). A dynamic technique for enhancing the security and privacy of web applications. Proc. Black Hat USA. Available from https&#58;//www.researchgate.net/profile/Ariel-Waissbein/publication/240822374_A_dynamic_technique_for_enhancing_the_security_and_privacy_of_web_applications/links/5b85523b92851c1e12377b76/A-dynamic-technique-for-enhancing-the-security-and-privacy-of-web-applications.pdf [Accessed 16 March 2022]
+    - Larson, E. (2018) Automatic Checking of Regular Expressions. 18th IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM). Available from http&#58;//fac-staff.seattleu.edu/elarson/web/Research/acre.pdf. [Accessed&#58;16 March 2022]
+    - Weidman, A. (N.A.) Regular expression Denial of Service - ReDoS. Available from https&#58;//owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS. [Accessed&#58;16 March 2022]
+    - Weidman, A. (N.A.) Regular expression Denial of Service - ReDoS. Available from https&#58;//checkmarx.com/wp-content/uploads/2015/03/ReDoS-Attacks.pdf. [Accessed 16 March 2022]
 
 ---
 
