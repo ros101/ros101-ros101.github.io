@@ -119,7 +119,7 @@ I developed this portfolio organically with continuous updates dictated by the c
         </ul>
       </td>
       <!-- Seminar -->
-      <td class="text-center">✅</td>
+      <td class="text-center"></td>
       <!-- Team discussion -->
       <td></td>
     </tr>
@@ -139,7 +139,7 @@ I developed this portfolio organically with continuous updates dictated by the c
         </ul>
       </td>
       <!-- Seminar -->
-      <td class="text-center"></td>
+      <td class="text-center">✅</td>
       <!-- Team discussion -->
       <td></td>
     </tr>
@@ -156,7 +156,7 @@ I developed this portfolio organically with continuous updates dictated by the c
         <ul>
           <li><a href="./unit7/ontology">Ontology</a></li>
           <li><a href="./unit7/michelle">Codio - Michelle, a custom Shell in Python</a></li>
-          <li><a href="./unit7/flask">Codio - Developing an API for a Distributed Environment (Flask)<a></li>
+          <li><a href="./unit7/flask">Codio - Developing an API for a Distributed Environment (Flask)</a></li>
         </ul>
       </td>
       <!-- Seminar -->
@@ -175,12 +175,31 @@ I developed this portfolio organically with continuous updates dictated by the c
       <!-- E-Portfolio Component -->
       <td>
         <ul>
-          <li><a href="./unit8/truecrypt">Truecrypt report (ontology)</a></li>
+          <li><a href="./unit8/truecrypt">Discussion 2: Cryptography case study - TrueCrypt - initial post</a></li>
           <li><a href="./unit8/encryption">Encryption in Python</a></li>
         </ul>
       </td>
       <!-- Seminar -->
       <td class="text-center">✅</td>
+      <!-- Team discussion -->
+      <td></td>
+    </tr>
+
+    <tr>
+      <!-- Unit -->
+      <th scope="row" class="text-center">Unit 9</th>
+      <!-- Lecturecast -->
+      <td class="text-center"></td>
+      <!-- Reading -->
+      <td class="text-center">✅</td>
+      <!-- E-Portfolio Component -->
+      <td>
+        <ul>
+          <li><a href="./unit9/truecrypt">Discussion 2: Cryptography case study - TrueCrypt - follow-up</a></li>
+        </ul>
+      </td>
+      <!-- Seminar -->
+      <td class="text-center"></td>
       <!-- Team discussion -->
       <td></td>
     </tr>

@@ -73,13 +73,16 @@ artifacts:
     title: (Unit 8) Encryption in Python
   - artifact:
     url: ./unit8/truecrypt
-    title: (Unit 8) Truecrypt report (ontology)
+    title: (Unit 8) Truecrypt report - Discussion
+  - artifact:
+    url: ./unit9/truecrypt
+    title: (Unit 9) Truecrypt report - Follow-up
   - artifact:
     url: ./unit10/faceted
     title: (Unit 10) Faceted data
   - artifact:
     url: ./unit10/truecrypt
-    title: (Unit 10) Truecrypt report (ontology) - final summary
+    title: (Unit 10) Truecrypt report - final summary
   - artifact:
     url: ./unit11/microkernels
     title: (Unit 11) Microkernels and Microservices
