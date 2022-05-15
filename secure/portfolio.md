@@ -7,13 +7,12 @@ I developed this portfolio organically with continuous updates dictated by the c
 
 # Activity
 
-<table class="table table-responsive text-center">
+<table class="table table-responsive">
   <thead>
-    <tr>
+    <tr class="text-center">
       <th scope="col">Unit</th>
       <th scope="col">Lecturecast</th>
       <th scope="col">Reading</th>
-      <th scope="col">Seminar Preparation</th>
       <th scope="col">E-Portfolio Component</th>
       <th scope="col">Seminar</th>
       <th scope="col">Team discussion</th>
@@ -22,30 +21,25 @@ I developed this portfolio organically with continuous updates dictated by the c
   <tbody>
     <tr>
       <!-- Unit -->
-      <th scope="row">Unit 1</th>
+      <th scope="row" class="text-center">Unit 1</th>
       <!-- Lecturecast -->
-      <td>✅</td>
+      <td class="text-center">✅</td>
       <!-- Reading -->
-      <td>✅</td>
+      <td class="text-center">✅</td>
       <!-- E-Portfolio Component -->
-      <td class="text-left">
-        <ul>
-          <li>Portfolio</li>
-          <li><a href="./unit1/">Discussion 1: Cross Site Request Forgery - initial post</a></li>
-        </ul>
-      </td>
+      <td class="text-left"><a href="./unit1/">Discussion 1: Cross Site Request Forgery - initial post</a></td>
       <!-- Seminar -->
-      <td>✅</td>
+      <td class="text-center">✅</td>
       <!-- Team discussion -->
       <td></td>
     </tr>
     <tr>
       <!-- Unit -->
-      <th scope="row">Unit 2</th>
+      <th scope="row" class="text-center">Unit 2</th>
       <!-- Lecturecast -->
-      <td></td>
+      <td class="text-center"></td>
       <!-- Reading -->
-      <td>✅</td>
+      <td class="text-center">✅</td>
       <!-- E-Portfolio Component -->
       <td>
         <ul>
@@ -57,17 +51,17 @@ I developed this portfolio organically with continuous updates dictated by the c
         </ul>
       </td>
       <!-- Seminar -->
-      <td>✅</td>
+      <td class="text-center">✅</td>
       <!-- Team discussion -->
       <td></td>
     </tr>
     <tr>
       <!-- Unit -->
-      <th scope="row">Unit 3</th>
+      <th scope="row" class="text-center">Unit 3</th>
       <!-- Lecturecast -->
-      <td>✅</td>
+      <td class="text-center">✅</td>
       <!-- Reading -->
-      <td>✅</td>
+      <td class="text-center">✅</td>
       <!-- E-Portfolio Component -->
       <td class="text-left">
         <ul>
@@ -77,17 +71,17 @@ I developed this portfolio organically with continuous updates dictated by the c
         </ul>
       </td>
       <!-- Seminar -->
-      <td></td>
+      <td class="text-center"></td>
       <!-- Team discussion -->
       <td><a href="./unit3/secure-languages">What is a Secure Programming Language?</a></td>
     </tr>
     <tr>
       <!-- Unit -->
-      <th scope="row">Unit 4</th>
+      <th scope="row" class="text-center">Unit 4</th>
       <!-- Lecturecast -->
-      <td></td>
+      <td class="text-center"></td>
       <!-- Reading -->
-      <td>✅</td>
+      <td class="text-center">✅</td>
       <!-- E-Portfolio Component -->
       <td>
         <ul>
@@ -96,19 +90,19 @@ I developed this portfolio organically with continuous updates dictated by the c
           <li><a href="./unit4/postcode">Parse the UK Postcode</a></li>
         </ul>
       <!-- Seminar -->
-      <td>✅</td>
+      <td class="text-center">✅</td>
       <!-- Team discussion -->
-      <td></td>
+      <td class="text-center"></td>
     </tr>
     <tr>
       <!-- Unit -->
-      <th scope="row">Unit 5</th>
+      <th scope="row" class="text-center">Unit 5</th>
       <!-- Lecturecast -->
-      <td>✅</td>
+      <td class="text-center">✅</td>
       <!-- Reading -->
       <td>✅</td>
       <!-- Seminar Preparation-->
-      <td class="text-left"></td>
+      <td></td>
       <!-- E-Portfolio Component -->
       <td>
         <ul>
@@ -117,7 +111,7 @@ I developed this portfolio organically with continuous updates dictated by the c
         </ul>
       </td>
       <!-- Seminar -->
-      <td>✅</td>
+      <td class="text-center">✅</td>
       <!-- Team discussion -->
       <td></td>
     </tr>
