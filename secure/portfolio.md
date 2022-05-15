@@ -193,6 +193,9 @@ units:
       - entry:
         link: ./unit2/csrf-attack
         title: Discussion 1&#58; Cross Site Request Forgery - follow-up
+      - entry:
+        link: ./unit2/sql-injection
+        title: Discussion 1&#58; SQL Injection - peer response
     seminar: ✅
 
 ---
