@@ -105,6 +105,11 @@ readings:
     - Rose, S., Borchert, O., Mitchell, S., Connelly, S. (2020) “Zero trust architecture”. No. NIST Special Publication (SP) 800-207). National Institute of Standards and Technology. Available from https&#58;//nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-207.pdf [Accessed 12/03/2022]
     - Sandhu, R. S., Samarati, P. (1994) Access control&#58; principle and practice. IEEE communications magazine&#58;32(9), 40-48. Available from https&#58;//profsandhu.com/cs6393_s16/SS-1994.pdf [Accessed 12/03/2022]
     - Sophos (2021) 54% Say Cyberattacks Are Too Advanced for Their IT Team to Handle on Their Own. Available from https&#58;//www.sophos.com/en-us/press-office/press-releases/2021/04/ransomware-recovery-cost-reaches-nearly-dollar-2-million-more-than-doubling-in-a-year [Accessed 12/03/2022]
+  - group:
+    title: Secure languages
+    list:
+    - Croft, R., Xie, Y., Zahedi, M., Babar, M. A., & Treude, C. (2022). An empirical study of developers’ discussions about security challenges of different programming languages. Empirical Software Engineering, 27(1), 1-52. Available from https&#58;//arxiv.org/pdf/2107.13723.pdf [Accessed 26 May 2022]
+    - Fulton, K. R., Chan, A., Votipka, D., Hicks, M., & Mazurek, M. L. (2021). Benefits and drawbacks of adopting a secure programming language&#58;rust as a case study. In Seventeenth Symposium on Usable Privacy and Security (SOUPS 2021) (pp. 597-616). Available from https&#58;//www.usenix.org/system/files/soups2021-fulton.pdf [Accessed 26 May 2022]
 
 
 ---
