@@ -31,8 +31,10 @@ I developed this portfolio organically with continuous updates dictated by the c
       <td></td>
       <!-- E-Portfolio Component -->
       <td>
-        <p>✅ Portfolio</p>
-        <p>✅ Discussion 1: UML flowchart</p>
+        <ul>
+          <li>✅ Portfolio</li>
+          <li>✅ Discussion 1: UML flowchart</li>
+        </ul>
       </td>
       <!-- Seminar -->
       <td>✅</td>
@@ -65,15 +67,17 @@ I developed this portfolio organically with continuous updates dictated by the c
       <!-- Seminar Preparation-->
       <td></td>
       <!-- E-Portfolio Component -->
-      <td>
-        <p>✅ Discussion 1: UML flowchart</p>
-        <p>✅ Codio - Explore python tools</p>
-        <p>✅ Codio - Producer/consumer</p>
+      <td class="text-left">
+        <ul>
+          <li>Discussion 1: UML flowchart</li>
+          <li>Codio - Explore python tools</li>
+          <li>Codio - Producer/consumer</li>
+        </ul>
       </td>
       <!-- Seminar -->
       <td></td>
       <!-- Team discussion -->
-      <td>✅ What is a Secure Programming Language?</td>
+      <td>What is a Secure Programming Language?</td>
     </tr>
     <tr>
       <!-- Unit -->
@@ -83,12 +87,14 @@ I developed this portfolio organically with continuous updates dictated by the c
       <!-- Reading -->
       <td>✅</td>
       <!-- Seminar Preparation-->
-      <td>
-        <p>✅ Recursion</p>
-        <p>✅ UK Postcode</p>
+      <td class="text-left">
+        <ul>
+          <li>Recursion</li>
+          <li>UK Postcode</li>
+        </ul>
       </td>
       <!-- E-Portfolio Component -->
-      <td>✅ ReDOS</td>
+      <td>ReDOS</td>
       <!-- Seminar -->
       <td>✅</td>
       <!-- Team discussion -->
