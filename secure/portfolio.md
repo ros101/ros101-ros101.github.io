@@ -31,7 +31,7 @@ I developed this portfolio organically with continuous updates dictated by the c
       <td class="text-left">
         <ul>
           <li>Portfolio</li>
-          <li>[Discussion 1: Cross Site Request Forgery - initial post](./unit1/)</li>
+          <li><a href="./unit1/">Discussion 1: Cross Site Request Forgery - initial post</a></li>
         </ul>
       </td>
       <!-- Seminar -->
@@ -49,11 +49,11 @@ I developed this portfolio organically with continuous updates dictated by the c
       <!-- E-Portfolio Component -->
       <td>
         <ul>
-          <li>[Discussion 1: Cross Site Request Forgery - follow-up](./unit2/csrf-attack)<li>
-          <li>[Discussion 1: SQL Injection - peer response](./unit2/sql-injection)</li>
-          <li>[Discussion 1: Buffer Overflow - peer response](./unit2/buffer-overflow)</li>
-          <li>[Blog post: How to mitigate employees' risk](./unit2/blog)</li>
-          <li>[Scrum Security review](./unit2/table)</li>
+          <li><a href="./unit2/csrf-attack">Discussion 1: Cross Site Request Forgery - follow-up</a><li>
+          <li><a href="./unit2/sql-injection">Discussion 1: SQL Injection - peer response</a></li>
+          <li><a href="./unit2/buffer-overflow">Discussion 1: Buffer Overflow - peer response</a></li>
+          <li><a href="./unit2/blog">Blog post: How to mitigate employees' risk</a></li>
+          <li><a href="./unit2/table">Scrum Security review</a></li>
         </ul>
       </td>
       <!-- Seminar -->
@@ -71,15 +71,15 @@ I developed this portfolio organically with continuous updates dictated by the c
       <!-- E-Portfolio Component -->
       <td class="text-left">
         <ul>
-          <li>[Discussion 1: Cross Site Request Forgery - summary](./unit2/csrf-attack)</li>
-          <li>[Codio - Buffer overflow](./unit3/codio-bufferoverflow)</li>
-          <li>[Codio - Producer/consumer](./unit3/codio-producer-consumer)</li>
+          <li><a href="./unit2/csrf-attack">Discussion 1: Cross Site Request Forgery - summary]</a></li>
+          <li><a href="./unit3/codio-bufferoverflow">Codio - Buffer overflow</a></li>
+          <li><a href="./unit3/codio-producer-consumer">Codio - Producer/consumer</a></li>
         </ul>
       </td>
       <!-- Seminar -->
       <td></td>
       <!-- Team discussion -->
-      <td>[What is a Secure Programming Language?](./unit3/secure-languages)</td>
+      <td><a href="./unit3/secure-languages">What is a Secure Programming Language?</a></td>
     </tr>
     <tr>
       <!-- Unit -->
@@ -91,9 +91,9 @@ I developed this portfolio organically with continuous updates dictated by the c
       <!-- E-Portfolio Component -->
       <td>
         <ul>
-          <li>[ReDOS](./unit4/redos)</li>
-          <li>[Towers of Hanoi](./unit4/hanoi)</li>
-          <li>[Parse the UK Postcode](./unit4/postcode)</li>
+          <li><a href="./unit4/redos">ReDOS</a></li>
+          <li><a href="./unit4/hanoi">Towers of Hanoi</a></li>
+          <li><a href="./unit4/postcode">Parse the UK Postcode</a></li>
         </ul>
       <!-- Seminar -->
       <td>✅</td>
@@ -112,8 +112,8 @@ I developed this portfolio organically with continuous updates dictated by the c
       <!-- E-Portfolio Component -->
       <td>
         <ul>
-          <li>Codio - Equivalence Testing in Python</li>
-          <li>Exploring the Cyclomatic Complexity’s Relevance Today</li>
+          <li><a href="./unit5/codio-equivalence">Codio - Equivalence Testing in Python</a></li>
+          <li><a href="./unit5/cyclomatic_complexity">Exploring the Cyclomatic Complexity’s Relevance Today</a></li>
         </ul>
       </td>
       <!-- Seminar -->

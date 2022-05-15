@@ -51,8 +51,8 @@ artifacts:
     url: ./unit4/postcode
     title: (Unit 4) British Postcode
   - artifact:
-    url: ./unit4/codio-equivalence
-    title: Codio - Equivalence Testing in Python
+    url: ./unit5/codio-equivalence
+    title: (Unit 5) Codio - Equivalence Testing in Python
   - artifact:
     url: ./unit5/cyclomatic_complexity
     title: (Unit 5) Cyclomatic Complexity (team discussion)
