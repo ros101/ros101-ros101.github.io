@@ -96,7 +96,7 @@ readings:
     - Junestam, A. & Guigo, N. (2014) Open Crypto Audit Project Truecrypt Security Assessment.
     - TutorialPoint (2020) Cryptography with Python Tutorial.
   - group:
-    title:
+    title: Unit 9&#58; Developing an API for a Distributed Environment
     list:
     - Pillai, A.B. (2017) Software Architecture with Python. Birmingham, UK. Packt Publishing Ltd. Chapter 5.
     - Salah, T., Zemerly, M. J., et al. (2016) The Evolution of Distributed Systems towards Microservices Architectures, in Proc. of the 11th International Conference for Internet Technology and Secured Transactions.
@@ -104,6 +104,30 @@ readings:
     - Hadiyoso S., Alfaruq A., Hariyani Y.S., Rizal A., Riza T.A. (2021) Design and Implementation of a Registration System with Mobile Application at Public Health Center Based on IoT Using a RESTful API. In&#58; Triwiyanto, Nugroho H.A., Rizal A., Caesarendra W. (eds) Proceedings of the 1st International Conference on Electronics, Biomedical Engineering, and Health Informatics. Lecture Notes in Electrical Engineering, 746. Springer, Singapore. DOI&#58; https://doi.org/10.1007/978-981-33-6926-9_2
     - Nugroho, L. E., Azis, A., Mustika, I. W. & Selo (2017) Development of RESTful API to support the oil palm plantation monitoring system. 7th International Annual Engineering Seminar (InAES). 1-5. DOI&#58; https://doi.org/10.1109/INAES.2017.8068545.
     - Sohan, S. M., Anslow, C. & Maurer, F. (2017) Automated example oriented REST API documentation at Cisco. IEEE/ACM 39th International Conference on Software Engineering&#58; Software Engineering in Practice Track (ICSE-SEIP). 213-222. DOI&#58; https://doi.org/10.1109/ICSE-SEIP.2017.11.
+  - group:
+    title: Unit 10&#58; From Distributed Computing to Microarchitectures
+    list:
+    - Arnaut, W., Oliveira, K. & Lima, F. (2010) OWL-SOA&#58; A Service Oriented Architecture Ontology Useful during Development Time and Independent from Implementation Time, IEEE.
+    - Munir, K. & Sheraz Anjum, M. (2018) The use of ontologies for effective knowledge modelling and information retrieval, Applied Computing and Informatics. 14&#58; 2. 116-126.  DOI&#58; https://doi.org/10.1016/j.aci.2017.07.003.
+    - Sampath Kumar, V., Khamis, A., Fiorini, S., Carbonera, J., Olivares Alarcos, A., Habib, M., Olszewska, J. (2019) Ontologies for Industry 4.0. The Knowledge Engineering Review, 34.  DOI&#58; https://doi.org/10.1017/S0269888919000109.
+    - Pillai, A.B. (2017) Software Architecture with Python. Birmingham, UK. Packt Publishing Ltd. Chapter 5.
+    - Open Group (2016) The SOA Source Book&#58; Service-Oriented Architecture Ontology Version 2.0. Chapter 2&#58; System and Element.
+    - Wang, H., Sayadi, H., Sasan, A., Rafatirad, S. & Homayoun, H. (2020) HybriDG&#58; Hybrid Dynamic Time Warping and Gaussian Distribution Model for Detecting Emerging Zero-Day Microarchitectural Side-Channel Attacks. 19th IEEE International Conference on Machine Learning and Applications (ICMLA). 604-611.  DOI&#58; https://doi.org/10.1109/ICMLA51294.2020.00101.
+    - Calderón-Gómez, H., et al. (2020) Telemonitoring System for Infectious Disease Prediction in Elderly People Based on a Novel Microservice Architecture. IEEE Access. 8. 18340-118354. DOI&#58; https://doi.org/10.1109/ACCESS.2020.3005638.
+  - group:
+    title: Unit 11&#58; Future trends in Secure Software Development
+    list:
+    - DiBona, C. & Ockman, S. (1999) Open Sources. 1st ed. Sebastapol&#58; O’Reilly Media, Inc.
+    - Fritzsch J., Bogner J., Zimmermann A. & Wagner S. (2019) From Monolith to Microservices&#58; A Classification of Refactoring Approaches. In&#58; Bruel JM., Mazzara M., Meyer B. (eds) Software Engineering Aspects of Continuous Development and New Paradigms of Software Production and Deployment. DEVOPS 2018. Lecture Notes in Computer Science, vol 11350. Springer.
+    - Roman, R. Lopez, J. & Mambo, M. (2016) Mobile Edge Computing, Fog et al.&#58; A Survey and Analysis of Security Threats and Challenges. Future Generation Computer Systems 78(1): 680 - 698.
+    - Seshia, S., Hu, S., Li, W. & Zhu, Q.,(2017) Design Automation of Cyber-Physical Systems&#58; Challenges, Advances, and Opportunities. IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems 36(9):1421-1434. DOI&#58; 10.1109/TCAD.2016.2633961.
+    - Bonomi, F., Milito, R., Zhu, J. & Addepalli, S. (2012) Fog computing and its role in the internet of things. Proceedings of the first edition of the MCC workshop on Mobile cloud computing - MCC 12 1(1)&#58; 13-16.
+  - group:
+    title: Unit 12&#58; The Great Tanenbaum-Torvalds Debate Revisited
+    list:
+    - Biggs, S. Lee, D. & Heiser, G. (2018) The Jury Is In&#58; Monolithic OS Design Is Flawed&#58; Microkernel-based Designs Improve Security. Proceedings of the 9th Asia-Pacific Workshop on Systems (APSys '18). ACM 16:1–7.
+    - Bucchiarone, A. Dragoni, N. Dustdar, S. Larsen, S.T. & Mazzara, M. (2018) From Monolithic to Microservices&#58; An Experience Report from the Banking Domain. IEEE Software 35 (3):50-55.
+    - Schmitz, T., Rhodes, D., Austin, T.H., Knowles, K., Flanagan, C. (2016) Faceted Dynamic Information Flow via Control and Data Monads. In&#58; Piessens F., Viganò L. (eds) Principles of Security and Trust. POST 2016. Lecture Notes in Computer Science, vol 9635. Springer, Berlin, Heidelberg.
 
   - group:
     title: Buffer Overflow (comment)
