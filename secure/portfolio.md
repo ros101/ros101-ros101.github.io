@@ -16,6 +16,7 @@ I developed this portfolio organically with continuous updates dictated by the c
       <th scope="col">Seminar Preparation</th>
       <th scope="col">E-Portfolio Component</th>
       <th scope="col">Seminar</th>
+      <th scope="col">Team discussion</th>
     </tr>
   </thead>
   <tbody>
@@ -35,10 +36,12 @@ I developed this portfolio organically with continuous updates dictated by the c
       </td>
       <!-- Seminar -->
       <td>✅</td>
+      <!-- Team discussion -->
+      <td></td>
     </tr>
     <tr>
       <!-- Unit -->
-      <th scope="row">Unit 1</th>
+      <th scope="row">Unit 2</th>
       <!-- Lecturecast -->
       <td></td>
       <!-- Reading -->
@@ -49,6 +52,47 @@ I developed this portfolio organically with continuous updates dictated by the c
       <td>✅ Blog post</td>
       <!-- Seminar -->
       <td>✅</td>
+      <!-- Team discussion -->
+      <td></td>
+    </tr>
+    <tr>
+      <!-- Unit -->
+      <th scope="row">Unit 3</th>
+      <!-- Lecturecast -->
+      <td>✅</td>
+      <!-- Reading -->
+      <td>✅</td>
+      <!-- Seminar Preparation-->
+      <td></td>
+      <!-- E-Portfolio Component -->
+      <td>
+        <p>✅ Discussion 1: UML flowchart</p>
+        <p>✅ Codio - Explore python tools</p>
+        <p>✅ Codio - Producer/consumer</p>
+      </td>
+      <!-- Seminar -->
+      <td></td>
+      <!-- Team discussion -->
+      <td>✅ What is a Secure Programming Language?</td>
+    </tr>
+    <tr>
+      <!-- Unit -->
+      <th scope="row">Unit 4</th>
+      <!-- Lecturecast -->
+      <td></td>
+      <!-- Reading -->
+      <td>✅</td>
+      <!-- Seminar Preparation-->
+      <td>
+        <p>✅ Recursion</p>
+        <p>✅ UK Postcode</p>
+      </td>
+      <!-- E-Portfolio Component -->
+      <td>✅ ReDOS</td>
+      <!-- Seminar -->
+      <td>✅</td>
+      <!-- Team discussion -->
+      <td></td>
     </tr>
   </tbody>
 </table>
