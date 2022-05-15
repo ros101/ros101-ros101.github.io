@@ -1,6 +1,6 @@
 ---
 # to escape : -> &#58;
-layout: course
+layout: course2
 prefix: secure
 title: Secure Software Development
 completed: false
