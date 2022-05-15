@@ -130,7 +130,7 @@ I developed this portfolio organically with continuous updates dictated by the c
       <!-- Lecturecast -->
       <td class="text-center"></td>
       <!-- Reading -->
-      <td>✅</td>
+      <td class="text-center">✅</td>
       <!-- E-Portfolio Component -->
       <td>
         <ul>
@@ -200,6 +200,66 @@ I developed this portfolio organically with continuous updates dictated by the c
       </td>
       <!-- Seminar -->
       <td class="text-center"></td>
+      <!-- Team discussion -->
+      <td></td>
+    </tr>
+
+    <tr>
+      <!-- Unit -->
+      <th scope="row" class="text-center">Unit 10</th>
+      <!-- Lecturecast -->
+      <td class="text-center">✅</td>
+      <!-- Reading -->
+      <td class="text-center">✅</td>
+      <!-- E-Portfolio Component -->
+      <td>
+        <ul>
+          <li><a href="./unit10/truecrypt">Discussion 2: Cryptography case study - TrueCrypt - summary post</a></li>
+          <li><a href="./unit10/faceted">Faceted Data</a></li>
+        </ul>
+      </td>
+      <!-- Seminar -->
+      <td class="text-center">✅</td>
+      <!-- Team discussion -->
+      <td></td>
+    </tr>
+
+    <tr>
+      <!-- Unit -->
+      <th scope="row" class="text-center">Unit 11</th>
+      <!-- Lecturecast -->
+      <td class="text-center"></td>
+      <!-- Reading -->
+      <td class="text-center">✅</td>
+      <!-- E-Portfolio Component -->
+      <td>
+        <ul>
+          <li><a href="./unit11/microkernels">Debate: Microservices and Microkernels</a></li>
+          <li>⏳ End-module assignment: MyMONIT - Collecting measurements to monitor CERN’s experiments</a>
+        </ul>
+      </td>
+      <!-- Seminar -->
+      <td class="text-center">✅</td>
+      <!-- Team discussion -->
+      <td></td>
+    </tr>
+
+    <tr>
+      <!-- Unit -->
+      <th scope="row" class="text-center">Unit 12</th>
+      <!-- Lecturecast -->
+      <td class="text-center">⏳</td>
+      <!-- Reading -->
+      <td class="text-center">⏳</td>
+      <!-- E-Portfolio Component -->
+      <td>
+        <ul>
+          <li>⏳ Debate: Microservices and Microkernels</li>
+          <li>End-module assignment: MyMONIT - Collecting measurements to monitor CERN’s experiments</a>
+        </ul>
+      </td>
+      <!-- Seminar -->
+      <td class="text-center">⏳</td>
       <!-- Team discussion -->
       <td></td>
     </tr>
