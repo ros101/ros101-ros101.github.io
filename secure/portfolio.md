@@ -80,6 +80,31 @@ readings:
     - Pillai, A.B. (2017) Software Architecture with Python. Birmingham, UK. Packt Publishing Ltd. Chapters 3,4&10.
     - Python.org (2020) PEP 0 -- Index of Python Enhancement Proposals (PEPs)&#58; Linters.
     - Mannino, J. (n.d.) Security in a Microservice World, OWASP.
+  - group:
+    title: Unit 7&#58; Introduction to Operating Systems
+    list:
+    - Saltzer, J. & Schroeder, M. (1975) The Protection of Information in Computer Systems. Proceedings of the IEEE 63(9)&#58; 1278-1308.
+    - Szabo, G. (2018) Create your own interactive shell with cmd in Python.
+    - Praka, D. (2018) Write a shell in Python.
+    - Arnaut, W., Oliveira, K. & Lima, F. (2010) OWL-SOA&#58; A Service Oriented Architecture Ontology Useful during Development Time and Independent from Implementation Time, IEEE.
+    - Silberschatz, A., Galvin, P. & Gagne, G. (2018) Operating System Concepts. 10th ed. Hoboken, N.J&#58; Wiley. Chapters 2-8, 16, 18 and 19
+    - Garfinkel, S., Weise, D. & Strassmann, S., (1994) The Unix-Haters Handbook. 1st ed. San Mateo, Ca.&#58; IDG Books Worldwide.
+    - Corbato F. & Vyssotsky V. (1965) Introduction and Overview of the Multics System. Proceedings of the Joint Computer Conference, ACM 1:185– 196.
+  - group:
+    title: Buffer Overflow (comment)
+    list:
+    - Chatole, V., & Nagar, G. (2018). Buffer overflow&#58; Mechanism and countermeasures. International Journal of Advanced Research. IDeas And Innovations In Technology, 4(6), 526-529. Available from https&#58;//www.academia.edu/download/58234152/V4I6-1337.pdf [Accessed 15 March 2022]
+    - Nwokeji, C. E. (2019) An Overview of Buffer Overflow and Network Intrusion Detection and Prevention Systems. Internation Journal of Innovative Engineering, Technology And Science. ISSN&#58; 2533-7365 Vol. -2, No.-2, March – 2019. Available from https&#58;//ijiets.coou.edu.ng/wp-content/uploads/journal/published_paper/volume-2/issue-2/Sy133Z0o.pdf [Accessed 15 March 2022]
+  - group:
+    title: How to mitigate employees’ risk
+    list:
+    - Herath, T., Rao, H. R. (2009). Protection motivation and deterrence&#58; a framework for security policy compliance in organisations. European Journal of Information Systems 18(2)&#58; 106–125. Available from&#58;http&#58;//130.18.86.27/faculty/warkentin/BIS9613papers/EJIS_SpecialIssue/HerathRao2009_EJIS_18_2_secpolicy_compliance.pdf [Accessed 12/03/2022]
+    - Johnston, A. C., Warkentin, M. (2010). Fear Appeals and Information Security Behaviors&#58; An Empirical Study. MIS Quarterly&#58; 34(3) 549–566. Available from https&#58;//www.researchgate.net/profile/Merrill-Warkentin/publication/299049399_Fear_Appeals_and_Information_Security_Behaviors_An_Empirical_Study/links/09e4150f98f11a78cf000000/Fear-Appeals-and-Information-Security-Behaviors-An-Empirical-Study.pdf [Accessed 12/03/2022]
+    - Kerman, A., Borchert, O., Rose, S., Tan, A. (2020) Implementing a zero trust architecture. National Institute of Standards and Technology (NIST). Available from&#58; https&#58;//www.nccoe.nist.gov/sites/default/files/legacy-files/zt-arch-project-description-draft.pdf [Accessed 12/03/2022]
+    - Monev, V. (2020) Organisational Information Security Maturity Assessment Based on ISO 27001 and ISO 27002. 2020 International Conference on Information Technologies (InfoTech). DOI&#58; 10.1109/InfoTech49733.2020.9211066
+    - Rose, S., Borchert, O., Mitchell, S., Connelly, S. (2020) “Zero trust architecture”. No. NIST Special Publication (SP) 800-207). National Institute of Standards and Technology. Available from https&#58;//nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-207.pdf [Accessed 12/03/2022]
+    - Sandhu, R. S., Samarati, P. (1994) Access control&#58; principle and practice. IEEE communications magazine&#58;32(9), 40-48. Available from https&#58;//profsandhu.com/cs6393_s16/SS-1994.pdf [Accessed 12/03/2022]
+    - Sophos (2021) 54% Say Cyberattacks Are Too Advanced for Their IT Team to Handle on Their Own. Available from https&#58;//www.sophos.com/en-us/press-office/press-releases/2021/04/ransomware-recovery-cost-reaches-nearly-dollar-2-million-more-than-doubling-in-a-year [Accessed 12/03/2022]
 
 
 ---
