@@ -39,6 +39,47 @@ readings:
     - IBM (2015) 10 Essential Security Practices from IBM.
     - Open Group (2016) The SOA Source Book
     - Casteren, W. Van. (2017) The Waterfall Model and the Agile Methdologies&#58; A Comparison by Project Characteristics.
+  - group:
+    title: Unit 2&#58; UML Modelling to Support Secure System Planning
+    list:
+    - Dadzie, J. (2005) Understanding Software Patching, IEEE.
+    - Pillai, A.B. (2017) Software Architecture with Python. Birmingham, UK. Packt Publishing Ltd. Chapters 1&6.
+    - Accenture security (2020) The Cost of Cybercrime, Ninth Annual Cost of Cybercrime Study.
+    - National Institute of Standards and Technology (2020) Cybersecurity Framework.
+    - Object Management Group (2020) Unified Architecture Framework (UAF) Domain Metamodel. Version 1.1.
+  - group:
+    title: Unit 3&#58; Programming Languages&#58;History, Concepts & Design
+    list:
+    - Pillai, A.B. (2017) Software Architecture with Python. Birmingham, UK. Packt Publishing Ltd. ChapterS 2,6,7&8.
+    - Cifuentes, C. & Bierman, G. (2019) What is a Secure Programming Language? 3rd Summit on Advances in Programming Languages (SNAPL).136(3)&#58; 1 - 15.
+    - Aiello, J., Wheeler, S. & Koon, S. (2020) What Is Powershell? - Powershell Docs.microsoft.com.
+    - Copeland, B. (2017) The Church-Turing Thesis (Stanford Encyclopedia Of Philosophy/Winter 2017 Edition) Stanford.library.sydney.edu.au.
+    - VanRoy, P. (2009) Programming Paradigms&#58; What Every Programmer Should Know.
+  - group:
+    title: Unit 4&#58; Exploring Programming Language Concepts
+    list:
+    - Larson, E. (2016) Generating Evil Test Strings for Regular Expressions. IEEE International Conference on Software Testing, Verification and Validation (ICST).
+    - Larson, E. (2018) Automatic Checking of Regular Expressions. 18th IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM).
+    - Jaiswal, S. (2020) Python Regular Expression Tutorial.
+    - Weidman, A. (n.d.) Regular expression Denial of Service - ReDoS.
+    - Cormen, T. & Balkcom, D. (n.d.) Khan Academy&#58; Towers of Hanoi.
+    - Idealpostcodes (2020) The UK Postcode Format.
+  - group:
+    title: Unit 5&#58; An Introduction to Testing
+    list:
+    - Pillai, A. B (2017). Software Architecture with Python. Birmingham, UK. Packt Publishing Ltd. Chapters 3,4&10.
+    - Ferrer, J., Francisco, C. & Enrique, A. (2012) Estimating Software Testing Complexity. Information and Software Technology.
+    - ISO/IEC/IEEE (2015) Software and Systems Engineering – Software Testing – Part 4&#58; Test Techniques, ISO/IEC/IEEE 29119-4.
+    - Shepperd, M. (1988) A Critique of Cyclomatic Complexity as a Software Metric, Software Engineering Journal.
+    - Song, I. Guedea-Elizalde, F. & Karray, F (2007) CONCORD&#58; A Control Framework for Distributed Real-Time Systems. IEEE Sensors Journal 7(7)&#58;1078 – 1090.
+    - Watson, A. H. & McCabe, T. J. (1996) Structured Testing&#58; A Testing Methodology Using the Cyclomatic Complexity Metric. US Department of Commerce Technology Administration National Institute of Standards and Technology. Available from&#58;https&#58;//nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication500-235.pdf.
+    - Caldeira, J., Brito e Abreu, F., Cardoso, J. & Reis, J. (2020) Unveiling Process Insights from Refactoring Practices. Computer Science, Arxiv.
+  - group:
+    title: Unit 6&#58; Using Linters to Support Python Testing
+    list:
+    - Pillai, A.B. (2017) Software Architecture with Python. Birmingham, UK. Packt Publishing Ltd. Chapters 3,4&10.
+    - Python.org (2020) PEP 0 -- Index of Python Enhancement Proposals (PEPs)&#58; Linters.
+    - Mannino, J. (n.d.) Security in a Microservice World, OWASP.
 
 
 ---
