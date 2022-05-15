@@ -187,7 +187,7 @@ units:
     seminar: ✅
   - unit:
     title: Unit 2
-    lecturecast:
+    lecturecast: 💤
     reading: ✅
     eportfolio:
     - entry:
