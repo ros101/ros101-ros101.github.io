@@ -193,18 +193,6 @@ units:
       - entry:
         link: ./unit2/csrf-attack
         title: Discussion 1&#58; Cross Site Request Forgery - follow-up
-      - entry:
-        link: ./unit2/sql-injection
-        title: Discussion 1&#58; SQL Injection - peer response
-      - entry:
-        link: ./unit2/buffer-overflow
-        title: Buffer Overflow - peer response
-      -entry:
-        link: ./unit2/blog
-        title: How to mitigate employees' risk
-      - entry:
-        link: ./unit2/table
-        title: Scrum Security review
     seminar: ✅
 
 ---
