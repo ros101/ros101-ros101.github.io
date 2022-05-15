@@ -75,7 +75,9 @@ I am happy with the planning and satisfied with the result. Although I won't be 
 
 ## Unit 10
 
-...
+The forum is not very active. I suppose that everyone's priority is on the assignment, and the perception is that these posts for the portfolio have a low priority. It is a pity because these discussions are unique and happen only in the academic context, while jobs are full of projects like the one we are working on now.
+
+During the seminar, I was impressed by the other team's results for the final assignment. It is hard to estimate the amount of work, but it conveys the message that it was not a one-man job. I wonder what elements are essential to give that impression. Camaraderie is obvious, but it requires the team to crack jokes together. I try to see their presentation next week because I am interested in this impalpable element to imitate it in my freelance projects for a better first impression.
 
 ## Unit 11
 
