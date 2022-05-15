@@ -19,6 +19,27 @@ reflections:
     url: ./unit5/cybersecurity
     title: (Unit 5) Cybersecurity considerations
 
+readings:
+  - group:
+    title: Unit 1&#58; Introduction to Secure Software Development
+    list:
+    - Pillai, A.B. (2017) Software Architecture with Python. Birmingham, UK. Packt Publishing Ltd. Chapters 1&6.
+    - Asghar, M. Z., Alam, K. A. & Javed, S. (2019) Software Design Patterns Recommendation &#58; A Systematic Literature eview, 2019 International Conference on Frontiers of Information Technology.
+    - Royce, W. W. (1970) Managing the Development of Large Software Systems.
+    - OMG (2017) Unified Modelling Language, Version 2.5.1.
+    - Unified Modelling Homepage
+    - Mitre (2017) Weaknesses in OWASP Top Ten.
+    - Pohl, C. & Hof, H-J. (2015) Secure Scrum&#58; Development of Secure Software with Scrum, in Proc. of the 9th International Conference on Emerging Security Information, Systems and Technologies.
+    - ISO/IEC (2018) ISO/IEC Standard 27000 Section 3.
+    - Fowler, M. (2006) Code Smell.
+    - Mougouei, D., Sani, F. M., & Almasi, M. (2013) S-Scrum&#58; a Secure Methodology for Agile Development of Web Service, Computer Science and Information Technology.
+    - Wichers, D. (2008) Breaking the Waterfall Mindset of the Security Industry. In&#58; OWASP AppSec USA, New York.
+    - Manadhata, P. & Wing, J. M. (2004) Measuring a System's Attack Surface, Carnegie Mellon.
+    - Ofcom (2019) O2 Network Outage.
+    - IBM (2015) 10 Essential Security Practices from IBM.
+    - Open Group (2016) The SOA Source Book
+    - Casteren, W. Van. (2017) The Waterfall Model and the Agile Methdologies&#58; A Comparison by Project Characteristics.
+
 
 ---
 
