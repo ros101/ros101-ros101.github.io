@@ -7,7 +7,9 @@ I developed this portfolio organically with continuous updates dictated by the c
 
 # Activity
 
-<table class="table">
+<div class="row justify-content-center">
+  <div class="col-auto">
+<table class="table table-responsive">
   <thead>
     <tr>
       <th scope="col">Unit</th>
@@ -30,8 +32,8 @@ I developed this portfolio organically with continuous updates dictated by the c
       <td></td>
       <!-- E-Portfolio Component -->
       <td>
-        Portfolio&nbsp;✅
-        Discussion 1: UML flowchart&nbsp;✅
+        <p>Portfolio&nbsp;✅</p>
+        <p>Discussion 1: UML flowchart&nbsp;✅</p>
       </td>
       <!-- Seminar -->
       <td>✅</td>
@@ -52,6 +54,9 @@ I developed this portfolio organically with continuous updates dictated by the c
     </tr>
   </tbody>
 </table>
+
+  </div>
+</div>
 
 
 # Collaborative Discussion 1: UML flowchart
