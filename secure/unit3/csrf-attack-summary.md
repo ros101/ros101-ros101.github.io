@@ -3,7 +3,7 @@ layout: notes
 ---
 # Discussion 1: Cross Site Request Forgery - summary
 
-Follow-up of [Unit 1](../unit1) and [Unit 2](../unit2/csrf-attack) discussions
+Follow-up of [Unit 1](../unit1) and [Unit 2](../unit2/csrf-attack) discussions.
 
 A Cross-Site Forgery Attack forces the user to submit data to another website's secure area where he has an active session. The user visits a malicious website and clicks on a link or a button. This action sends an HTTP action directed to another website to trigger an event on behalf of the user. Depending on the design of the targeted website, the HTTP action can be a form, a simple HTTP GET, or a REST call.
 

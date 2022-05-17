@@ -3,6 +3,8 @@ layout: notes
 ---
 # Discussion 2: Cryptography case study - TrueCrypt - summary post
 
+Follow-up of [Unit 8](../unit8/truecrypt) and [Unit 9](../unit9/truecrypt) discussions.
+
 ## Overview of Truecrypt's vulnerabilities
 
 TrueCrypt was one of the best commonly available cryptographic applications. It supported some of the most robust algorithms of that period to create encrypted volumes and disk partitions on Linux, Windows, and Mac (Kościelny et al., 2013). The project was discontinued in 2014 and the maintainer suggested moving to different solutions (Truecrypt, 2014). The community wondered about the reasons behind the end of the project (Goodin, 2014), and independent researchers audited the code revealing the presence of some vulnerabilities. Junestam & Guigo (2014) report 4 medium, 4 low, and 3 informational vulnerabilities with a generally low level of code quality.
