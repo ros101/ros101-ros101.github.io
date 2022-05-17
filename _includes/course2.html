@@ -30,9 +30,9 @@
                         <!-- Unit -->
                         <th scope="row" class="text-center">{{ unit.title }}</th>
                         <!-- Lecturecast -->
-                        <td class="text-center">{{ unit.lecturecast }}</td>
+                        <td class="text-center d-none d-sm-block">{{ unit.lecturecast }}</td>
                         <!-- Reading -->
-                        <td class="text-center">{{ unit.reading }}</td>
+                        <td class="text-center d-none d-sm-block">{{ unit.reading }}</td>
                         <!-- E-Portfolio Component -->
                         <td class="text-left">
                           <ul>
@@ -42,7 +42,7 @@
                           </ul>
                         </td>
                         <!-- Seminar -->
-                        <td class="text-center">{{ unit.seminar }}</td>
+                        <td class="text-center d-none d-sm-block">{{ unit.seminar }}</td>
                       </tr>
                       {% endfor %}
                     </tbody>
