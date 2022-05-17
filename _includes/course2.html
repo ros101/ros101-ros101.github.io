@@ -18,10 +18,7 @@
                     <thead>
                       <tr class="text-center">
                         <th scope="col" class="text-center">Unit</th>
-                        <th scope="col" class="text-center d-none d-sm-block">Lecturecast</th>
-                        <th scope="col" class="text-center d-none d-sm-block">Reading</th>
                         <th scope="col" class="text-center">E-Portfolio Component</th>
-                        <th scope="col" class="text-center d-none d-sm-block">Seminar</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -29,10 +26,6 @@
                       <tr>
                         <!-- Unit -->
                         <th scope="row" class="text-center">{{ unit.title }}</th>
-                        <!-- Lecturecast -->
-                        <td class="text-center d-none d-sm-block">{{ unit.lecturecast }}</td>
-                        <!-- Reading -->
-                        <td class="text-center d-none d-sm-block">{{ unit.reading }}</td>
                         <!-- E-Portfolio Component -->
                         <td class="text-left">
                           <ul>
@@ -41,8 +34,6 @@
                             {% endfor %}
                           </ul>
                         </td>
-                        <!-- Seminar -->
-                        <td class="text-center d-none d-sm-block">{{ unit.seminar }}</td>
                       </tr>
                       {% endfor %}
                     </tbody>
