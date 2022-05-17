@@ -212,7 +212,7 @@ units:
     reading: ✅
     eportfolio:
       - entry:
-        link: ./unit2/csrf-attack
+        link: ./unit3/csrf-attack-summary
         title: Discussion 1&#58; Cross Site Request Forgery - summary
       - entry:
         link: ./unit3/codio-bufferoverflow
