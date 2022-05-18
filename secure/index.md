@@ -304,9 +304,12 @@ units:
     lecturecast: ✅
     reading: ✅
     eportfolio:
-      - entry:
-        link: ./unit10/truecrypt
-        title: Discussion 2&#58; Cryptography case study - TrueCrypt - summary post
+    - entry:
+      link: ./unit10/faceted
+      title: Faceted Data
+    - entry:
+      link: ./unit10/truecrypt
+      title: Discussion 2&#58; Cryptography case study - TrueCrypt - summary post
     seminar: ✅
   - unit:
     title: Unit 11
