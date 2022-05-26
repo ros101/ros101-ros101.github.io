@@ -6,7 +6,8 @@ layout: notes
 This is the implementation of a monitoring application capable of aggregating measurements from different sources as described in the [analysis delivered in Unit 6](../mid-module-system-design/).
 
 * [code](code.tar.gz): code of the application.
-* [README](README.odt): technical documentation of the application.
+* [README](README.pdf): technical documentation of the application (pdf)
+* [README](README.odt): technical documentation of the application (odt)
 * [Attachments](attachments.tar.gz): attachments
 
 Repository on GitHub: [https://github.com/ros101/ssdcs-assignment](https://github.com/ros101/ssdcs-assignment)
