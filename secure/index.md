@@ -261,7 +261,7 @@ units:
         title: Codio - Using Linters to Support Python Testing
       - entry:
         link: ./mid-module-system-design
-        title: Mid-module assignment&#58; MyMONIT - Collecting measurements to monitor CERN’s experiments
+        title: Mid-module assignment&#58; MyMONIT - Collecting measurements to monitor CERN’s experiments - implementation
     seminar: ✅
   - unit:
     title: Unit 7
@@ -320,17 +320,8 @@ units:
         link: ./unit11/microkernels
         title: Debate&#58; Microservices and Microkernels
       - entry:
-        link: #
-        title: ⏳ End-module assignment&#58; MyMONIT - Collecting measurements to monitor CERN’s experiments
-    seminar: ⏳
-  - unit:
-    title: Unit 12
-    lecturecast: ⏳
-    reading: ✅
-    eportfolio:
-      - entry:
-        link: #
-        title: ⏳ Debate&#58; Microservices and Microkernels
-    seminar: ⏳
+        link: ./end-module-system-design/
+        title: End-module assignment&#58; MyMONIT - Collecting measurements to monitor CERN’s experiments - implementation
+    seminar: 💤
 
 ---

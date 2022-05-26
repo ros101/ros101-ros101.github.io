@@ -1,7 +1,7 @@
 ---
 layout: notes
 ---
-# MyMONIT - Collecting measurements to monitor CERN’s experiments
+# MyMONIT - Collecting measurements to monitor CERN’s experiments - analysis
 
 The document analyses the requirement of a monitoring application capable of aggregating measurements from different sources. The idea of the application stems from a real-world application that CERN developed to solve the same issue.
 
