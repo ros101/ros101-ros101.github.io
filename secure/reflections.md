@@ -81,8 +81,8 @@ During the seminar, I was impressed by the other team's results for the final as
 
 ## Unit 11
 
-...
+This week is all about the assignment.
 
 ## Unit 12
 
-...
+Unfortunately, I won't be able to join the seminar this week and, in general, I won't have much focus on anything that is not the portfolio or the last discussion.
