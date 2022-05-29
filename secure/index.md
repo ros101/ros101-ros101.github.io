@@ -184,6 +184,9 @@ units:
       - entry:
         link: ./unit1/
         title: Discussion 1&#58; Cross Site Request Forgery - initial post
+      - entry:
+        linL ./unit1/team
+        title: Team work
     seminar: ✅
   - unit:
     title: Unit 2
@@ -261,7 +264,7 @@ units:
         title: Codio - Using Linters to Support Python Testing
       - entry:
         link: ./mid-module-system-design
-        title: Mid-module assignment&#58; MyMONIT - Collecting measurements to monitor CERN’s experiments - implementation
+        title: Mid-module assignment&#58; MyMONIT - Collecting measurements to monitor CERN’s experiments - analysis
     seminar: ✅
   - unit:
     title: Unit 7

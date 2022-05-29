@@ -14,5 +14,5 @@ We signed a [team contract](./TeamContract.pdf) based on a "no-pressure" policy.
 
 The released analysis and the final implementation are available here:
 
-- [Mid-module assignment&#58; MyMONIT - Collecting measurements to monitor CERN’s experiments - implementation](../mid-module-system-design)
+- [Mid-module assignment&#58; MyMONIT - Collecting measurements to monitor CERN’s experiments - analysis](../mid-module-system-design)
 - [End-module assignment&#58; MyMONIT - Collecting measurements to monitor CERN’s experiments - implementation](../end-module-system-design/)
