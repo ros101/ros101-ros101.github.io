@@ -185,7 +185,7 @@ units:
         link: ./unit1/
         title: Discussion 1&#58; Cross Site Request Forgery - initial post
       - entry:
-        linL ./unit1/team
+        link: ./unit1/team
         title: Team work
     seminar: ✅
   - unit:
